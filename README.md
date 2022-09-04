@@ -1,23 +1,24 @@
-# TÍTULO DO PROJETO
+# INSFIT
 
-`CURSO`
+`Analise e desenvolvimento de sistema`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de uma Aplicação Interativa`
 
-`SEMESTRE`
+`2º/2022`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Matheus Ferreira Pires
+* Matheus Lemos Sampaio
+* Pedro Assis Silva de Almeida
+* Vinicius Eduardo Silva Oliveira
+* Vitor Hugo Silva Ribeiro
 
 ## Orientador
 
-* Nome completo do professor 1
+* Carlos Alberto Marques Pietrobon
 
 ## Instruções de utilização
 
