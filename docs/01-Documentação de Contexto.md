@@ -1,46 +1,28 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+A Web é a nova tendência mundial que afeta o modo de como as pessoas se relacionam com a internet, podendo gerar impacto positivo ou negativo na sociedade moderna. 
 
+Com a integração das Tecnologias na sociedade o crescimento de ferramentas web possibilitaram o fácil acesso a diversas informações, com o uso smartphones, tablets e computadores. 
+ 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+O problema abordado nesse projeto é alertar, incentivar e conscientizar aos usuários que não praticam nenhuma atividade física. 
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Segundo o coordenador de projetos da BeeCorp o autor Douglas Araújo afirma que, “devemos realizar praticar exercícios físicos para uma qualidade de vida é saúde melhor, pois a prática desses exercícios nós trás diversos benefícios tais como, redução de doenças crônicas, Melhora do sono e da disposição, aumento da autoconfiança, diminuição do estresse e aumento da produtividade”.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Temos como objetivo a criação de uma plataforma que incentive e apoie as pessoas a adquirir hábitos mais saudáveis. Como objetivos específicos podemos citar:
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+> - Um espaço onde as pessoas podem compartilhar sua rotina de treino; 
+> - Um espaço onde as pessoas podem interagir entre si e demais usuários do software; 
+> - Apresentar opções de alimentações mais saudáveis. 
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Segundo Daniel Navas do portal VIVA BEM UOU, “na academia você encontra pessoas com diferentes objetivos. Muitos estão lá para emagrecer, outros querem ganhar músculos e há também aqueles que já estão satisfeitos com o corpo e buscam simplesmente manter a saúde”. 
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Praticar atividades físicas diariamente é um dos hábitos que compõem um estilo de vida saudável. Para isso, desenvolvemos o INSFIT que permite os usuários treinar em casa, visando a conexão entre pessoas para compartilhamento de interesses e objetivos em comum sem sair da zona de conforto, sendo assim os usuários poderá economizar tempo, dinheiro e manter-se saudável.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+O público-alvo do software INSFIT é possibilitar a pratica de exercícios físicos na sua residência, atender o grupo da terceira idade, e pessoas com rotina bastante difícil de praticar atividade física.
