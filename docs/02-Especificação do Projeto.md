@@ -69,8 +69,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-003| Site terá um layout minimalista.                                                                      |  ALTA | 
 |RNF-004| O sistema deve utilizar banco de dados, MySQL.                                                        |  ALTA |  
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
 
 ## Restrições
 
