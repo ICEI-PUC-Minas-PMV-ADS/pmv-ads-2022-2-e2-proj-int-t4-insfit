@@ -82,7 +82,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrições                                                          |
 |--|---------------------------------------------------------------------|
 |RE-01| Não pode contratar terceiros para desenvolvimento do projeto.    |
-|RE-02| Projeto deve ser entregado até o final do semestre.              |
+|RE-02| Projeto deve ser entregue até o final do semestre.              |
 |RE-03| Apresentação e funcionamento terão foco em front-end e back end. |
 
 
