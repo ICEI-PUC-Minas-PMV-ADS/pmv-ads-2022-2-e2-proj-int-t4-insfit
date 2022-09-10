@@ -1,26 +1,31 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
-
 ## Personas
+Para definir as personas, tivemos 7 perguntas que deu a base para a criação delas. As perguntas foram: Nome, Idade, Profissão, Tem costume de fazer atividades físicas? Quais?, Se a resposta anterior for sim, você tem costume de fazer em grupo ou individual? E isso te motiva mais?, Costuma alimentar de maneira saudável?, Se a resposta anterior foi não, gostaria de obter uma alimentação saudável? 
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+**Persona 1**
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+![PersonaUm](img/personaum.png)
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Angélica Dias, tem 24 anos, trabalha com posso ajudar em um banco. Ela costuma praticar atividades fisicas, pratica crossfit e corrida Costuma fazer suas atividades fisicas de maneira individual, mas não tem uma alimentação saudável e nem gostaria de ter.
+ 
+**Persona 2**
+
+![PersonaDois](img/personadois.png)
+
+Sampa, tem 40 anos, trabalha como famacêutico. Ele não possui o habito de praticar exercicios fisico e  por isso não pratica em grupo ou de forma individual. O mesmo não possui uma alimentação saudavel, mas gostaria de obter uma.
+
+**Persona 3**
+
+![PersonaTres](img/personatres.png)
+
+Astolfo Galifianacks, tem 35 anos, trabalha como personal trainer. Ele possi o habito de fazer atividades fisicas, pratica musculação. Faz seus exercicios em grupo, pois acredita que da uma motivação maior. O mesmo possui uma alimentação saudável.
+
+**Persona 4**
+
+![Personaquatro](img/personaquatro.png)
+
+Raimunda, tem 65 anos, já e aposentada. Pois o habito de fazer atividade fisica, ela faz caminhada. Gosta de fazer sua caminhada como seu marido, pois um motiva o outro. Ela possui uma alimentação saudável, mas gostaria de obter mais conhecimento sobre alimentação.
 
 ## Histórias de Usuários
 
