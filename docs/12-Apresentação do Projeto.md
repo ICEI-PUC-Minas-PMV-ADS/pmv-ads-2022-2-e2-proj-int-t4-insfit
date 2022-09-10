@@ -1,8 +1,8 @@
 # Apresentação
 
-<span style="color:red">Pré-requisitos: Todos os demais artefatos</span>
+Segue link para visualizar a apresnetação em estilo Pitch do nosso trabalho:
 
-Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do projeto contemplando todos os itens trabalhados nos demais artefatos.
+https://youtu.be/T-IzbOaVY-4
 
 ## Título do Projeto
 
