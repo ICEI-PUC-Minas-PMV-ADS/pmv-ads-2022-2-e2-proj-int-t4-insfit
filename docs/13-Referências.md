@@ -1,7 +1,7 @@
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
+Disponível em:  
 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+ARAÚJO,Douglas.Atividade física: qual a sua importância?.BEECORP - BEM ESTAR CORPORATIVO.2021. 
+
+NANVAS,Daniel.Quantas vezes por semana devo treinar para ter saúde. Força ou emagrecer?.www.uol.com.br.2018/08/24. 
