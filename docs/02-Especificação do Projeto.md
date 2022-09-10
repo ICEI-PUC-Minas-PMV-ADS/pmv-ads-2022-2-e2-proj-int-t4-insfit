@@ -31,12 +31,18 @@ Raimunda, tem 65 anos, já e aposentada. Pois o habito de fazer atividade fisica
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                            |
+|--------------------|------------------------------------|----------------------------------------           |
+|Usuário do sistema  | Aprender sobre atividades fisicas  | buscar uma saúde melhor                           |
+|Usuário do sistema  | Visualizar academias em um raio mais próximo.|  melhor flexibilidade nós treinos.      |
+|Usuário do sistema  | Busca por receitas saudáveis.      |  possa ter opções de alimentações equilibradas    |
+|Usuário do sistema  | Um local que possam me encontrar.  | Para me contratar como personal.                  |
+|Usuário do sistema  | Uma rede onde eu possa compartilhar a minhas rotinas de exercícios| compartilhar ideias relacionadas a treinos.|
+| Usuário do sistema | Uma forma de comunicação interativa entre diversos usuários.|estabelecer uma comunicação entre diversos usuários.|
+| Usuário do sistema |  Uma agenda online a qual eu possa gerenciar minhas rotinas. |ter controle sobre os meus treinos.|
+| Usuário do sistema | Um fornecimento de um relatório mensal da minha evolução nas atividades físicas| controle da minha evolução.|
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
