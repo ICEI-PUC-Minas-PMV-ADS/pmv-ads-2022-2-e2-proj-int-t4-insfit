@@ -19,10 +19,10 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 
 
 ## Wireframes
-### Perfil do aluno
+### Relatório Mensal
 ![relatorio](img/relatorio.jpg)
 
-### Perfil do aluno
+### Dieta
 ![dieta](img/dieta.jpg)
 
 ### Perfil do personal
