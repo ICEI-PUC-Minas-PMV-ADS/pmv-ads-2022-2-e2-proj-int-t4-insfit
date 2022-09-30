@@ -25,10 +25,10 @@ Por exemplo:
 
 | **Caso de Teste** 	| **CT-03 – Feed** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	|  |
-| Objetivo do Teste 	| |
-| Passos 	|  |
-|Critério de Êxito |  |
+|	Requisito Associado 	| O sistema deverá possibiilitar ao usuário publicar, editar a publicação, interagir e comentar publicações de outros usuários que aparecem em seu feed.  |
+| Objetivo do Teste 	| Permitir ao usuário a interação com sua lista de amigos. |
+| Passos 	| O usuário deverá abrir seu feed, navegar, interagir e postar.  |
+|Critério de Êxito | Se as interações e postagens forem concluídas e aparecem a todos os usuarios, o sistema obteve exito.  |
 |  	|  	|
 
 
