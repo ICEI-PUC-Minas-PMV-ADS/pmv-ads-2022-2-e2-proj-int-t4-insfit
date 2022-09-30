@@ -50,6 +50,15 @@ Por exemplo:
 |  	|  	|
 
 
+| **Caso de Teste** 	| **CT-07 - Dieta** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	|  |
+| Objetivo do Teste 	| |
+| Passos 	|  |
+|Critério de Êxito |  |
+|  	|  	|
+
+
 | **Caso de Teste** 	| **CT-05 Mapa** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	|  |
@@ -57,6 +66,7 @@ Por exemplo:
 | Passos 	|  |
 |Critério de Êxito |  |
 |  	|  	|
+
 
 | **Caso de Teste** 	| **CT-06 – Relatorios** 	|
 |:---:	|:---:	|
@@ -66,11 +76,3 @@ Por exemplo:
 |Critério de Êxito |  |
 |  	|  	|
 
-
-| **Caso de Teste** 	| **CT-07 - Dieta** 	|
-|:---:	|:---:	|
-|	Requisito Associado 	|  |
-| Objetivo do Teste 	| |
-| Passos 	|  |
-|Critério de Êxito |  |
-|  	|  	|
