@@ -4,6 +4,11 @@
 
 Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
+## Feed
+O feed é a página do sistema, que permite ao usuário poderá interagir com seus amigos, fazer publicações e navegar sobre o que seu círculo de amigos estão postando.
+
+![feed](img/wireframefeed.png)
+
 > **Links Úteis**:
 >
 > - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
