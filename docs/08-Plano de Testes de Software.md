@@ -59,15 +59,6 @@
 |  	|  	|
 
 
-| **Caso de Teste** 	| **CT-07 - Dieta** 	|
-|:---:	|:---:	|
-|	Requisito Associado 	| O sistema deverá possibilitar o usuário vizualizar diversas receitas e dietas associadas aos colegas de treino. |
-| Objetivo do Teste 	| O sistema deverá possibilitar o usuário, inserir, vizualizar receitas e dietas a seu gosto.|
-| Passos 	| O usuário deverá abrir a tela dieta, para verificação de receitas e dietas que possam está relacionadas a ele. |
-|Critério de Êxito | Para que o êxeto possa ser concluído, o usuário deverá conseguir preencher todas as informações necessárias para postagem de dietas. |
-|  	|  	|
-
-
 | **Caso de Teste** 	| **CT-05 Mapa** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	|  |
@@ -77,11 +68,11 @@
 |  	|  	|
 
 
-| **Caso de Teste** 	| **CT-06 – Relatorios** 	|
+| **Caso de Teste** 	| **CT-07 - Dieta** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	|  |
-| Objetivo do Teste 	| |
-| Passos 	|  |
-|Critério de Êxito |  |
+|	Requisito Associado 	| O sistema deverá possibilitar o usuário vizualizar diversas receitas e dietas associadas aos colegas de treino. |
+| Objetivo do Teste 	| O sistema deverá possibilitar o usuário, inserir, vizualizar receitas e dietas a seu gosto.|
+| Passos 	| O usuário deverá abrir a tela dieta, para verificação de receitas e dietas que possam está relacionadas a ele. |
+|Critério de Êxito | Para que o êxeto possa ser concluído, o usuário deverá conseguir preencher todas as informações necessárias para postagem de dietas. |
 |  	|  	|
 
