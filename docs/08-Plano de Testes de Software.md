@@ -65,12 +65,12 @@
 |  	|  	|
 
 
-| **Caso de Teste** 	| **CT-05 Mapa** 	|
+| **Caso de Teste** 	| **CT-05 Localização** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	|  |
-| Objetivo do Teste 	| |
-| Passos 	|  |
-|Critério de Êxito |  |
+|	Requisito Associado 	| Usuário deverá buscar sua localização. |
+| Objetivo do Teste 	| Verificar se o usuário consegue buscar sua localização. |
+| Passos 	| Usuário deverá abrir a tela de localização, informar seu endereço ou clicar na opção da busca de localização. |
+|Critério de Êxito | O mapa mostrará sua localização e apresentará as academias próximas. |
 |  	|  	|
 
 
