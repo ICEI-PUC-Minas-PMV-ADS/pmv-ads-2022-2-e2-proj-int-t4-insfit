@@ -31,6 +31,7 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 ### Perfil do aluno
 ![aluno](img/aluno.png)
 
-
+### Feed
+![feed](img/wireframefeed.png)
 
 
