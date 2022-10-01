@@ -49,10 +49,10 @@
 
 | **Caso de Teste** 	| **CT-03 – chat** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	|  |
-| Objetivo do Teste 	| |
-| Passos 	|  |
-|Critério de Êxito |  |
+|	Requisito Associado 	| O sistema deve possibilitar ao usuário uma comunicação interativa através de chat. |
+| Objetivo do Teste 	| Permitir ao usuário comunicar através de textos e mensagens curtas com outro usuário. |
+| Passos 	| O usuário deverá abrir um chat, digitar uma mensagem e completar a interação. |
+|Critério de Êxito | Se as mensagens forem enviadas de forma correta, e o outro usuario receber as mensagens, o sistema obteve êxito. |
 |  	|  	|
  
 
