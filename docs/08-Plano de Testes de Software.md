@@ -2,7 +2,6 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
 
-Por exemplo:
  
 | **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
 |:---:	|:---:	|
@@ -15,13 +14,23 @@ Por exemplo:
 
 | **Caso de Teste** 	| **CT-02 – perfil** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	|  |
-| Objetivo do Teste 	| |
-| Passos 	|  |
-|Critério de Êxito |  |
+|	Requisito Associado 	| O sistema deve possibilitar ao personal um gerenciamento de seus alunos.	 |
+| Objetivo do Teste 	| Verificar se o aluno aparece para o personal correto |
+| Passos 	| O usuário personal deve conseguir ver seus alunos |
+|Critério de Êxito | Todos os alunos aparecendo para seu respectivo personal  |
 |  	|  	|
-
-
+|	|**CT-02.1**	|
+|	Requisito Associado 	| O sistema deve ter possibilidades de metas relacionadas aos seus treinos.		 |
+| Objetivo do Teste 	| Verificar se as metas então aparecendo de forma correta|
+| Passos 	| O usário cadastra suas metas e elas são exibidas no perfil. |
+|Critério de Êxito |  Metas aparecendo e atualizando na medida em que forem compridas|
+|  	|  	|
+|	|**CT-02.2**	|
+|	Requisito Associado 	|O sistema deve possibilitar ao usuário encontrar o seu personal trainer.|
+| Objetivo do Teste 	| Verificar se a busca do personal aparece de maneira correta |
+| Passos 	| Usuário do tipo aluno pesquisa no seu perfil por um personal |
+|Critério de Êxito |  Aparecer uma lista de personais sem nenhum aluno|
+|  	|  	|
 
 | **Caso de Teste** 	| **CT-03 – Feed** 	|
 |:---:	|:---:	|
