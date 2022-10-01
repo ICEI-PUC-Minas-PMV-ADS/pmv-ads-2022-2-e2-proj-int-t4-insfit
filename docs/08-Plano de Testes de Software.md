@@ -50,7 +50,7 @@
 |  	|  	|
  
 
- | **Caso de Teste** 	| **CT-04 – Relatorio** 	|
+ | **Caso de Teste** 	| **CT-04 – Relatório** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| Deverá conter uma função que mande notificação alertando quando o relatório estiver disponível pelo personal trainer.  |
 | Objetivo do Teste 	| Deverá verificar se os todos os campos com os dados estão preenchidos de maneira correta. |
