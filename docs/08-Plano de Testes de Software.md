@@ -5,10 +5,16 @@
  
 | **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	|  |
-| Objetivo do Teste 	| |
-| Passos 	|  |
-|Critério de Êxito |  |
+|	Requisito Associado 	| O sistema deve possibilitar o usuário criar seu cadastro com e-mail e senha. |
+| Objetivo do Teste 	| Verificar se o usuário conseguiu se cadastrar sem dificuldade. |
+| Passos 	| O usuário deve acessar o site, clicar em realizar login e clicar em "Primeiro acesso".  |
+|Critério de Êxito | O usuário se registra no sistema e a mensagem "Cadastro realizado com sucesso!" é apresentada. |
+|  	|  	|
+|	|**CT-01.1**	|
+|	Requisito Associado 	| O sistema deve ter o sistema de Login. 		 |
+| Objetivo do Teste 	| Verificar se o usuário realiza o login de forma corretamente.|
+| Passos 	| O usuário deve acessar o site, clilcar em realizar login, preencher os campos de e-mail e senha e clicar em "Entrar". |
+|Critério de Êxito |  Ao clicar em "Entrar" o sistema irá redirecionar o usuário para seu perfil.|
 |  	|  	|
 
 
