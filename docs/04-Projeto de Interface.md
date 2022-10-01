@@ -19,6 +19,16 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 
 
 ## Wireframes
+
+### Login
+![relatorio](img/Login.png)
+
+### Cadastro Usuário
+![relatorio](img/Cadastro.png)
+
+### Localização
+![relatorio](img/Localiza%C3%A7%C3%A3o.png)
+
 ### Relatório Mensal
 ![relatorio](img/relatorio.jpg)
 
