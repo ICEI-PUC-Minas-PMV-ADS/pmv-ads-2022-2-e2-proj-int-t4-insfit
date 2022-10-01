@@ -44,4 +44,7 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 ### Feed
 ![feed](img/wireframefeed.png)
 
+### Chat
+![chat](img/wireframeChat.png)
+
 
