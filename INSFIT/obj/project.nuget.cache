@@ -1,11 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "oxOEEc/TwdGl9hcGO1EHyRZn6v12IH0IGSKqrbI08sHQ+DZDQ+E2LOlm2gC9wtBy2uNCaRGHjcEAwsyzk8i6SQ==",
+  "dgSpecHash": "l35ajBJ0HLnt5HBcDKYj4yQbwbd7vtIx+L4Z/JBYcutNO7DaCuxVeCaDea34qvYCdRD8sQG9dsrFVr4XyLBBMg==",
   "success": true,
   "projectFilePath": "C:\\Users\\vitor\\Documents\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\INSFIT.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\vitor\\.nuget\\packages\\fluentassertions\\6.7.0\\fluentassertions.6.7.0.nupkg.sha512",
-    "C:\\Users\\vitor\\.nuget\\packages\\fluentassertions.json\\6.1.0\\fluentassertions.json.6.1.0.nupkg.sha512",
     "C:\\Users\\vitor\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\vitor\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\vitor\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",

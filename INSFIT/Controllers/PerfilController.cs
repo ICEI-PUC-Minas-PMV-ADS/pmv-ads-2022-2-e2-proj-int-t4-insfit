@@ -5,89 +5,90 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using INSFIT.Data;
 using INSFIT.Models;
 
 namespace INSFIT.Controllers
 {
-    public class Tela_InicalController : Controller
+    public class PerfilController : Controller
     {
-        private readonly ConexaoBD _context;
+        private readonly INSFITContext _context;
 
-        public Tela_InicalController(ConexaoBD context)
+        public PerfilController(INSFITContext context)
         {
             _context = context;
         }
 
-        // GET: Tela_Inical
+        // GET: Perfil
         public async Task<IActionResult> Index()
         {
-              return View(await _context.Tela_Inical.ToListAsync());
+              return View(await _context.Perfil.ToListAsync());
         }
 
-        // GET: Tela_Inical/Details/5
+        // GET: Perfil/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _context.Tela_Inical == null)
+            if (id == null || _context.Perfil == null)
             {
                 return NotFound();
             }
 
-            var tela_Inical = await _context.Tela_Inical
-                .FirstOrDefaultAsync(m => m.id == id);
-            if (tela_Inical == null)
+            var perfil = await _context.Perfil
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (perfil == null)
             {
                 return NotFound();
             }
 
-            return View(tela_Inical);
+            return View(perfil);
         }
 
-        // GET: Tela_Inical/Create
+        // GET: Perfil/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Tela_Inical/Create
+        // POST: Perfil/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("id")] Tela_Inical tela_Inical)
+        public async Task<IActionResult> Create([Bind("Id,Name")] Perfil perfil)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(tela_Inical);
+                _context.Add(perfil);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(tela_Inical);
+            return View(perfil);
         }
 
-        // GET: Tela_Inical/Edit/5
+        // GET: Perfil/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.Tela_Inical == null)
+            if (id == null || _context.Perfil == null)
             {
                 return NotFound();
             }
 
-            var tela_Inical = await _context.Tela_Inical.FindAsync(id);
-            if (tela_Inical == null)
+            var perfil = await _context.Perfil.FindAsync(id);
+            if (perfil == null)
             {
                 return NotFound();
             }
-            return View(tela_Inical);
+            return View(perfil);
         }
 
-        // POST: Tela_Inical/Edit/5
+        // POST: Perfil/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("id")] Tela_Inical tela_Inical)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name")] Perfil perfil)
         {
-            if (id != tela_Inical.id)
+            if (id != perfil.Id)
             {
                 return NotFound();
             }
@@ -96,12 +97,12 @@ namespace INSFIT.Controllers
             {
                 try
                 {
-                    _context.Update(tela_Inical);
+                    _context.Update(perfil);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!Tela_InicalExists(tela_Inical.id))
+                    if (!PerfilExists(perfil.Id))
                     {
                         return NotFound();
                     }
@@ -112,49 +113,49 @@ namespace INSFIT.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(tela_Inical);
+            return View(perfil);
         }
 
-        // GET: Tela_Inical/Delete/5
+        // GET: Perfil/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || _context.Tela_Inical == null)
+            if (id == null || _context.Perfil == null)
             {
                 return NotFound();
             }
 
-            var tela_Inical = await _context.Tela_Inical
-                .FirstOrDefaultAsync(m => m.id == id);
-            if (tela_Inical == null)
+            var perfil = await _context.Perfil
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (perfil == null)
             {
                 return NotFound();
             }
 
-            return View(tela_Inical);
+            return View(perfil);
         }
 
-        // POST: Tela_Inical/Delete/5
+        // POST: Perfil/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.Tela_Inical == null)
+            if (_context.Perfil == null)
             {
-                return Problem("Entity set 'ConexaoBD.Tela_Inical'  is null.");
+                return Problem("Entity set 'INSFITContext.Perfil'  is null.");
             }
-            var tela_Inical = await _context.Tela_Inical.FindAsync(id);
-            if (tela_Inical != null)
+            var perfil = await _context.Perfil.FindAsync(id);
+            if (perfil != null)
             {
-                _context.Tela_Inical.Remove(tela_Inical);
+                _context.Perfil.Remove(perfil);
             }
             
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool Tela_InicalExists(int id)
+        private bool PerfilExists(int id)
         {
-          return _context.Tela_Inical.Any(e => e.id == id);
+          return _context.Perfil.Any(e => e.Id == id);
         }
     }
 }

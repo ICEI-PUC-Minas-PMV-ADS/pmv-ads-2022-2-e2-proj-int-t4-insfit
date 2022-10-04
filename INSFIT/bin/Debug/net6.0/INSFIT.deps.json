@@ -8,38 +8,12 @@
     ".NETCoreApp,Version=v6.0": {
       "INSFIT/1.0.0": {
         "dependencies": {
-          "FluentAssertions": "6.7.0",
-          "FluentAssertions.Json": "6.1.0",
-          "Microsoft.EntityFrameworkCore": "6.0.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.9",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.9",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.9"
         },
         "runtime": {
           "INSFIT.dll": {}
-        }
-      },
-      "FluentAssertions/6.7.0": {
-        "dependencies": {
-          "System.Configuration.ConfigurationManager": "6.0.0"
-        },
-        "runtime": {
-          "lib/net6.0/FluentAssertions.dll": {
-            "assemblyVersion": "6.7.0.0",
-            "fileVersion": "6.7.0.0"
-          }
-        }
-      },
-      "FluentAssertions.Json/6.1.0": {
-        "dependencies": {
-          "FluentAssertions": "6.7.0",
-          "Newtonsoft.Json": "13.0.1"
-        },
-        "runtime": {
-          "lib/netstandard2.0/FluentAssertions.Json.dll": {
-            "assemblyVersion": "6.1.0.0",
-            "fileVersion": "6.1.0.0"
-          }
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -2249,20 +2223,6 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
-    },
-    "FluentAssertions/6.7.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-PWbow/R3MnYDP8UW7zh/w80rGb+1NufGoNJeuzouTo2bqpvwNTFxbDwF6XWfFZ5IuquL2225Um+qSyZ8jVsT+w==",
-      "path": "fluentassertions/6.7.0",
-      "hashPath": "fluentassertions.6.7.0.nupkg.sha512"
-    },
-    "FluentAssertions.Json/6.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-O/s91UDF/1gX+Uw3RY1C0rFGwR0zZYrBWGc1xdFUCbWnwGlHrHJpV2ThzAreZUPzwvAks5a1rbkqMe/6nIRseA==",
-      "path": "fluentassertions.json/6.1.0",
-      "hashPath": "fluentassertions.json.6.1.0.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",

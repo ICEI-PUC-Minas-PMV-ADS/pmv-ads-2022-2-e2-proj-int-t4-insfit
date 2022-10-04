@@ -4,27 +4,28 @@
 
 namespace INSFIT.Migrations
 {
-    public partial class _3 : Migration
+    public partial class teste : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "cadastro",
+                name: "Usuarios",
                 columns: table => new
                 {
-                    id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1")
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_cadastro", x => x.id);
+                    table.PrimaryKey("PK_Usuarios", x => x.Id);
                 });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "cadastro");
+                name: "Usuarios");
         }
     }
 }

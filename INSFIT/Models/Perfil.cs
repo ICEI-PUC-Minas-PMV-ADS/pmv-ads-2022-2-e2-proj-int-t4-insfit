@@ -3,10 +3,13 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace INSFIT.Models
 {
-    [Table("cadastro")]
-    public class Tela_Inical
+    [Table("Usuarios")]
+    public class Perfil
     {
         [Key]
-        public int id { get; set; }
+        public int Id { get; set; }
+        [Required]
+        public string Name { get; set; }
+
     }
 }

@@ -1,12 +1,15 @@
-using FluentAssertions.Common;
-using INSFIT.Controllers;
-using Microsoft.Extensions.Options;
-
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using INSFIT.Data;
 var builder = WebApplication.CreateBuilder(args);
-//OptionsBuilder.UseSqlServer(connectionString: @"Server=tcp:insfit.database.windows.net,1433;Initial Catalog=INSFIT;Persist Security Info=False;User ID=adm_insfit;Password={Semestre02@};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+builder.Services.AddDbContext<INSFITContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("INSFITContext") ?? throw new InvalidOperationException("Connection string 'INSFITContext' not found.")));
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
 var app = builder.Build();
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {

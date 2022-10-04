@@ -4,7 +4,7 @@
 
 namespace INSFIT.Migrations
 {
-    public partial class _2 : Migration
+    public partial class testeazure : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
