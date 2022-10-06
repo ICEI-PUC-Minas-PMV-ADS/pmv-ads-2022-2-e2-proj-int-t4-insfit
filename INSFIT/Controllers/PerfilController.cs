@@ -54,7 +54,7 @@ namespace INSFIT.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name")] Perfil perfil)
+        public async Task<IActionResult> Create([Bind("Id,Name,Email,Altura,Peso,Usuario")] Perfil perfil)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace INSFIT.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name")] Perfil perfil)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Email,Altura,Peso,Usuario")] Perfil perfil)
         {
             if (id != perfil.Id)
             {

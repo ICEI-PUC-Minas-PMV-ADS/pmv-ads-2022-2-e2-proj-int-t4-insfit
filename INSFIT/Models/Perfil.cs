@@ -8,8 +8,22 @@ namespace INSFIT.Models
     {
         [Key]
         public int Id { get; set; }
-        [Required]
+    
         public string Name { get; set; }
+        
+        public string Email { get; set; }
+       
+        public double Altura { get; set; }
+   
+        public double Peso { get; set; }
+  
+        public TipoUsuario Usuario { get; set; }
+
+        public enum TipoUsuario
+        {
+            Aluno,
+            Personal
+        }
 
     }
 }
