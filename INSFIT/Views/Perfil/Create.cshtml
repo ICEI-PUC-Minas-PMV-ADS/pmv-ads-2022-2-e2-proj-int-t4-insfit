@@ -1,4 +1,5 @@
-﻿@model INSFIT.Models.Perfil
+﻿@using static INSFIT.Models.Perfil
+@model INSFIT.Models.Perfil
 
 @{
     ViewData["Title"] = "Create";
@@ -32,9 +33,14 @@
                 <input asp-for="Peso" class="form-control" />
                 <span asp-validation-for="Peso" class="text-danger"></span>
             </div>
+             <div class="form-group">
+                <label asp-for="Telefone" class="control-label"></label>
+                <input asp-for="Telefone" class="form-control" />
+                <span asp-validation-for="Telefone" class="text-danger"></span>
+            </div>
             <div class="form-group">
                 <label asp-for="Usuario" class="control-label"></label>
-                <select asp-for="Usuario" class="form-control"></select>
+                <select asp-for="Usuario" class="form-control" asp-items="Html.GetEnumSelectList<TipoUsuario>()"></select>
                 <span asp-validation-for="Usuario" class="text-danger"></span>
             </div>
             <div class="form-group">

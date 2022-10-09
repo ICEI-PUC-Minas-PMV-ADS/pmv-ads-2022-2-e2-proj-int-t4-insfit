@@ -24,6 +24,7 @@ namespace INSFIT.Controllers
         {
               return View(await _context.Perfil.ToListAsync());
         }
+       
 
         // GET: Perfil/Details/5
         public async Task<IActionResult> Details(int? id)
