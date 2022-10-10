@@ -47,4 +47,3 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 ### Chat
 ![chat](img/wireframeChat.png)
 
-

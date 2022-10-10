@@ -33,14 +33,14 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                            |
 |--------------------|------------------------------------|----------------------------------------           |
-|Usuário do sistema  | Aprender sobre atividades fisicas  | buscar uma saúde melhor                           |
-|Usuário do sistema  | Visualizar academias em um raio mais próximo.|  melhor flexibilidade nós treinos.      |
-|Usuário do sistema  | Busca por receitas saudáveis.      |  possa ter opções de alimentações equilibradas    |
-|Usuário do sistema  | Um local que possam me encontrar.  | Para me contratar como personal.                  |
-|Usuário do sistema  | Uma rede onde eu possa compartilhar a minhas rotinas de exercícios| compartilhar ideias relacionadas a treinos.|
-| Usuário do sistema | Uma forma de comunicação interativa entre diversos usuários.|estabelecer uma comunicação entre diversos usuários.|
-| Usuário do sistema |  Uma agenda online a qual eu possa gerenciar minhas rotinas. |ter controle sobre os meus treinos.|
-| Usuário do sistema | Um fornecimento de um relatório mensal da minha evolução nas atividades físicas| controle da minha evolução.|
+|Sampa  | Aprender sobre atividades fisicas  | buscar uma saúde melhor                           |
+|Astolfo  | Visualizar academias em um raio mais próximo.|  melhor flexibilidade nós treinos.      |
+|Raimunda  | Busca por receitas saudáveis.      |  possa ter opções de alimentações equilibradas    |
+|Astolfo  | Um local que possam me encontrar.  | Para me contratar como personal.                  |
+|Angélica  | Uma rede onde eu possa compartilhar a minhas rotinas de exercícios| compartilhar ideias relacionadas a treinos.|
+| Angélica | Uma forma de comunicação interativa entre diversos usuários.|estabelecer uma comunicação entre diversos usuários.|
+| Sampa |  Uma agenda online a qual eu possa gerenciar minhas rotinas. |ter controle sobre os meus treinos.|
+| Sampa | Um fornecimento de um relatório mensal da minha evolução nas atividades físicas| controle da minha evolução.|
 
 
 
