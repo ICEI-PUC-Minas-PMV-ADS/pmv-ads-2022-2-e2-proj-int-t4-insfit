@@ -43,6 +43,22 @@ namespace INSFIT.Controllers
 
             return View(perfil);
         }
+        public async Task<IActionResult> UsuarioLogado()
+        {
+            //if (id == null || _context.Perfil == null)
+            //{
+              //  return NotFound();
+           // }
+
+            var perfil = await _context.Perfil
+                .FirstOrDefaultAsync(m => m.Name == "Vitor");
+            if (perfil == null)
+            {
+                return NotFound();
+            }
+
+            return View(perfil);
+        }
 
         // GET: Perfil/Create
         public IActionResult Create()

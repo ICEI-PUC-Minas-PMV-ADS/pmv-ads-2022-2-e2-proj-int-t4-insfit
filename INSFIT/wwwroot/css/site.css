@@ -16,3 +16,7 @@ html {
 body {
   margin-bottom: 60px;
 }
+.verPerfil {
+    position: relative;
+    left: 70vw;
+}
