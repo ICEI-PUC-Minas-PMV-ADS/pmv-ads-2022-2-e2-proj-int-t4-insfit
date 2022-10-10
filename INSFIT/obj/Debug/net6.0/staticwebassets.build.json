@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6P6qWGemcKbQ3urDsdpsCtV/nvBFY4IpFAPUC9pny8s=",
+  "Hash": "CywQPx00RmhIKzLjCxCzmTcKMfxb1vuHssCBmsAgYTs=",
   "Source": "INSFIT",
   "BasePath": "_content/INSFIT",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\vitor\\Documents\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\img\\detalhes.png",
+      "SourceId": "INSFIT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vitor\\Documents\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\",
+      "BasePath": "_content/INSFIT",
+      "RelativePath": "img/detalhes.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\detalhes.png"
     },
     {
       "Identity": "C:\\Users\\vitor\\Documents\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\js\\site.js",

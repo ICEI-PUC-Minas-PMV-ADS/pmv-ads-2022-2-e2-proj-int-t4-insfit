@@ -4,7 +4,7 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Encontrar Pessoas</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -17,12 +17,6 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Email)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Altura)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Peso)
             </th>
              <th>
                 @Html.DisplayNameFor(model => model.Telefone)
@@ -43,22 +37,15 @@
                 @Html.DisplayFor(modelItem => item.Email)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Altura)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Peso)
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.Telefone)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Usuario)
             </td>
             <td>
-                <a asp-action="Personais" asp-route-id="@item.Id">Personais</a> |
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                
+                <a asp-action="Details" asp-route-id="@item.Id"><img src="/img/detalhes.png" style="width: 28px;"></img></a> |
+               
             </td>
         </tr>
 }
