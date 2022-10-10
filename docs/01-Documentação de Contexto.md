@@ -25,4 +25,4 @@ Praticar atividades físicas diariamente é um dos hábitos que compõem um esti
 
 ## Público-Alvo
 
-O público-alvo do software INSFIT é possibilitar a prática de exercícios físicos na  residência ou de onde o usuário estiver, atendendo o grupo da terceira idade, e pessoas que não praticam atividades fisicas diariamente.
+O público-alvo do software INSFIT tem como objetivo atender pessoas que não tem tempo suficiente de ir até uma academia, auxiliar também em uma boa alimentação com o auxilio de um personal trainer.
