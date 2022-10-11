@@ -15,5 +15,4 @@ namespace INSFIT.Models
 
         public int senha { get; set; }
     }
-    -
 }

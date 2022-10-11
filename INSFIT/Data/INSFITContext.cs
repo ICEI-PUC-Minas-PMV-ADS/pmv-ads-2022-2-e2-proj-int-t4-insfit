@@ -16,5 +16,7 @@ namespace INSFIT.Data
 
         public DbSet<INSFIT.Models.Perfil> Perfil { get; set; } = default!;
 
+        public DbSet<INSFIT.Models.Cadastro> Cadastro { get; set; }
+
     }
 }
