@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\INSFIT",
+    "\\INSFIT\\Controllers",
+    "\\INSFIT\\Models"
   ],
+  "SelectedNode": "\\INSFIT\\Controllers",
   "PreviewInSolutionExplorer": false
 }

@@ -261,3 +261,6 @@ C:\Users\vitor\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\obj\
 C:\Users\vitor\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\obj\Debug\net6.0\INSFIT.pdb
 C:\Users\vitor\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\obj\Debug\net6.0\INSFIT.genruntimeconfig.cache
 C:\Users\vitor\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\obj\Debug\net6.0\ref\INSFIT.dll
+C:\Users\Matheus\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\obj\Debug\net6.0\INSFIT.dll
+C:\Users\Matheus\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\obj\Debug\net6.0\refint\INSFIT.dll
+C:\Users\Matheus\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\obj\Debug\net6.0\INSFIT.pdb
