@@ -11,17 +11,40 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace INSFIT.Migrations
 {
     [DbContext(typeof(INSFITContext))]
-    [Migration("20221005235328_testes")]
-    partial class testes
+    [Migration("20221011235821_um")]
+    partial class um
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.9")
+                .HasAnnotation("ProductVersion", "6.0.10")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
+
+            modelBuilder.Entity("INSFIT.Models.Cadastro", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"), 1L, 1);
+
+                    b.Property<int>("email")
+                        .HasColumnType("int");
+
+                    b.Property<string>("name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("senha")
+                        .HasColumnType("int");
+
+                    b.HasKey("id");
+
+                    b.ToTable("Cadastro");
+                });
 
             modelBuilder.Entity("INSFIT.Models.Perfil", b =>
                 {
@@ -38,16 +61,15 @@ namespace INSFIT.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Endereco")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<double>("Peso")
                         .HasColumnType("float");
+
+                    b.Property<int>("Telefone")
+                        .HasColumnType("int");
 
                     b.Property<int>("Usuario")
                         .HasColumnType("int");
