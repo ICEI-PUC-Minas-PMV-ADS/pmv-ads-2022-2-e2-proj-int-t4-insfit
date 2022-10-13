@@ -18,5 +18,7 @@ namespace INSFIT.Data
 
         public DbSet<INSFIT.Models.Cadastro> Cadastro { get; set; }
 
+        public DbSet<INSFIT.Models.Feed> Feed { get; set; }
+
     }
 }
