@@ -11,4 +11,11 @@ INSFIT/obj/Debug/net6.0/INSFIT.csproj.AssemblyReference.cache
 INSFIT/obj/Debug/net6.0/INSFIT.GeneratedMSBuildEditorConfig.editorconfig
 INSFIT/obj/INSFIT.csproj.nuget.dgspec.json
 INSFIT/obj/project.nuget.cache
+<<<<<<< Updated upstream
 INSFIT/obj/Debug/net6.0/INSFIT.GeneratedMSBuildEditorConfig.editorconfig
+=======
+*.v2
+*.v2
+*.v2
+*.v2
+>>>>>>> Stashed changes
