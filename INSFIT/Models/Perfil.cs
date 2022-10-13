@@ -19,7 +19,6 @@ namespace INSFIT.Models
        // [Phone(ErrorMessage ="informe um numero válido")]
         public int Telefone { get; set; }
    
-        
         public TipoUsuario Usuario { get; set; }
 
         public enum TipoUsuario
