@@ -792,3 +792,6 @@ C:\Users\mathe\OneDrive\Documentos\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\I
 C:\Users\mathe\OneDrive\Documentos\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\obj\Debug\net6.0\INSFIT.pdb
 C:\Users\mathe\OneDrive\Documentos\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\obj\Debug\net6.0\INSFIT.genruntimeconfig.cache
 C:\Users\mathe\OneDrive\Documentos\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\obj\Debug\net6.0\ref\INSFIT.dll
+C:\Users\Dell\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\obj\Debug\net6.0\INSFIT.dll
+C:\Users\Dell\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\obj\Debug\net6.0\refint\INSFIT.dll
+C:\Users\Dell\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\obj\Debug\net6.0\INSFIT.pdb
