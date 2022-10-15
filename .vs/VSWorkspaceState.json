@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\INSFIT"
+    "\\INSFIT",
+    "\\INSFIT\\Controllers",
+    "\\INSFIT\\Models",
+    "\\INSFIT\\Views"
   ],
-  "SelectedNode": "\\INSFIT\\Program.cs",
-  "PreviewInSolutionExplorer": false
+  "SelectedNode": "\\INSFIT\\INSFIT.csproj",
+  "PreviewInSolutionExplorer": true
 }
