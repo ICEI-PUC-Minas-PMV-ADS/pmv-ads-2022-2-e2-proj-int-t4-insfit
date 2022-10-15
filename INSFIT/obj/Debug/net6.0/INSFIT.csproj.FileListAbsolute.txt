@@ -795,3 +795,14 @@ C:\Users\mathe\OneDrive\Documentos\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\I
 C:\Users\Dell\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\obj\Debug\net6.0\INSFIT.dll
 C:\Users\Dell\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\obj\Debug\net6.0\refint\INSFIT.dll
 C:\Users\Dell\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\obj\Debug\net6.0\INSFIT.pdb
+D:\Pessoal\Matheus\Faculdade\PUC\Projeto Web Front\pmv-ads-2022-2-e2-proj-int-t4-insfit\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\obj\Debug\net6.0\INSFIT.csproj.AssemblyReference.cache
+D:\Pessoal\Matheus\Faculdade\PUC\Projeto Web Front\pmv-ads-2022-2-e2-proj-int-t4-insfit\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\obj\Debug\net6.0\INSFIT.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pessoal\Matheus\Faculdade\PUC\Projeto Web Front\pmv-ads-2022-2-e2-proj-int-t4-insfit\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\obj\Debug\net6.0\INSFIT.AssemblyInfoInputs.cache
+D:\Pessoal\Matheus\Faculdade\PUC\Projeto Web Front\pmv-ads-2022-2-e2-proj-int-t4-insfit\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\obj\Debug\net6.0\INSFIT.AssemblyInfo.cs
+D:\Pessoal\Matheus\Faculdade\PUC\Projeto Web Front\pmv-ads-2022-2-e2-proj-int-t4-insfit\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\obj\Debug\net6.0\INSFIT.csproj.CoreCompileInputs.cache
+D:\Pessoal\Matheus\Faculdade\PUC\Projeto Web Front\pmv-ads-2022-2-e2-proj-int-t4-insfit\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\obj\Debug\net6.0\INSFIT.MvcApplicationPartsAssemblyInfo.cache
+D:\Pessoal\Matheus\Faculdade\PUC\Projeto Web Front\pmv-ads-2022-2-e2-proj-int-t4-insfit\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\obj\Debug\net6.0\INSFIT.RazorAssemblyInfo.cache
+D:\Pessoal\Matheus\Faculdade\PUC\Projeto Web Front\pmv-ads-2022-2-e2-proj-int-t4-insfit\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\obj\Debug\net6.0\INSFIT.RazorAssemblyInfo.cs
+D:\Pessoal\Matheus\Faculdade\PUC\Projeto Web Front\pmv-ads-2022-2-e2-proj-int-t4-insfit\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\obj\Debug\net6.0\INSFIT.dll
+D:\Pessoal\Matheus\Faculdade\PUC\Projeto Web Front\pmv-ads-2022-2-e2-proj-int-t4-insfit\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\obj\Debug\net6.0\refint\INSFIT.dll
+D:\Pessoal\Matheus\Faculdade\PUC\Projeto Web Front\pmv-ads-2022-2-e2-proj-int-t4-insfit\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\obj\Debug\net6.0\INSFIT.pdb
