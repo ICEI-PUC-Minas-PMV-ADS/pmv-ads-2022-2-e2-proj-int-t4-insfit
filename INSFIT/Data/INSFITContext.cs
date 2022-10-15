@@ -20,5 +20,7 @@ namespace INSFIT.Data
 
         public DbSet<INSFIT.Models.Feed> Feed { get; set; }
 
+        public DbSet<INSFIT.Models.Mapa> Mapa { get; set; }
+
     }
 }

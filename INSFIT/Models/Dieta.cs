@@ -3,17 +3,14 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using MessagePack;
 using KeyAttribute = System.ComponentModel.DataAnnotations.KeyAttribute;
-
-
 namespace INSFIT.Models
 {
-    [table("Dieta")]
+    [Table("Dieta")]
     public class Dieta
     {
-        [key]
+        [Key]
         public int Id_Dieta { get; set; }
-
-        [required(ErrorMessage = "favor informar qual dieta deseja!")]
+        [Required(ErrorMessage = "favor informar qual dieta deseja!")]
         public string Date { get; set; }
         public string CampoImgem { get; set; }
         public string CampodePesquisa { get; set; }

@@ -3,9 +3,8 @@
     "",
     "\\INSFIT",
     "\\INSFIT\\Controllers",
-    "\\INSFIT\\Models",
-    "\\INSFIT\\Views"
+    "\\INSFIT\\Models"
   ],
-  "SelectedNode": "\\INSFIT\\INSFIT.csproj",
+  "SelectedNode": "\\INSFIT\\Models\\Dieta.cs",
   "PreviewInSolutionExplorer": true
 }
