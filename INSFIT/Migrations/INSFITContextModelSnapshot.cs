@@ -77,6 +77,23 @@ namespace INSFIT.Migrations
                     b.ToTable("Feed");
                 });
 
+            modelBuilder.Entity("INSFIT.Models.Mapa", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"), 1L, 1);
+
+                    b.Property<string>("localizacao")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("id");
+
+                    b.ToTable("Mapa");
+                });
+
             modelBuilder.Entity("INSFIT.Models.Perfil", b =>
                 {
                     b.Property<int>("Id")

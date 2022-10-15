@@ -3,8 +3,6 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using MessagePack;
 using KeyAttribute = System.ComponentModel.DataAnnotations.KeyAttribute;
-
-
 namespace INSFIT.Models
 {
     [Table("Dieta")]
@@ -12,7 +10,6 @@ namespace INSFIT.Models
     {
         [Key]
         public int Id_Dieta { get; set; }
-
         [Required(ErrorMessage = "favor informar qual dieta deseja!")]
         public string Date { get; set; }
         public string CampoImgem { get; set; }
