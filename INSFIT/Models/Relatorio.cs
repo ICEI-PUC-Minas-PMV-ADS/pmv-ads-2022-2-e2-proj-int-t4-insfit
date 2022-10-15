@@ -10,10 +10,14 @@ namespace INSFIT.Models
     public class Relatorio
     {
         [Key]
-        public int Id { get; set; }
+        public int Id_relatorio { get; set; }
 
         public string nome { get; set; }
         public double peso { get; set; }
         public double altura { get; set; }
+
+        /*Eu criando a relação com o perfil*/
+        public int? IdUser { get; set; }
+        public Perfil perfil { get; set; }
     }
 }

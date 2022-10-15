@@ -1061,3 +1061,5 @@ D:\Pessoal\Matheus\Faculdade\PUC\Projeto Web Front\pmv-ads-2022-2-e2-proj-int-t4
 D:\Pessoal\Matheus\Faculdade\PUC\Projeto Web Front\pmv-ads-2022-2-e2-proj-int-t4-insfit\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\obj\Debug\net6.0\INSFIT.csproj.CopyComplete
 D:\Pessoal\Matheus\Faculdade\PUC\Projeto Web Front\pmv-ads-2022-2-e2-proj-int-t4-insfit\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\obj\Debug\net6.0\INSFIT.genruntimeconfig.cache
 D:\Pessoal\Matheus\Faculdade\PUC\Projeto Web Front\pmv-ads-2022-2-e2-proj-int-t4-insfit\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\obj\Debug\net6.0\ref\INSFIT.dll
+C:\Users\vitor\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\FsCheck.dll
+C:\Users\vitor\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\FSharp.Core.dll

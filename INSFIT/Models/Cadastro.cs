@@ -7,12 +7,17 @@ namespace INSFIT.Models
     public class Cadastro
     {
         [Key]
-        public int id { get; set; }
+        public int id_cadastro { get; set; }
 
         public string name { get; set; }
 
         public int email { get; set; }
 
         public int senha { get; set; }
+
+        /*Eu criando a relação com o perfil*/
+        public int? IdUser { get; set; }
+        public Perfil perfil { get; set; }
+
     }
 }

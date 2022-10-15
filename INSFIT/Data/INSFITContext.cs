@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using INSFIT.Models;
+using INSFIT.Data.Map;
 
 namespace INSFIT.Data
 {
@@ -22,5 +23,16 @@ namespace INSFIT.Data
 
         public DbSet<INSFIT.Models.Mapa> Mapa { get; set; }
 
+        public DbSet<INSFIT.Models.Dieta> Dieta { get; set; }
+
+       /*Criando metodo para adicionar as relações da tabela*/
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new MapPerfilFeed());
+            modelBuilder.ApplyConfiguration(new MapPerfilCadastro());
+            modelBuilder.ApplyConfiguration(new MapPerfilDieta());
+            modelBuilder.ApplyConfiguration(new MapPerfilRelatorio());
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }

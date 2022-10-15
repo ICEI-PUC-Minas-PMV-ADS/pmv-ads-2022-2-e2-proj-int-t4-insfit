@@ -4,6 +4,7 @@ using INSFIT.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace INSFIT.Migrations
 {
     [DbContext(typeof(INSFITContext))]
-    partial class INSFITContextModelSnapshot : ModelSnapshot
+    [Migration("20221015222754_criandovinculoUsarioefedd")]
+    partial class criandovinculoUsarioefedd
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -30,9 +32,6 @@ namespace INSFIT.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"), 1L, 1);
 
-                    b.Property<int?>("IdUser")
-                        .HasColumnType("int");
-
                     b.Property<int>("email")
                         .HasColumnType("int");
 
@@ -40,15 +39,10 @@ namespace INSFIT.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("perfilId")
-                        .HasColumnType("int");
-
                     b.Property<int>("senha")
                         .HasColumnType("int");
 
                     b.HasKey("id");
-
-                    b.HasIndex("perfilId");
 
                     b.ToTable("Cadastro");
                 });
@@ -76,15 +70,7 @@ namespace INSFIT.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("IdUser")
-                        .HasColumnType("int");
-
-                    b.Property<int>("perfilId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id_Dieta");
-
-                    b.HasIndex("perfilId");
 
                     b.ToTable("Dieta");
                 });
@@ -137,19 +123,11 @@ namespace INSFIT.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"), 1L, 1);
 
-                    b.Property<int?>("IdUser")
-                        .HasColumnType("int");
-
                     b.Property<string>("localizacao")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("perfilId")
-                        .HasColumnType("int");
-
                     b.HasKey("id");
-
-                    b.HasIndex("perfilId");
 
                     b.ToTable("Mapa");
                 });
@@ -187,59 +165,6 @@ namespace INSFIT.Migrations
                     b.ToTable("Usuarios");
                 });
 
-            modelBuilder.Entity("INSFIT.Models.Relatorio", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<int?>("IdUser")
-                        .HasColumnType("int");
-
-                    b.Property<double>("altura")
-                        .HasColumnType("float");
-
-                    b.Property<string>("nome")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("perfilId")
-                        .HasColumnType("int");
-
-                    b.Property<double>("peso")
-                        .HasColumnType("float");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("perfilId");
-
-                    b.ToTable("relatorio");
-                });
-
-            modelBuilder.Entity("INSFIT.Models.Cadastro", b =>
-                {
-                    b.HasOne("INSFIT.Models.Perfil", "perfil")
-                        .WithMany()
-                        .HasForeignKey("perfilId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("perfil");
-                });
-
-            modelBuilder.Entity("INSFIT.Models.Dieta", b =>
-                {
-                    b.HasOne("INSFIT.Models.Perfil", "perfil")
-                        .WithMany("Dieta")
-                        .HasForeignKey("perfilId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("perfil");
-                });
-
             modelBuilder.Entity("INSFIT.Models.Feed", b =>
                 {
                     b.HasOne("INSFIT.Models.Perfil", "perfil")
@@ -251,37 +176,9 @@ namespace INSFIT.Migrations
                     b.Navigation("perfil");
                 });
 
-            modelBuilder.Entity("INSFIT.Models.Mapa", b =>
-                {
-                    b.HasOne("INSFIT.Models.Perfil", "perfil")
-                        .WithMany("Mapa")
-                        .HasForeignKey("perfilId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("perfil");
-                });
-
-            modelBuilder.Entity("INSFIT.Models.Relatorio", b =>
-                {
-                    b.HasOne("INSFIT.Models.Perfil", "perfil")
-                        .WithMany("Relatorio")
-                        .HasForeignKey("perfilId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("perfil");
-                });
-
             modelBuilder.Entity("INSFIT.Models.Perfil", b =>
                 {
-                    b.Navigation("Dieta");
-
                     b.Navigation("Feed");
-
-                    b.Navigation("Mapa");
-
-                    b.Navigation("Relatorio");
                 });
 #pragma warning restore 612, 618
         }

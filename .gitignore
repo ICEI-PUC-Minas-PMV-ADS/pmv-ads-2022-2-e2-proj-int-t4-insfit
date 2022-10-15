@@ -17,3 +17,5 @@ INSFIT/.vs/INSFIT/DesignTimeBuild/.dtbcache.v2
 INSFIT/.vs/INSFIT/FileContentIndex/549f5bee-5766-41f8-a7dd-481512c8b334.vsidx
 INSFIT/.vs/INSFIT/DesignTimeBuild/.dtbcache.v2
 INSFIT/.vs/INSFIT/FileContentIndex/549f5bee-5766-41f8-a7dd-481512c8b334.vsidx
+*.exe
+INSFIT/bin/Debug/net6.0/INSFIT.dll
