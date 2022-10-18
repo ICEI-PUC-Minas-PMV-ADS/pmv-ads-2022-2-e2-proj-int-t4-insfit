@@ -12,15 +12,23 @@ namespace INSFIT.Models
         [Required(ErrorMessage = "Obrigatório inserir um nome")]
         public string name { get; set; }
 
-        [Required(ErrorMessage = "Obrigatório inserir um email")]
+        [Required(ErrorMessage = "Obrigatório inserir um nome")]
         public int email { get; set; }
 
         [Required(ErrorMessage = "Obrigatório inserir uma senha")]
         public int senha { get; set; }
 
-        /*Eu criando a relação com o perfil*/
+        public TipoUsuario tipoUsuario { get; set; }
+
+        /*Eu criando a relação com o perfil
         public int? IdUser { get; set; }
-        public Perfil perfil { get; set; }
+        public Perfil perfil { get; set; }*/
+
+        public enum TipoUsuario
+        {
+            Aluno,
+            Personal
+        }
 
     }
 }

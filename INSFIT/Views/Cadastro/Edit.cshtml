@@ -1,4 +1,5 @@
-﻿@model INSFIT.Models.Cadastro
+﻿@using static INSFIT.Models.Cadastro
+@model INSFIT.Models.Cadastro
 
 @{
     ViewData["Title"] = "Edit";
@@ -29,9 +30,9 @@
                 <span asp-validation-for="senha" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="IdUser" class="control-label"></label>
-                <input asp-for="IdUser" class="form-control" />
-                <span asp-validation-for="IdUser" class="text-danger"></span>
+                <label asp-for="tipoUsuario" class="control-label"></label>
+                <select asp-for="tipoUsuario" class="form-control" asp-items="Html.GetEnumSelectList<TipoUsuario>()"></select>
+                <span asp-validation-for="tipoUsuario" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
