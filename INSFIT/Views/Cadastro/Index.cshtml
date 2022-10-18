@@ -21,6 +21,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.senha)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdUser)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -37,9 +40,12 @@
                 @Html.DisplayFor(modelItem => item.senha)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.id">Delete</a>
+                @Html.DisplayFor(modelItem => item.IdUser)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.id_cadastro">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.id_cadastro">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.id_cadastro">Delete</a>
             </td>
         </tr>
 }

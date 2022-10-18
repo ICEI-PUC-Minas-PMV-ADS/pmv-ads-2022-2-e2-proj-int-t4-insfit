@@ -1,0 +1,53 @@
+﻿@model INSFIT.Models.Dieta
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Dieta</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Date" class="control-label"></label>
+                <input asp-for="Date" class="form-control" />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CampoImgem" class="control-label"></label>
+                <input asp-for="CampoImgem" class="form-control" />
+                <span asp-validation-for="CampoImgem" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CampodePesquisa" class="control-label"></label>
+                <input asp-for="CampodePesquisa" class="form-control" />
+                <span asp-validation-for="CampodePesquisa" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataPublicacao" class="control-label"></label>
+                <input asp-for="DataPublicacao" class="form-control" />
+                <span asp-validation-for="DataPublicacao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdUser" class="control-label"></label>
+                <input asp-for="IdUser" class="form-control" />
+                <span asp-validation-for="IdUser" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
