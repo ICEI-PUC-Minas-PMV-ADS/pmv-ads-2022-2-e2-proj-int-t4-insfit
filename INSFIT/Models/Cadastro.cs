@@ -9,10 +9,13 @@ namespace INSFIT.Models
         [Key]
         public int id_cadastro { get; set; }
 
+        [Required(ErrorMessage = "Obrigatório inserir um nome")]
         public string name { get; set; }
 
+        [Required(ErrorMessage = "Obrigatório inserir um email")]
         public int email { get; set; }
 
+        [Required(ErrorMessage = "Obrigatório inserir uma senha")]
         public int senha { get; set; }
 
         /*Eu criando a relação com o perfil*/
