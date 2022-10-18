@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "1+sUI2LVlS19eVxOXZk0FN1PsprAgH0pmh7+8MH0N++ypKJe7ncgtwfKNltANjxC15zZG+TwlmPhlvp4d9Tv/A==",
+  "dgSpecHash": "pbaYqc8kHv2i3+Zj1XaRuJUzl7dPVMnzuJXauPPYdcROAqAU7/h5+hiUk4WZWP5PDmcwwT7ov27A+FCBmPezQw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Matheus\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\INSFIT.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Matheus\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Matheus\\.nuget\\packages\\fscheck\\2.16.5\\fscheck.2.16.5.nupkg.sha512",
     "C:\\Users\\Matheus\\.nuget\\packages\\fsharp.core\\4.2.3\\fsharp.core.4.2.3.nupkg.sha512",
     "C:\\Users\\Matheus\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

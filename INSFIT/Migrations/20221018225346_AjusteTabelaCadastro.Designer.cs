@@ -4,6 +4,7 @@ using INSFIT.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace INSFIT.Migrations
 {
     [DbContext(typeof(INSFITContext))]
-    partial class INSFITContextModelSnapshot : ModelSnapshot
+    [Migration("20221018225346_AjusteTabelaCadastro")]
+    partial class AjusteTabelaCadastro
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -132,16 +134,19 @@ namespace INSFIT.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"), 1L, 1);
 
-                    b.Property<int?>("PerfilId")
+                    b.Property<int?>("IdUser")
                         .HasColumnType("int");
 
                     b.Property<string>("localizacao")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("perfilId")
+                        .HasColumnType("int");
+
                     b.HasKey("id");
 
-                    b.HasIndex("PerfilId");
+                    b.HasIndex("perfilId");
 
                     b.ToTable("Mapa");
                 });
@@ -234,9 +239,13 @@ namespace INSFIT.Migrations
 
             modelBuilder.Entity("INSFIT.Models.Mapa", b =>
                 {
-                    b.HasOne("INSFIT.Models.Perfil", null)
+                    b.HasOne("INSFIT.Models.Perfil", "perfil")
                         .WithMany("Mapa")
-                        .HasForeignKey("PerfilId");
+                        .HasForeignKey("perfilId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("perfil");
                 });
 
             modelBuilder.Entity("INSFIT.Models.Relatorio", b =>

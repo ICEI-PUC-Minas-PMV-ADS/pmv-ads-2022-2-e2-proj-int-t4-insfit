@@ -16,6 +16,7 @@ namespace INSFIT.Models
         public int email { get; set; }
 
         [Required(ErrorMessage = "Obrigatório inserir uma senha")]
+        [DataType(DataType.Password)]
         public int senha { get; set; }
 
         public TipoUsuario tipoUsuario { get; set; }

@@ -9,7 +9,7 @@ using INSFIT.Data;
 using INSFIT.Models;
 
 namespace INSFIT.Controllers
-{   
+{
     public class CadastroController : Controller
     {
         private readonly INSFITContext _context;
@@ -54,7 +54,7 @@ namespace INSFIT.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("id,name,email,senha")] Cadastro cadastro)
+        public async Task<IActionResult> Create([Bind("id_cadastro,name,email,senha,tipoUsuario")] Cadastro cadastro)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace INSFIT.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("id,name,email,senha")] Cadastro cadastro)
+        public async Task<IActionResult> Edit(int id, [Bind("id_cadastro,name,email,senha,tipoUsuario")] Cadastro cadastro)
         {
             if (id != cadastro.id_cadastro)
             {
