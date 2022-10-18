@@ -34,7 +34,7 @@ namespace INSFIT.Controllers
             }
 
             var cadastro = await _context.Cadastro
-                .FirstOrDefaultAsync(m => m.id == id);
+                .FirstOrDefaultAsync(m => m.id_cadastro == id);
             if (cadastro == null)
             {
                 return NotFound();
@@ -88,7 +88,7 @@ namespace INSFIT.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("id,name,email,senha")] Cadastro cadastro)
         {
-            if (id != cadastro.id)
+            if (id != cadastro.id_cadastro)
             {
                 return NotFound();
             }
@@ -102,7 +102,7 @@ namespace INSFIT.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!CadastroExists(cadastro.id))
+                    if (!CadastroExists(cadastro.id_cadastro))
                     {
                         return NotFound();
                     }
@@ -125,7 +125,7 @@ namespace INSFIT.Controllers
             }
 
             var cadastro = await _context.Cadastro
-                .FirstOrDefaultAsync(m => m.id == id);
+                .FirstOrDefaultAsync(m => m.id_cadastro == id);
             if (cadastro == null)
             {
                 return NotFound();
@@ -155,7 +155,7 @@ namespace INSFIT.Controllers
 
         private bool CadastroExists(int id)
         {
-          return _context.Cadastro.Any(e => e.id == id);
+          return _context.Cadastro.Any(e => e.id_cadastro == id);
         }
     }
 }
