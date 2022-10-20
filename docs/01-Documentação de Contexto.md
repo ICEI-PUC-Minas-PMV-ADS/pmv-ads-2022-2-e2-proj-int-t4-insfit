@@ -1,11 +1,11 @@
 # Introdução
 
-A Web é a nova tendência mundial que afeta o modo de como as pessoas se relacionam com a internet, podendo gerar impacto positivo ou negativo na sociedade moderna. 
+A Web é a nova tendência mundial que afeta o modo de como as pessoas se relacionam com a internet, podendo gerar impacto positivo ou negativo na sociedade moderna.
 
 Com a integração das Tecnologias na sociedade o crescimento de ferramentas web possibilitaram o fácil acesso a diversas informações, com o uso smartphones, tablets e computadores. 
  
 ## Problema
-O problema abordado nesse projeto é alertar, incentivar e conscientizar aos usuários que não praticam nenhuma atividade física. 
+O problema abordado nesse projeto e falta de atividades físicas a qual o nosso sistema irá auxiliar na evolução e pratica de exercicios fisícos.
 
 Segundo o coordenador de projetos da BeeCorp o autor Douglas Araújo afirma que, “devemos realizar praticar exercícios físicos para uma qualidade de vida é saúde melhor, pois a prática desses exercícios nós trás diversos benefícios tais como, redução de doenças crônicas, Melhora do sono e da disposição, aumento da autoconfiança, diminuição do estresse e aumento da produtividade”.
 
