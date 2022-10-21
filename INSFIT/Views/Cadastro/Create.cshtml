@@ -14,22 +14,22 @@
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="name" class="control-label"></label>
+                <label asp-for="name" class="control-label">Nome</label>
                 <input asp-for="name" class="form-control" />
                 <span asp-validation-for="name" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="email" class="control-label"></label>
+                <label asp-for="email" class="control-label">E-mail</label>
                 <input asp-for="email" class="form-control" />
                 <span asp-validation-for="email" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="senha" class="control-label"></label>
+                <label asp-for="senha" class="control-label">Senha</label>
                 <input asp-for="senha" class="form-control" />
                 <span asp-validation-for="senha" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="tipoUsuario" class="control-label"></label>
+                <label asp-for="tipoUsuario" class="control-label">Selecione o Tipo de Usuário</label>
                 <select asp-for="tipoUsuario" class="form-control" asp-items="Html.GetEnumSelectList<TipoUsuario>()">></select>
                 <span asp-validation-for="tipoUsuario" class="text-danger"></span>
             </div>
