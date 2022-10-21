@@ -12,18 +12,18 @@ Segundo o coordenador de projetos da BeeCorp o autor Douglas Araújo afirma que,
 
 ## Objetivos
 
-Temos como objetivo a criação de uma plataforma que incentive e apoie as pessoas a adquirir hábitos mais saudáveis. Como objetivos específicos podemos citar:
+Temos como objetivo a criação de uma plataforma que possa incentive e apoie as pessoas a adquirir hábitos mais saudáveis. Como objetivos específicos podemos citar:
 
-> - Um espaço onde as pessoas podem compartilhar sua rotina de treino; 
+> - Um espaço onde as pessoas podem compartilhar suas rotinas de treinos; 
 > - Um espaço onde as pessoas podem interagir entre si e demais usuários do software; 
-> - Apresentar opções de alimentações mais saudáveis. 
+> - Gerar dietas saudáveis apropriadadas para o usuário. 
 
 ## Justificativa
 
 Segundo Daniel Navas do portal VIVA BEM UOU, “na academia você encontra pessoas com diferentes objetivos. Muitos estão lá para emagrecer, outros querem ganhar músculos e há também aqueles que já estão satisfeitos com o corpo e buscam simplesmente manter a saúde”. 
 
-Praticar atividades físicas diariamente é um dos hábitos que compõem um estilo de vida saudável. Para isso, desenvolvemos o INSFIT que permite os usuários treinar em casa, visando a conexão entre pessoas para compartilhamento de interesses e objetivos em comum sem sair da zona de conforto, sendo assim os usuários poderá economizar tempo, dinheiro e manter-se saudável.
+A praticar de atividades físicas diariamente é um dos hábitos que compõem um estilo de vida bem saudável. Para isso, desenvolvemos o software INSFIT que permite o usuário com orientação de um instrutor treinar de casa, acesso as dicas de dietas, entre outros. Sendo assim atravéz do compartilhamento de interesses e objetivos, o usuário poderá usufluir de varias funções que a plataforma poderá proporcionar.
 
 ## Público-Alvo
 
-O público-alvo do software INSFIT tem como objetivo atender pessoas que não tem tempo suficiente para comparecer a uma academia presencial, tendo a apoiar a uma boa alimentação com o auxilio de um personal trainer.
+O público-alvo da plataforma INSFIT tem como objetivo atender pessoas que não tem tempo suficiente para ir a uma academia, tendo a apoiar a uma boa alimentação com o auxilio de um personal trainer.
