@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Matheus\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\INSFIT.csproj": {}
+    "C:\\Users\\vitor\\Documents\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\INSFIT.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Matheus\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\INSFIT.csproj": {
+    "C:\\Users\\vitor\\Documents\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\INSFIT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matheus\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\INSFIT.csproj",
+        "projectUniqueName": "C:\\Users\\vitor\\Documents\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\INSFIT.csproj",
         "projectName": "INSFIT",
-        "projectPath": "C:\\Users\\Matheus\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\INSFIT.csproj",
-        "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matheus\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\obj\\",
+        "projectPath": "C:\\Users\\vitor\\Documents\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\INSFIT.csproj",
+        "packagesPath": "C:\\Users\\vitor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vitor\\Documents\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vitor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -69,8 +69,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -82,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

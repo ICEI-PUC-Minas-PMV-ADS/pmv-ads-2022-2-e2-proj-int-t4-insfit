@@ -13,12 +13,14 @@ namespace INSFIT.Models
         public string name { get; set; }
 
         [Required(ErrorMessage = "Obrigatório inserir um nome")]
-        public int email { get; set; }
+        public string email { get; set; }
 
         [Required(ErrorMessage = "Obrigatório inserir uma senha")]
         [DataType(DataType.Password)]
-        public int senha { get; set; }
+        public string senha { get; set; }
 
+
+        public virtual List<Perfil> Perfil { get; set; }
         public TipoUsuario tipoUsuario { get; set; }
 
         /*Eu criando a relação com o perfil
