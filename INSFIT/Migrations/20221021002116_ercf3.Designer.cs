@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace INSFIT.Migrations
 {
     [DbContext(typeof(INSFITContext))]
-    [Migration("20221015225509_cadastroeperfil")]
-    partial class cadastroeperfil
+    [Migration("20221021002116_ercf3")]
+    partial class ercf3
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -26,14 +26,11 @@ namespace INSFIT.Migrations
 
             modelBuilder.Entity("INSFIT.Models.Cadastro", b =>
                 {
-                    b.Property<int>("id")
+                    b.Property<int>("id_cadastro")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"), 1L, 1);
-
-                    b.Property<int?>("IdUser")
-                        .HasColumnType("int");
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id_cadastro"), 1L, 1);
 
                     b.Property<int>("email")
                         .HasColumnType("int");
@@ -42,15 +39,13 @@ namespace INSFIT.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("perfilId")
-                        .HasColumnType("int");
-
                     b.Property<int>("senha")
                         .HasColumnType("int");
 
-                    b.HasKey("id");
+                    b.Property<int>("tipoUsuario")
+                        .HasColumnType("int");
 
-                    b.HasIndex("perfilId");
+                    b.HasKey("id_cadastro");
 
                     b.ToTable("Cadastro");
                 });
@@ -131,31 +126,6 @@ namespace INSFIT.Migrations
                     b.ToTable("Feed");
                 });
 
-            modelBuilder.Entity("INSFIT.Models.Mapa", b =>
-                {
-                    b.Property<int>("id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"), 1L, 1);
-
-                    b.Property<int?>("IdUser")
-                        .HasColumnType("int");
-
-                    b.Property<string>("localizacao")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("perfilId")
-                        .HasColumnType("int");
-
-                    b.HasKey("id");
-
-                    b.HasIndex("perfilId");
-
-                    b.ToTable("Mapa");
-                });
-
             modelBuilder.Entity("INSFIT.Models.Perfil", b =>
                 {
                     b.Property<int>("Id")
@@ -191,11 +161,11 @@ namespace INSFIT.Migrations
 
             modelBuilder.Entity("INSFIT.Models.Relatorio", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("Id_relatorio")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id_relatorio"), 1L, 1);
 
                     b.Property<int?>("IdUser")
                         .HasColumnType("int");
@@ -213,22 +183,11 @@ namespace INSFIT.Migrations
                     b.Property<double>("peso")
                         .HasColumnType("float");
 
-                    b.HasKey("Id");
+                    b.HasKey("Id_relatorio");
 
                     b.HasIndex("perfilId");
 
                     b.ToTable("relatorio");
-                });
-
-            modelBuilder.Entity("INSFIT.Models.Cadastro", b =>
-                {
-                    b.HasOne("INSFIT.Models.Perfil", "perfil")
-                        .WithMany()
-                        .HasForeignKey("perfilId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("perfil");
                 });
 
             modelBuilder.Entity("INSFIT.Models.Dieta", b =>
@@ -253,17 +212,6 @@ namespace INSFIT.Migrations
                     b.Navigation("perfil");
                 });
 
-            modelBuilder.Entity("INSFIT.Models.Mapa", b =>
-                {
-                    b.HasOne("INSFIT.Models.Perfil", "perfil")
-                        .WithMany("Mapa")
-                        .HasForeignKey("perfilId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("perfil");
-                });
-
             modelBuilder.Entity("INSFIT.Models.Relatorio", b =>
                 {
                     b.HasOne("INSFIT.Models.Perfil", "perfil")
@@ -280,8 +228,6 @@ namespace INSFIT.Migrations
                     b.Navigation("Dieta");
 
                     b.Navigation("Feed");
-
-                    b.Navigation("Mapa");
 
                     b.Navigation("Relatorio");
                 });

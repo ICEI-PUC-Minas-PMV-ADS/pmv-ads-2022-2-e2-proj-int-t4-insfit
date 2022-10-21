@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace INSFIT.Migrations
 {
     [DbContext(typeof(INSFITContext))]
-    [Migration("20221018225346_AjusteTabelaCadastro")]
-    partial class AjusteTabelaCadastro
+    [Migration("20221021003509_teste100001")]
+    partial class teste100001
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -32,15 +32,17 @@ namespace INSFIT.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id_cadastro"), 1L, 1);
 
-                    b.Property<int>("email")
-                        .HasColumnType("int");
+                    b.Property<string>("email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("senha")
-                        .HasColumnType("int");
+                    b.Property<string>("senha")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("tipoUsuario")
                         .HasColumnType("int");
@@ -126,31 +128,6 @@ namespace INSFIT.Migrations
                     b.ToTable("Feed");
                 });
 
-            modelBuilder.Entity("INSFIT.Models.Mapa", b =>
-                {
-                    b.Property<int>("id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"), 1L, 1);
-
-                    b.Property<int?>("IdUser")
-                        .HasColumnType("int");
-
-                    b.Property<string>("localizacao")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("perfilId")
-                        .HasColumnType("int");
-
-                    b.HasKey("id");
-
-                    b.HasIndex("perfilId");
-
-                    b.ToTable("Mapa");
-                });
-
             modelBuilder.Entity("INSFIT.Models.Perfil", b =>
                 {
                     b.Property<int>("Id")
@@ -161,6 +138,9 @@ namespace INSFIT.Migrations
 
                     b.Property<double>("Altura")
                         .HasColumnType("float");
+
+                    b.Property<int?>("Cadastro")
+                        .HasColumnType("int");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -179,7 +159,12 @@ namespace INSFIT.Migrations
                     b.Property<int>("Usuario")
                         .HasColumnType("int");
 
+                    b.Property<int>("cadastroid_cadastro")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("cadastroid_cadastro");
 
                     b.ToTable("Usuarios");
                 });
@@ -237,15 +222,15 @@ namespace INSFIT.Migrations
                     b.Navigation("perfil");
                 });
 
-            modelBuilder.Entity("INSFIT.Models.Mapa", b =>
+            modelBuilder.Entity("INSFIT.Models.Perfil", b =>
                 {
-                    b.HasOne("INSFIT.Models.Perfil", "perfil")
-                        .WithMany("Mapa")
-                        .HasForeignKey("perfilId")
+                    b.HasOne("INSFIT.Models.Cadastro", "cadastro")
+                        .WithMany("Perfil")
+                        .HasForeignKey("cadastroid_cadastro")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("perfil");
+                    b.Navigation("cadastro");
                 });
 
             modelBuilder.Entity("INSFIT.Models.Relatorio", b =>
@@ -259,13 +244,16 @@ namespace INSFIT.Migrations
                     b.Navigation("perfil");
                 });
 
+            modelBuilder.Entity("INSFIT.Models.Cadastro", b =>
+                {
+                    b.Navigation("Perfil");
+                });
+
             modelBuilder.Entity("INSFIT.Models.Perfil", b =>
                 {
                     b.Navigation("Dieta");
 
                     b.Navigation("Feed");
-
-                    b.Navigation("Mapa");
 
                     b.Navigation("Relatorio");
                 });

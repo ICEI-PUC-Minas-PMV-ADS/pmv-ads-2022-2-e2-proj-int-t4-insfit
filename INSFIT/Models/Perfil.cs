@@ -24,7 +24,9 @@ namespace INSFIT.Models
         public virtual List<Feed> Feed { get; set; }
         public virtual List<Dieta> Dieta { get; set; }
         public virtual List<Relatorio> Relatorio { get; set; }
-        public virtual List<Mapa> Mapa { get; set; }
+        // public virtual List<Mapa> Mapa { get; set; }
+        public int? Cadastro { get; set; }
+        public Cadastro cadastro { get; set; }
         public enum TipoUsuario
         {
             Aluno,
