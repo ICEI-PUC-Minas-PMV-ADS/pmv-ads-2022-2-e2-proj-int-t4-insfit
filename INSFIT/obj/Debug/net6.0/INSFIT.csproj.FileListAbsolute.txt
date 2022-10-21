@@ -1067,3 +1067,4 @@ C:\Users\Matheus\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-
 C:\Users\Matheus\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\FSharp.Core.dll
 C:\Users\Matheus\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\BCrypt.Net-Next.dll
 C:\Users\vitor\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Users\mathe\OneDrive\Documentos\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\BCrypt.Net-Next.dll
