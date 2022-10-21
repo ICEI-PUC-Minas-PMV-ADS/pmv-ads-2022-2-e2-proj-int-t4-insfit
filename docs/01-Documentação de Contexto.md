@@ -5,7 +5,8 @@ A Web é a nova tendência mundial que afeta o modo de como as pessoas se relaci
 Com a integração das Tecnologias na sociedade o crescimento de ferramentas web possibilitaram o fácil acesso a diversas informações, com o uso smartphones, tablets e computadores. 
  
 ## Problema
-O problema abordado nesse projeto e falta de atividades físicas a qual o nosso sistema irá auxiliar na evolução e pratica de exercicios fisícos.
+
+O problema abordado nesse projeto é conscientizar as pessoas sobre a falta de atividade física para a saúde e ressaltar a importância e benefícios que a prática de exercícios traz, além de incentivá-las a serem mais ativas.
 
 Segundo o coordenador de projetos da BeeCorp o autor Douglas Araújo afirma que, “devemos realizar praticar exercícios físicos para uma qualidade de vida é saúde melhor, pois a prática desses exercícios nós trás diversos benefícios tais como, redução de doenças crônicas, Melhora do sono e da disposição, aumento da autoconfiança, diminuição do estresse e aumento da produtividade”.
 
@@ -25,4 +26,4 @@ Praticar atividades físicas diariamente é um dos hábitos que compõem um esti
 
 ## Público-Alvo
 
-O público-alvo do software INSFIT tem como objetivo atender pessoas que não tem tempo suficiente de ir até uma academia, auxiliar também em uma boa alimentação com o auxilio de um personal trainer.
+O público-alvo do software INSFIT tem como objetivo atender pessoas que não tem tempo suficiente para comparecer a uma academia presencial, tendo a apoiar a uma boa alimentação com o auxilio de um personal trainer.
