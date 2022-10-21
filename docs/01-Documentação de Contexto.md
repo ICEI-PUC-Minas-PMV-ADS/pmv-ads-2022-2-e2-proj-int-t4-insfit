@@ -26,4 +26,4 @@ A praticar de atividades físicas diariamente é um dos hábitos que compõem um
 
 ## Público-Alvo
 
-O público-alvo da plataforma INSFIT e ajudar em um novo estilo de vida, atender pessoas que não tem tempo suciente de comparecer a uma academia, disponibiliar possiilidades da pratica de uma boa alimentação e atender ao grupo de idosos.
+O público-alvo da plataforma INSFIT tem a ajudar em um novo estilo de vida, atender pessoas que não tem tempo suciente de ir a uma academia, disponibilizar as possibilidades da prática de uma boa alimentação e atender ao grupo de idosos.
