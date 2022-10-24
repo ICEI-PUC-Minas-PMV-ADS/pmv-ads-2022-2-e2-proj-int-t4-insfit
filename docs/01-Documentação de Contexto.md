@@ -1,29 +1,42 @@
 # Introdução
 
-A Web é a nova tendência mundial que afeta o modo de como as pessoas se relacionam com a internet, podendo gerar impacto positivo ou negativo na sociedade moderna.
+Os Softwares Webs é a nova tendência mundial que afeta o modo de como as pessoas se relacionam com a internet, podendo gerar impacto positivo ou negativo na sociedade moderna.
 
 Com a integração das Tecnologias na sociedade o crescimento de ferramentas web possibilitaram o fácil acesso a diversas informações, com o uso smartphones, tablets e computadores. 
  
 ## Problema
 
-O problema abordado nesse projeto é conscientizar as pessoas sobre a falta de atividade física para a saúde e ressaltar a importância e benefícios que a prática de exercícios traz, além de incentivá-las a serem mais ativas.
+O problema abordado nesse projeto é a falta de prática de atividades físicas, como pessoas endomorfo (que tem dificuldade em perder gordura e ganha peso fácil), pessoas da 3º idade e pessoas que não querem sair da zona de conforto. 
 
 Segundo o coordenador de projetos da BeeCorp o autor Douglas Araújo afirma que, “devemos realizar praticar exercícios físicos para uma qualidade de vida é saúde melhor, pois a prática desses exercícios nós trás diversos benefícios tais como, redução de doenças crônicas, Melhora do sono e da disposição, aumento da autoconfiança, diminuição do estresse e aumento da produtividade”.
 
 ## Objetivos
 
-Temos como objetivo a criação de uma plataforma que possa incentive e apoie as pessoas a adquirir hábitos mais saudáveis. Como objetivos específicos podemos citar:
+O insfit tem por objetivo proporcionar aos usuários um software que possa adquirir hábitos mais saudáveis com a prática de exercícios fisicos de casa sem a necessidade de acessórios e equipamentos, desde que realizados de forma e na intensidade correta. Como objetivos específicos podemos citar:
 
-> - Um espaço onde as pessoas podem compartilhar suas rotinas de treinos; 
-> - Um espaço onde as pessoas podem interagir entre si e demais usuários do software; 
-> - Gerar dietas saudáveis apropriadadas para o usuário. 
+> - Uma software que possa registar os seus treinos de forma fácil e intuitiva.
+> - Exercícios já registados, mas pode adicionar outros.
+> - Pode criar rotinas personalizadas e ver o seu progresso nos exercícios ao longo do tempo.
+> - O software também lhe permite registar o seu peso e medições corporais. 
+> - O usuário consegue acesso à comunidade de pessoas que utilizam o insfit e aos planos de treino criados por elas. Pode partilhar o seu progresso e seguir outros utilizadores.
+> - O software web também permite acrescentar refeições saudáveis. O aplicativo envia notificações ao usuário e sugere alternativas saudáveis para as refeições diárias.
+> - Poderá usufruir de orientações de alta qualidade de um personal trainer ou treinador pessoal.
 
 ## Justificativa
 
 Segundo Daniel Navas do portal VIVA BEM UOU, “na academia você encontra pessoas com diferentes objetivos. Muitos estão lá para emagrecer, outros querem ganhar músculos e há também aqueles que já estão satisfeitos com o corpo e buscam simplesmente manter a saúde”. 
 
-A praticar de atividades físicas diariamente é um dos hábitos que compõem um estilo de vida bem saudável. Para isso, desenvolvemos o software INSFIT que permite o usuário com orientação de um instrutor treinar de casa, acesso as dicas de dietas, entre outros. Sendo assim atravéz do compartilhamento de interesses e objetivos, o usuário poderá usufluir de varias funções que a plataforma poderá proporcionar.
+A praticar de atividades físicas diariamente é um dos hábitos que compõem um estilo de vida muito saudável. Para isso, desenvolvemos o software web INSFIT que permite as usuários com orientação de um profional especializado na área para que possa realizar os exercícios de casa, acesso a sugestões da praticas de aliemntações saudáveis, entre outros. Sendo assim atravéz do compartilhamento de interesses e objetivos, o usuário poderá usufluir de varias funções que a plataforma web.
 
 ## Público-Alvo
 
-O público-alvo da plataforma INSFIT tem a ajudar em um novo estilo de vida, atender pessoas que não tem tempo suciente de ir a uma academia, disponibilizar as possibilidades da prática de uma boa alimentação e atender ao grupo de idosos.
+Diversos tipos de pessoas acessam as academias todos os dias, assim o público-alvo da plataforma remota INSFIT poderá atender varias faixas etárias com diversos objetivos, por exemplo: 
+
+> - Condicionamento físico em geral;
+> - Terapêutico, preparação física, e alto rendimento;
+> - Produtividade nos afazeres durante o dia;
+> - Prevenção de várias doenças, cardiorrespiratórias, complicações ósseas e nas articulações, diabetes, pressão alta e obesidade;
+> - Ajuda a deixar vícios nocivos, como o tabagismo e o alcoolismo;
+> - Autoestima e a confiança em si mesmo;
+> - Entre outros.
+ 
