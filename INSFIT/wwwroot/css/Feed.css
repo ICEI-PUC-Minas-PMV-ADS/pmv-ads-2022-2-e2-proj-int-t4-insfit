@@ -3,36 +3,52 @@
     background: #ebeef0;
 }
 
-#divBusca {
-    background-color: #E0EEEE;
-    border: solid 2px #5F9EA0;
-    border-radius: 10px;
-    width: 300px;
-    height: 32px;
+.search-container {
+    width: 490px;
+    display: block;
+    margin: 0 auto;
 }
 
-#txtBusca {
-    float: left;
-    background-color: transparent;
-    padding-left: 5px;
-    font-size: 18px;
-    border: none;
-    height: 32px;
-    width: 191px;
+input#search-bar {
+    margin: 0 auto;
+    width: 100%;
+    height: 45px;
+    padding: 0 20px;
+    font-size: 1rem;
+    border: 1px solid #D0CFCE;
+    outline: none;
+    &:focus
+
+{
+    border: 1px solid #000000;
+    transition: 0.35s ease;
+    color: #000000;
+    &::-webkit-input-placeholder
+
+{
+    transition: opacity 0.45s ease;
+    opacity: 0;
 }
 
-#btnBusca {
-    border: none;
-    float: left;
-    height: 32px;
-    border-radius: 0 7px 7px 0;
-    width: 70px;
-    font-weight: bold;
-    background: #5F9EA0;
+&::-moz-placeholder {
+    transition: opacity 0.45s ease;
+    opacity: 0;
 }
 
-#divBusca img {
-    float: left;
+&:-ms-placeholder {
+    transition: opacity 0.45s ease;
+    opacity: 0;
+}
+
+}
+}
+.search-icon {
+    position: relative;
+    left: 480px;
+    width: 75px;
+    height: 75px;
+    top: -62px;
+    right: -45px;
 }
 
 .img-sm {

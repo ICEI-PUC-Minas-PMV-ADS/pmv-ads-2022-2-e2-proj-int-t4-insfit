@@ -13,7 +13,19 @@
     <thead>
         <tr>
             <th>
+                @Html.DisplayNameFor(model => model.CampoTexto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CampoImgem)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CampodePesquisa)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.DataPublicacao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Comentario)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.IdUser)
@@ -57,21 +69,14 @@
 <link rel="stylesheet" href="~/css/Feed.css">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 <!--Caixa de pesquisa-->
-<th>
-    @Html.DisplayNameFor(model => model.CampodePesquisa)
-</th>
-<div id="divBusca">
-  <img src="search3.png" alt="Buscar..."/>
-  <input type="text" id="txtBusca" placeholder="Buscar..."/>
-  <button id="btnBusca">Buscar</button>
-</div>
+
+<form class="search-container">
+    <input type="text" id="search-bar" placeholder="Busca">
+    <a href="#"><img class="search-icon" src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"></a>
+</form>
+
 <div class="container bootdey">
-    <th>
-        @Html.DisplayNameFor(model => model.CampoTexto)
-    </th>
-    <th>
-        @Html.DisplayNameFor(model => model.CampoImgem)
-    </th>
+
     <div class="col-md-12 bootstrap snippets">
         <div class="panel">
             <div class="panel-body">
@@ -106,9 +111,7 @@
                         <hr>
 
                         <!-- Comments -->
-            <th>
-                @Html.DisplayNameFor(model => model.Comentario)
-            </th>
+
                         <div>
                             <div class="media-block">
                                 <a class="media-left" href="#"><img class="img-circle img-sm" alt="Profile Picture" src="https://bootdey.com/img/Content/avatar/avatar2.png"></a>
