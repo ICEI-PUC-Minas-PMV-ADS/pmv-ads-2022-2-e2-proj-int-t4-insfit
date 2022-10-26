@@ -43,26 +43,26 @@ namespace INSFIT.Controllers
             if (isSenhaOk)
             {
                 //Criando as credenciais 
-                var claims = new List<Claim>
-                {
-                    new Claim(ClaimTypes.Name, cadastro.name),
-                    new Claim(ClaimTypes.NameIdentifier, cadastro.name),
-                    new Claim(ClaimTypes.Role, user.Perfil.ToString())
-                };
+                /* List<Claim> claims = new List<Claim>
+                 {
+                     new Claim(ClaimTypes.Name, user.name),
+                     new Claim(ClaimTypes.NameIdentifier, user.name),
+                     new Claim(ClaimTypes.Role, user.Perfil.ToString())
+                 };
 
-                var userIdentity = new ClaimsIdentity(claims, "login");
+                 var userIdentity = new ClaimsIdentity(claims, "login");
 
-                ClaimsPrincipal principal = new ClaimsPrincipal(userIdentity);
+                 ClaimsPrincipal principal = new ClaimsPrincipal(userIdentity);
 
-                //Tempo de expiração da sessão
-                var props = new AuthenticationProperties
-                {
-                    AllowRefresh = true,
-                    ExpiresUtc = DateTime.Now.ToLocalTime().AddDays(1),
-                    IsPersistent = true
-                };
+                 //Tempo de expiração da sessão
+                 var props = new AuthenticationProperties
+                 {
+                     AllowRefresh = true,
+                     ExpiresUtc = DateTime.Now.ToLocalTime().AddDays(1),
+                     IsPersistent = true
+                 };
 
-                await HttpContext.SignInAsync(principal, props);
+                 await HttpContext.SignInAsync(principal, props);*/
 
                 //Redirecionando para Home autenticado
                 return Redirect("/");
@@ -113,6 +113,7 @@ namespace INSFIT.Controllers
         {
             if (!ModelState.IsValid)
             {
+                cadastro.senha = BCrypt.Net.BCrypt.HashPassword(cadastro.senha);
                 _context.Add(cadastro);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -152,6 +153,7 @@ namespace INSFIT.Controllers
             {
                 try
                 {
+                    cadastro.senha = BCrypt.Net.BCrypt.HashPassword(cadastro.senha);
                     _context.Update(cadastro);
                     await _context.SaveChangesAsync();
                 }

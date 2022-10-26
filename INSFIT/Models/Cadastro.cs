@@ -12,7 +12,7 @@ namespace INSFIT.Models
         [Required(ErrorMessage = "Obrigatório inserir um nome")]
         public string name { get; set; }
 
-        [Required(ErrorMessage = "Obrigatório inserir um nome")]
+        [Required(ErrorMessage = "Obrigatório inserir um e-mail")]
         public string email { get; set; }
 
         [Required(ErrorMessage = "Obrigatório inserir uma senha")]
