@@ -19,6 +19,13 @@ namespace INSFIT.Controllers
             _context = context;
         }
 
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+
+
         // GET: Cadastro
         public async Task<IActionResult> Index()
         {
