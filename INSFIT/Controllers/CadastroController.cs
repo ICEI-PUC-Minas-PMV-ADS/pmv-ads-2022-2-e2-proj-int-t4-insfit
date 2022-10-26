@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using INSFIT.Data;
 using INSFIT.Models;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication;
 
 namespace INSFIT.Controllers
 {
@@ -40,7 +42,19 @@ namespace INSFIT.Controllers
 
             if (isSenhaOk)
             {
+                var claims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.Name, cadastro.name),
+                    new Claim(ClaimTypes.NameIdentifier, cadastro.name),
+                    new Claim(ClaimTypes.Role, user.Perfil.ToString())
+                };
 
+                var userIdentity = new ClaimsIdentity(claims, "login");
+
+                var props = new AuthenticationProperties
+                {
+
+                }
 
                 ViewBag.Message = "Bem vindo";
             }
