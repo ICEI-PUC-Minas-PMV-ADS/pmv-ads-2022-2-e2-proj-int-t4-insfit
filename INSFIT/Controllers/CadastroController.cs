@@ -56,7 +56,7 @@ namespace INSFIT.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("id_cadastro,name,email,senha,tipoUsuario")] Cadastro cadastro)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 _context.Add(cadastro);
                 await _context.SaveChangesAsync();

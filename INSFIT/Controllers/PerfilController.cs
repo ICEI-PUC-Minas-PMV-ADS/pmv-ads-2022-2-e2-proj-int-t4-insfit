@@ -73,7 +73,7 @@ namespace INSFIT.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name,Email,Altura,Peso,Usuario")] Perfil perfil)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 _context.Add(perfil);
                 await _context.SaveChangesAsync();

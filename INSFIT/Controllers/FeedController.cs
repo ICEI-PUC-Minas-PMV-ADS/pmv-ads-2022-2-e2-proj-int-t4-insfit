@@ -56,7 +56,7 @@ namespace INSFIT.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id_Feed,CampoTexto,CampoImgem,CampodePesquisa,DataPublicacao,Comentario,IdUser")] Feed feed)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 _context.Add(feed);
                 await _context.SaveChangesAsync();

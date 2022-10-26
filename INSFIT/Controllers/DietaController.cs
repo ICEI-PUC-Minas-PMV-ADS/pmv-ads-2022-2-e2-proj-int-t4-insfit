@@ -56,7 +56,7 @@ namespace INSFIT.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id_Dieta,Date,CampoImgem,CampodePesquisa,DataPublicacao,IdUser")] Dieta dieta)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 _context.Add(dieta);
                 await _context.SaveChangesAsync();
