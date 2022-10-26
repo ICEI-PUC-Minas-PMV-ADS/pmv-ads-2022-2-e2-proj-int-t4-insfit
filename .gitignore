@@ -42,3 +42,6 @@ INSFIT/obj/INSFIT.csproj.nuget.g.props
 INSFIT/obj/project.assets.json
 INSFIT/obj/project.nuget.cache
 INSFIT/obj/staticwebassets.pack.sentinel
+INSFIT/obj/Debug/net6.0/INSFIT.assets.cache
+INSFIT/obj/Debug/net6.0/INSFIT.GeneratedMSBuildEditorConfig.editorconfig
+INSFIT/obj/Debug/net6.0/project.razor.vs.json
