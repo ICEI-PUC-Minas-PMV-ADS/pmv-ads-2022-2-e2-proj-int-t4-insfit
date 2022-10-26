@@ -42,6 +42,7 @@ namespace INSFIT.Controllers
 
             if (isSenhaOk)
             {
+                //Criando as credenciais 
                 var claims = new List<Claim>
                 {
                     new Claim(ClaimTypes.Name, cadastro.name),
@@ -51,10 +52,20 @@ namespace INSFIT.Controllers
 
                 var userIdentity = new ClaimsIdentity(claims, "login");
 
+                ClaimsPrincipal principal = new ClaimsPrincipal(userIdentity);
+
+                //Tempo de expiração da sessão
                 var props = new AuthenticationProperties
                 {
+                    AllowRefresh = true,
+                    ExpiresUtc = DateTime.Now.ToLocalTime().AddDays(1),
+                    IsPersistent = true
+                };
 
-                }
+                await HttpContext.SignInAsync(principal, props);
+
+                //Redirecionando para Home autenticado
+                return Redirect("/");
 
                 ViewBag.Message = "Bem vindo";
             }
