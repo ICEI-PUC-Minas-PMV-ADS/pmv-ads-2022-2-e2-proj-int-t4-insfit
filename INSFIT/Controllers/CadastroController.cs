@@ -24,6 +24,29 @@ namespace INSFIT.Controllers
             return View();
         }
 
+        //Validando e-mail e senha no banco
+        [HttpPost]
+        public async Task<IActionResult> Login([Bind("email,senha")]Cadastro cadastro)
+        {
+            var user = await _context.Cadastro
+                .FirstOrDefaultAsync(m => m.email == cadastro.email);
+
+            if (user == null) {
+                ViewBag.Message = "E-mail e/ou Senha inválidos!";
+                return View();
+            }
+
+            bool isSenhaOk = BCrypt.Net.BCrypt.Verify(cadastro.senha, user.senha);
+
+            if (isSenhaOk)
+            {
+
+
+                ViewBag.Message = "Bem vindo";
+            }
+
+            return View();
+        }
 
 
         // GET: Cadastro
