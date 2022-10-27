@@ -26,13 +26,13 @@ namespace INSFIT.Data
         public DbSet<INSFIT.Models.Dieta> Dieta { get; set; }
 
        /*Criando metodo para adicionar as relações da tabela*/
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.ApplyConfiguration(new MapPerfilFeed());
-            modelBuilder.ApplyConfiguration(new MapPerfilCadastro());
-            modelBuilder.ApplyConfiguration(new MapPerfilDieta());
-            modelBuilder.ApplyConfiguration(new MapPerfilRelatorio());
-            base.OnModelCreating(modelBuilder);
-        }
+     //   protected override void OnModelCreating(ModelBuilder modelBuilder)
+       // {
+         //   modelBuilder.ApplyConfiguration(new MapPerfilFeed());
+           // modelBuilder.ApplyConfiguration(new MapPerfilCadastro());
+            //modelBuilder.ApplyConfiguration(new MapPerfilDieta());
+            //modelBuilder.ApplyConfiguration(new MapPerfilRelatorio());
+           // base.OnModelCreating(modelBuilder);
+        //}
     }
 }

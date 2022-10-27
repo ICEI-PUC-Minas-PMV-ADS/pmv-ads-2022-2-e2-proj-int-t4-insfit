@@ -11,7 +11,7 @@ namespace INSFIT.Data.Map
             /*Indicando qual e a chave principal*/
             builder.HasKey(x => x.Id_relatorio);
             /*Com o HasOne falo que o perfil tem uma ligação com o feed*/
-            builder.HasOne(x => x.perfil);
+           // builder.HasOne(x => x.perfil);
         }
     }
 }

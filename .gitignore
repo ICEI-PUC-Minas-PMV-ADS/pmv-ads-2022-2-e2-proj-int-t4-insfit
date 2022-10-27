@@ -45,3 +45,6 @@ INSFIT/obj/staticwebassets.pack.sentinel
 INSFIT/obj/Debug/net6.0/INSFIT.assets.cache
 INSFIT/obj/Debug/net6.0/INSFIT.GeneratedMSBuildEditorConfig.editorconfig
 INSFIT/obj/Debug/net6.0/project.razor.vs.json
+INSFIT/bin/Debug/net6.0/INSFIT.exe
+INSFIT/bin/Debug/net6.0/INSFIT.dll
+INSFIT/bin/Debug/net6.0/INSFIT.pdb

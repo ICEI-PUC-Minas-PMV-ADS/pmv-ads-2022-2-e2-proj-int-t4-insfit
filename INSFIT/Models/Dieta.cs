@@ -16,8 +16,8 @@ namespace INSFIT.Models
         public string CampodePesquisa { get; set; }
         public DateTime DataPublicacao { get; set; }
         /*Eu criando a relação com o perfil*/
-        public int? IdUser { get; set; }
-        public Perfil perfil { get; set; }
+     //   public int? IdUser { get; set; }
+     //   public Perfil perfil { get; set; }
 
 
     }
