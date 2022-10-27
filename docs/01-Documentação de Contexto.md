@@ -6,27 +6,26 @@ Com a integração das Tecnologias na sociedade o crescimento de ferramentas web
  
 ## Problema
 
-O problema abordado nesse projeto é a falta de prática de atividades físicas, como pessoas endomorfo (que tem dificuldade em perder gordura e ganha peso fácil), pessoas da 3º idade e pessoas que não querem sair da zona de conforto. 
+O problema abordado nesse projeto é a falta de prática de atividades físicas, por exemplo pessoas endomorfo (que tem dificuldade em perder gordura e ganha peso fácil), pessoas da 3º idade e pessoas que não querem sair da zona de conforto. 
 
 Segundo o coordenador de projetos da BeeCorp o autor Douglas Araújo afirma que, “devemos realizar praticar exercícios físicos para uma qualidade de vida é saúde melhor, pois a prática desses exercícios nós trás diversos benefícios tais como, redução de doenças crônicas, Melhora do sono e da disposição, aumento da autoconfiança, diminuição do estresse e aumento da produtividade”.
 
 ## Objetivos
 
-O insfit tem por objetivo proporcionar aos usuários um software que possa adquirir hábitos mais saudáveis com a prática de exercícios fisicos de casa sem a necessidade de acessórios e equipamentos, desde que realizados de forma e na intensidade correta. Como objetivos específicos podemos citar:
+O insfit tem por objetivo auxiliar a adquirir hábitos mais saudáveis com a prática de exercícios fisicos de casa sem a necessidade de acessórios e equipamentos, desde que realizados de forma correta. Como objetivos específicos podemos citar:
 
-> - Uma software que possa registar os seus treinos de forma fácil e intuitiva.
-> - Exercícios já registados, mas pode adicionar outros.
-> - Pode criar rotinas personalizadas e ver o seu progresso nos exercícios ao longo do tempo.
-> - O software também lhe permite registar o seu peso e medições corporais. 
-> - O usuário consegue acesso à comunidade de pessoas que utilizam o insfit e aos planos de treino criados por elas. Pode partilhar o seu progresso e seguir outros utilizadores.
-> - O software web também permite acrescentar refeições saudáveis. O aplicativo envia notificações ao usuário e sugere alternativas saudáveis para as refeições diárias.
-> - Poderá usufruir de orientações de alta qualidade de um personal trainer ou treinador pessoal.
+> - Registar os seus treinos de forma fácil e intuitiva.
+> - Criar rotinas personalizadas e ver o seu progresso nos exercícios ao longo do tempo.
+> - Registar o seu peso e medições corporais. 
+> - Acessar à comunidade de pessoas que utilizam o insfit e aos planos de treino criados por elas. Pode partilhar o seu progresso e seguir outros utilizadores.
+> - Acrescentar refeições saudáveis. O aplicativo envia notificações ao usuário e sugere alternativas saudáveis para as refeições diárias.
+> - Usufruir de orientações de alta qualidade de um personal trainer ou treinador pessoal.
 
 ## Justificativa
 
 Segundo Daniel Navas do portal VIVA BEM UOU, “na academia você encontra pessoas com diferentes objetivos. Muitos estão lá para emagrecer, outros querem ganhar músculos e há também aqueles que já estão satisfeitos com o corpo e buscam simplesmente manter a saúde”. 
 
-A praticar de atividades físicas diariamente é um dos hábitos que compõem um estilo de vida muito saudável. Para isso, desenvolvemos o software web INSFIT que permite as usuários com orientação de um profional especializado na área para que possa realizar os exercícios de casa, acesso a sugestões da praticas de aliemntações saudáveis, entre outros. Sendo assim atravéz do compartilhamento de interesses e objetivos, o usuário poderá usufluir de varias funções que a plataforma web.
+A praticar de atividades físicas diariamente é um dos hábitos que compõem um estilo de vida muito saudável. Para isso, desenvolvemos o software web INSFIT que permite as usuários com orientação de um profional especializado na área para a realização de exercícios de casa, acessar sugestões práticas de aliementações saudáveis, entre outros. Sendo assim atravéz do compartilhamento de interesses e objetivos, o usuário poderá usufluir de varias funções que a plataforma web.
 
 ## Público-Alvo
 
