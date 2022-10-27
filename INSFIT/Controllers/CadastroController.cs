@@ -65,7 +65,7 @@ namespace INSFIT.Controllers
                  await HttpContext.SignInAsync(principal, props);*/
 
                 //Redirecionando para Home autenticado
-                return Redirect("/");
+                return Redirect("/Feed");
 
                 ViewBag.Message = "Bem vindo";
             }
