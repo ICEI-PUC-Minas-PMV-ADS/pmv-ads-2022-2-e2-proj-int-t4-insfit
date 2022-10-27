@@ -17,7 +17,7 @@ namespace INSFIT.Models
         public double altura { get; set; }
 
         /*Eu criando a relação com o perfil*/
-        public int? IdUser { get; set; }
-        public Perfil perfil { get; set; }
+      //  public int? IdUser { get; set; }
+      //  public Perfil perfil { get; set; }
     }
 }

@@ -20,7 +20,7 @@ namespace INSFIT.Models
         public string senha { get; set; }
 
 
-        public virtual List<Perfil> Perfil { get; set; }
+     //   public virtual List<Perfil> Perfil { get; set; }
         public TipoUsuario tipoUsuario { get; set; }
 
         /*Eu criando a relação com o perfil

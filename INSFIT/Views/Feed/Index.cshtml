@@ -27,9 +27,6 @@
             <th>
                 @Html.DisplayNameFor(model => model.Comentario)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IdUser)
-            </th>
             <th></th>
         </tr>
     </thead>
@@ -50,9 +47,6 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Comentario)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdUser)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id_Feed">Edit</a> |
