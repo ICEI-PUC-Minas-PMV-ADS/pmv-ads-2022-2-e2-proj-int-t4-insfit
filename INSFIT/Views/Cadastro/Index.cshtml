@@ -5,7 +5,11 @@
 }
 
 <h1>Index</h1>
+<head>
+    <link rel="stylesheet" href="~/css/Cadastro.css">
+    
 
+</head>
 <p>
     <a asp-action="Create">Create New</a>
 </p>
@@ -18,9 +22,17 @@
             <th>
                 @Html.DisplayNameFor(model => model.email)
             </th>
+
+            <!-- Password input -->
+            <div class="form-outline mb-4">
+                <input type="password" id="form3Example4" class="form-control" />
+                <label class="form-label" for="form3Example4">Password</label>
             <th>
-                @Html.DisplayNameFor(model => model.senha)
+                    @Html.DisplayNameFor(model => model.senha)
             </th>
+            </div>
+
+           
             <th>
                 @Html.DisplayNameFor(model => model.tipoUsuario)
             </th>
