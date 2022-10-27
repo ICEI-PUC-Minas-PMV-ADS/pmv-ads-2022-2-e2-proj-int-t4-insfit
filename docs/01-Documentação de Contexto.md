@@ -14,18 +14,16 @@ Segundo o coordenador de projetos da BeeCorp o autor Douglas Araújo afirma que,
 
 O insfit tem por objetivo auxiliar a adquirir hábitos mais saudáveis com a prática de exercícios fisicos de casa sem a necessidade de acessórios e equipamentos, desde que realizados de forma correta. Como objetivos específicos podemos citar:
 
-> - Registar os seus treinos de forma fácil e intuitiva.
-> - Criar rotinas personalizadas e ver o seu progresso nos exercícios ao longo do tempo.
 > - Registar o seu peso e medições corporais. 
-> - Acessar à comunidade de pessoas que utilizam o insfit e aos planos de treino criados por elas. Pode partilhar o seu progresso e seguir outros utilizadores.
-> - Acrescentar refeições saudáveis. O aplicativo envia notificações ao usuário e sugere alternativas saudáveis para as refeições diárias.
+> - Acessar à comunidade de pessoas que utilizam o insfit e aos planos de treino criados por elas, partilhar o seu progresso e seguir outros utilizadores.
+> - Acrescentar refeições saudáveis, envio de notificações e sugestões para as refeições diárias.
 > - Usufruir de orientações de alta qualidade de um personal trainer ou treinador pessoal.
 
 ## Justificativa
 
 Segundo Daniel Navas do portal VIVA BEM UOU, “na academia você encontra pessoas com diferentes objetivos. Muitos estão lá para emagrecer, outros querem ganhar músculos e há também aqueles que já estão satisfeitos com o corpo e buscam simplesmente manter a saúde”. 
 
-A praticar de atividades físicas diariamente é um dos hábitos que compõem um estilo de vida muito saudável. Para isso, desenvolvemos o software web INSFIT que permite as usuários com orientação de um profional especializado na área para a realização de exercícios de casa, acessar sugestões práticas de aliementações saudáveis, entre outros. Sendo assim atravéz do compartilhamento de interesses e objetivos, o usuário poderá usufluir de varias funções que a plataforma web.
+A praticar de atividades físicas diariamente é um dos hábitos que compõem um estilo de vida muito saudável. Para isso, desenvolvemos o software web INSFIT que permite os usuários com orientação de um profional especializado para a realização de exercícios de casa, acesso a sugestões práticas de aliementações saudáveis, entre outros. Sendo assim atravéz do compartilhamento de interesses e objetivos, o usuário poderá usufluir de varias funções que a plataforma web.
 
 ## Público-Alvo
 
