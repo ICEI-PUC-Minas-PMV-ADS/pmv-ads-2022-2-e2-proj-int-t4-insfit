@@ -1,11 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Models",
     "\\Views",
     "\\Views\\Feed",
     "\\wwwroot",
     "\\wwwroot\\css"
   ],
-  "SelectedNode": "\\wwwroot\\css\\Feed.css",
+  "SelectedNode": "\\Models\\Cadastro.cs",
   "PreviewInSolutionExplorer": false
 }
