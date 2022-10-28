@@ -3,7 +3,7 @@
 Os testes de usabilidade permitem avaliar a qualidade da interface com o usuário da aplicação interativa.
 
 
-### Teste de Usabildiade 01:
+### Teste de Usabilidade 01:
 
 Realize o cadastro de um novo usuário preenchendo todas as informações obrigatórias e clique em cadastrar ao finalizar.
 
@@ -12,7 +12,7 @@ Realize o cadastro de um novo usuário preenchendo todas as informações obriga
 * Dificuldade no preenchimento das informações;
 * Erros de software.
 
-### Teste de Usabildiade 02:
+### Teste de Usabilidade 02:
 
 Ao acessar o sistema, preenchar as informações complementares e clicar em gravar.
 
@@ -23,22 +23,22 @@ Ao acessar o sistema, preenchar as informações complementares e clicar em grav
 * Satisfação nas informações fornecidas;
 * Erros de software.
 
-### Teste de Usabildiade 03:
+### Teste de Usabilidade 03:
 
 Na tela de perfil, acesse o feed de informações e realize uma postagem do seu interesse.
 
-#### Objetivos que desejamos captar :
+#### Objetivos que desejamos captar:
 
 * Dificuldade no acesso ao feed;
 * Dificuldade no envio da sua postagem;
 * Satisfação do layout do feed;
 * Erros de software.
 
-### Teste de Usabildiade 04:
+### Teste de Usabilidade 04:
 
 Acessar a tela de Dieta e pesquisar por dietas. Caso não tenha nenhuma dieta cadastrada, realizar o cadastro da mesma.
 
-#### Objetivos que desejamos captar :
+#### Objetivos que desejamos captar:
 
 * Dificuldade na busca de dietas;
 * Dificuldade no cadastro de uma nova dieta;
@@ -46,11 +46,11 @@ Acessar a tela de Dieta e pesquisar por dietas. Caso não tenha nenhuma dieta ca
 * Satisfação da apresentação das dietas;
 * Erros de software.
 
-### Teste de Usabildiade 05:
+### Teste de Usabilidade 05:
 
 Acessar a tela de perfil e buscar por outros usuário e adicioná-los como amigos.
 
-#### Objetivos que desejamos captar :
+#### Objetivos que desejamos captar:
 
 * Dificuldade em acessar a tela de perfil;
 * Dificuldades para buscar um novo usuário;
@@ -58,23 +58,12 @@ Acessar a tela de perfil e buscar por outros usuário e adicioná-los como amigo
 * Satisfação no método de adicionar um amigo;
 * Erros de software.
 
-### Teste de Usabildiade 06:
 
-Acessar a tela de chat e iniciar uma nova conversa.
-
-#### Objetivos que desejamos captar :
-
-* Dificuldade no acesso da tela de chat;
-* Dificuldades ao iniciar uma nova conversa;
-* Dificuldade em visualizar o histórico de suas conversas;
-* Satisfação na interface do chat;
-* Erros de software.
-
-### Teste de Usabildiade 07:
+### Teste de Usabilidade 06:
 
 Acessar a tela do relatório de evolução pessoal e inserir os dados solicitados.
 
-#### Objetivos que desejamos captar :
+#### Objetivos que desejamos captar:
 
 * Dificuldade no acesso do relatório de evolução;
 * Dificuldade no preenchimento das medidas corporais;
@@ -83,11 +72,11 @@ Acessar a tela do relatório de evolução pessoal e inserir os dados solicitado
 * Erros de software.
 
 
-### Teste de Usabildiade 08:
+### Teste de Usabilidade 07:
 
 Acessar a tela do mapa e buscar sua localização.
 
-#### Objetivos que desejamos captar :
+#### Objetivos que desejamos captar:
 
 * Dificuldade para acessar a tela do mapa;
 * Dificuldade no preenchimento do endereço desejado;
