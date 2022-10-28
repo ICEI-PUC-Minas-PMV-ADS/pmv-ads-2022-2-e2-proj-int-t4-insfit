@@ -1,6 +1,10 @@
 ﻿body {
     margin-top: 20px;
-    background: #ebeef0;
+    background: #161815;
+    color: #fff;
+}
+.table {
+    color: #fff;
 }
 
 .search-container {
@@ -106,6 +110,7 @@ input#search-bar {
 
 .tag.tag-sm, .btn-group-sm > .tag {
     padding: 5px 10px;
+    background: #ff0000;
 }
 
 .tag:not(.label) {
@@ -135,7 +140,7 @@ input#search-bar {
 .btn-trans {
     background-color: transparent;
     border-color: transparent;
-    color: #929292;
+    color: #fff;
 }
 
 .btn-icon {
