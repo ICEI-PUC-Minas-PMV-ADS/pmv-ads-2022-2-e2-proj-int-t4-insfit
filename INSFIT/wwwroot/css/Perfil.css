@@ -2,8 +2,9 @@ html {
   font-size: 14px;
 }
 
+
 @media (min-width: 768px) {
-  html {
+    html {
     font-size: 16px;
   }
 }
@@ -12,9 +13,13 @@ html {
   position: relative;
   min-height: 100%;
 }
-
+.table{
+    color:#fff;
+}
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background: #161815;
+    color:#fff;
 }
 .verPerfil {
     position: relative;
