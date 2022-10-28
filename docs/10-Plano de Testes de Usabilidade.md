@@ -7,7 +7,7 @@ Os testes de usabilidade permitem avaliar a qualidade da interface com o usuári
 
 Realize o cadastro de um novo usuário preenchendo todas as informações obrigatórias e clique em cadastrar ao finalizar.
 
-#### Objetivos que desejamos captar :
+#### Objetivos que desejamos captar:
 
 * Dificuldade no preenchimento das informações;
 * Erros de software.
@@ -16,7 +16,7 @@ Realize o cadastro de um novo usuário preenchendo todas as informações obriga
 
 Ao acessar o sistema, preenchar as informações complementares e clicar em gravar.
 
-#### Objetivos que desejamos captar :
+#### Objetivos que desejamos captar:
 
 * Quais informações o usuário tevem mais resistência em fornecer;
 * Dificuldade no preenchimento das informações;

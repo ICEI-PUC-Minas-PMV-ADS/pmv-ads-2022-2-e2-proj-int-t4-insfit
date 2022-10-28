@@ -1,80 +1,84 @@
 # Registro de Testes de Usabilidade
 
-|   | Etapas  |
-|---|---------| 
-|   | 1) Análise, execução e Avaliação da Aplicação Heurística;|
-|   | 3) Execução dos Testes e coleta de dados: Observar e registrar a performace e a opinião dos participantes durante sessões de uso do sistema; |
-|   | 4) Interpretação e Consolidação dos dados : Reunir, contabilizar e sumarizar os dados coletados dos participantes .|
-|   | 5) Relato dos Resultados: Relatar a performance e a opinião dos participantes. |
+| Etapas  |
+|---------| 
+| 1) Análise, execução e Avaliação da Aplicação Heurística;|
+| 3) Execução dos Testes e coleta de dados: Observar e registrar a performace e a opinião dos participantes durante sessões de uso do sistema; |
+| 4) Interpretação e Consolidação dos dados : Reunir, contabilizar e sumarizar os dados coletados dos participantes .|
+| 5) Relato dos Resultados: Relatar a performance e a opinião dos participantes. |
 
 
-|   | Passo a Passo  |
-|---|----------------| 
-|   | 1) Serão selecionadas 5 pessoas para análise da aplicação.|
-|   | 2) Será enviado para cada pessoa o link da nossa aplicação juntamente com o formulário onde encontram os pontos a serem analisados como descrito abaixo.|
-|   | 3) 1º desafio: Cadastrar e fazer o login na aplicação. |
-|   | 4) 2º desafio: Alterar e incerir dados do perfil.|
-|   | 5) 3º desafio: Vizualizar metas e verificar se está atualizando na medida que forem compridas.|
-|   | 7) 4º desafio: Deverá abrir feed, navegar, interagir, postar e vizualizar.|
-|   | 8) 5º desafio: Editar e incerir  as informações no relatório.| 
-|   | 9) 6º desafio: visualizar localização das academias mais proximas.| 
-|   | 10) 7º desafio: Buscar notícias e informações de outros usuários através de um filtro no feed.|
-|   |11) 8º desafio: Recuperar senha cadastrada.|
-|   | 12) 9º desafio: Deverá abrir dieta, navegar, editar e vizualizar.|
+| Passo a Passo  |
+|----------------| 
+| 1) Serão selecionadas 5 pessoas para análise da aplicação.|
+| 2) Será enviado para cada pessoa o link da nossa aplicação juntamente com o formulário onde encontram os pontos a serem analisados como descrito abaixo.|
+| 3) 1º desafio: Cadastrar e fazer o login na aplicação. |
+| 4) 2º desafio: Alterar e incerir dados do perfil.|
+| 5) 3º desafio: Vizualizar metas e verificar se está atualizando na medida que forem compridas.|
+| 7) 4º desafio: Deverá abrir feed, navegar, interagir, postar e vizualizar.|
+| 8) 5º desafio: Editar e incerir  as informações no relatório.| 
+| 9) 6º desafio: visualizar localização das academias mais proximas.| 
+| 10) 7º desafio: Buscar notícias e informações de outros usuários através de um filtro no feed.|
+| 11) 8º desafio: Recuperar senha cadastrada.|
+| 12) 9º desafio: Deverá abrir dieta, navegar, editar e vizualizar.|
+<br>
+<br>
 
+| Itens a serem avaliados pós teste |
+|---------------------------------------| 
+| 1) Dispositivo utilizado (Computadores, tablets e smartphones).|
+| 2) Tempo de execução para concluir as tarefas (questão aberta).|
+| 3) Escala de dificuldade da tarefa (Fácil, intermediário ou difícil).|
+| 4) Navegar na aplicação foi tranquilo? (Escala de 1 a 5 onde 1 é difícil e 5 fácil).|
+| 5) Escala de insatisfação (Escala de 1 a 5 onde 1 é difícil e 5 fácil).|
+| 6) Problemas observados (Quetão aberta).|
+<br>
+<br>
 
-|   | Itens a serem avaliados pós teste |
-|---|---------------------------------------| 
-|   | 3) Dispositivo utilizado (Computadores, tablets e smartphones).|
-|   | 8) Tempo de execução para concluir as tarefas (questão aberta).|
-|   | 1) Escala de dificuldade da tarefa (Fácil, intermediário ou difícil).|
-|   | 5) Navegar na aplicação foi tranquilo? (Escala de 1 a 5 onde 1 é difícil e 5 fácil).|
-|   | 3) Escala de insatisfação (Escala de 1 a 5 onde 1 é difícil e 5 fácil).|
-|   | 7) Problemas observados (Quetão aberta).|
-
-
-Para está etapa do projeto, os testes serão realizados nas principais funcionalidades do sistema: login, cadastro do usuário e personal, vizualização e navegação das funcionalidades.
-
+Para está etapa do projeto, os testes serão realizados nas principais funcionalidades do sistema: login, cadastro do usuário e personal, vizualização e navegação da telas.
+<br>
+<br>
 
 | Tarefa 1 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-| Cadastro de novos usuários| Concluir o cadastro com sucesso|-Dispositivo usado<br>-Tempo de conclusão da tarefa<br>-Escala aprimorada de dificuldade<br>-Nvegação da aplicação<br>-escala de insastifação<br>-Observações, problemas ou sugestões|
+| Cadastro de novos usuários| Concluir o cadastro com sucesso|-Dispositivo usado<br>-Tempo de conclusão da tarefa<br>-Escala aprimorada de dificuldade<br>-Navegação da aplicação<br>-escala de insastifação<br>-Observações, problemas ou sugestões|
 
 | Tarefa 1 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-| Fazer o login no sistema |  Conseguir logar no sistema e ser encaminhado para a página|-Dispositivo usado<br>-Tempo de conclusão da tarefa<br>-Escala aprimorada de dificuldade<br>-Nvegação da aplicação<br>-escala de insastifação<br>-Observações, problemas ou sugestões|
+| Fazer o login no sistema |  Conseguir logar no sistema e ser encaminhado para a página |-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
 
 | Tarefa 2 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-| Alterar e incerir dados do perfil| Alterar campo do perfil.  |-Dispositivo usado<br>-Tempo de conclusão da tarefa<br>-Escala aprimorada de dificuldade<br>-Nvegação da aplicação<br>-escala de insastifação<br>-Observações, problemas ou sugestões|
+| Alterar e incerir dados do perfil| Alterar campo do perfil. |-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
 
 | Tarefa 3 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-| Vizualizar metas |  verificar se está atualizando na medida que forem compridas.  |-Dispositivo usado<br>-Tempo de conclusão da tarefa<br>-Escala aprimorada de dificuldade<br>-Nvegação da aplicação<br>-escala de insastifação<br>-Observações, problemas ou sugestões|
+| Vizualizar metas |  verificar se está atualizando na medida que forem compridas. |-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
 
 | Tarefa 4    | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-| Vizualização das informações no feed| Concluir a postagem e vizualização|-Dispositivo usado<br>-Tempo de conclusão da tarefa<br>-Escala aprimorada de dificuldade<br>-Nvegação da aplicação<br>-escala de insastifação<br>-Observações, problemas ou sugestões|
+| Vizualização das informações no feed| Concluir a postagem e vizualização |-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
 
 | Tarefa 5| Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-| Visualizar e incerir dados do relatório| Editar e modificar as informações inceridas no relatório.|-Dispositivo usado<br>-Tempo de conclusão da tarefa<br>-Escala aprimorada de dificuldade<br>-Nvegação da aplicação<br>-escala de insastifação<br>-Observações, problemas ou sugestões|
+| Visualizar e incerir dados do relatório| Editar e modificar as informações inceridas no relatório.|-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
 
 | Tarefa 6 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-| Visualizar academias próximas| Clicar sobre o item e pesquisar academias. |-Dispositivo usado<br>-Tempo de conclusão da tarefa<br>-Escala aprimorada de dificuldade<br>-Nvegação da aplicação<br>-escala de insastifação<br>-Observações, problemas ou sugestões|
+| Visualizar academias próximas| Clicar sobre o item e pesquisar academias. |-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
 
 | Tarefa 7 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-|Buscar dados através de um filtro no feed| Visualização dos dados do feed a partir das informações filtradas. |-Dispositivo usado<br>-Tempo de conclusão da tarefa<br>-Escala aprimorada de dificuldade<br>-Nvegação da aplicação<br>-escala de insastifação<br>-Observações, problemas ou sugestões|
+|Buscar dados através de um filtro no feed| Visualização dos dados do feed a partir das informações filtradas. |-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
 
 | Tarefa 8 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-|Cadastrar nova senha| Gerar nova senha. |-Dispositivo usado<br>-Tempo de conclusão da tarefa<br>-Escala aprimorada de dificuldade<br>-Nvegação da aplicação<br>-escala de insastifação<br>-Observações, problemas ou sugestões|
+|Cadastrar nova senha| Gerar nova senha. |-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
 
-| Tarefa 4    | Critério de êxito | O que será avaliado |
+| Tarefa 9 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-| Vizualização das informações na dieta| Concluir a vizualização|-Dispositivo usado<br>-Tempo de conclusão da tarefa<br>-Escala aprimorada de dificuldade<br>-Nvegação da aplicação<br>-escala de insastifação<br>-Observações, problemas ou sugestões|
+| Vizualização das informações na dieta| Concluir a vizualização|-Dispositivo usado<br>-Tempo de conclusão da tarefa<br>-Escala aprimorada de dificuldade<br>-Navegação da aplicação<br>-Escala de insastifação<br>-Observações, problemas ou sugestões|
+
 
 
 ## Escala de avaliação
