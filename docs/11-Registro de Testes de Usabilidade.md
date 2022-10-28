@@ -77,7 +77,7 @@ Para está etapa do projeto, os testes serão realizados nas principais funciona
 | Vizualização das informações na dieta| Concluir a vizualização|-Dispositivo usado<br>-Tempo de conclusão da tarefa<br>-Escala aprimorada de dificuldade<br>-Nvegação da aplicação<br>-escala de insastifação<br>-Observações, problemas ou sugestões|
 
 
-### Escala de avaliação
+## Escala de avaliação
 A escala de avaliação está sendo disponibilizada para que uma haja uma pontuação correta ao avaliar o sitema web INSFIT. Assim o participante da análise do sistema porerá seguir com os tipos de avaliações abaixo: 
 
 Escala | Descriminação|
@@ -89,7 +89,7 @@ Escala | Descriminação|
 | Muito satisfeito | 5 |
 
 
-### Ferramentas de Testes
+## Ferramentas de Testes
 Para realizar os testes e verificar a responsividade das páginas, serão utilizados:
 
 - Computadores
@@ -97,11 +97,11 @@ Para realizar os testes e verificar a responsividade das páginas, serão utiliz
 - Smartphones Android e iOS
 
 
-### Avaliação das heurísticas 
+## Avaliação das heurísticas 
 
 (TEXTO com a explicação do objetivo da avalição heurística)
 
-## Tela de cadastro 
+### Tela de cadastro 
 Tarefa 1
 
 | Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | Escala de insatisfação | Problemas observados |
@@ -122,7 +122,7 @@ Tarefa 8
 | Usuário 4 | 24 | Computador | 00:01:05 | Fácil | 3.0 | 4.0 |XXX |
 | Usuário 5 | 25 | Computador | 00:00:43 | Fácil | 5.0 | 5.0 |XXX |
 
-## Tela de perfil
+### Tela de perfil
 Tarefa 2
 
 | Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | Escala de insatisfação | Problemas observados |
@@ -133,7 +133,7 @@ Tarefa 2
 | Usuário 4 | 24 | Computador | 00:01:05 | Fácil | 3.0 | 4.0 |XXX |
 | Usuário 5 | 25 | Computador | 00:00:43 | Fácil | 5.0 | 5.0 |XXX |
 
-## Tela de feed
+### Tela de feed
 Tarefa 3
 
 | Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | Escala de insatisfação | Problemas observados |
@@ -164,7 +164,7 @@ Tarefa 7
 | Usuário 4 | 24 | Computador | 00:01:05 | Fácil | 3.0 | 4.0 |XXX |
 | Usuário 5 | 25 | Computador | 00:00:43 | Fácil | 5.0 | 5.0 |XXX |
 
-## Tela de relatório
+### Tela de relatório
 Tarefa 5
 
 | Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | Escala de insatisfação | Problemas observados |
@@ -175,7 +175,7 @@ Tarefa 5
 | Usuário 4 | 24 | Computador | 00:01:05 | Fácil | 3.0 | 4.0 |XXX |
 | Usuário 5 | 25 | Computador | 00:00:43 | Fácil | 5.0 | 5.0 |XXX |
 
-## Tela de localização
+### Tela de localização
 Tarefa 6
 
 | Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | Escala de insatisfação | Problemas observados |
@@ -186,7 +186,7 @@ Tarefa 6
 | Usuário 4 | 24 | Computador | 00:01:05 | Fácil | 3.0 | 4.0 |XXX |
 | Usuário 5 | 25 | Computador | 00:00:43 | Fácil | 5.0 | 5.0 |XXX |
 
-## Tela de Dieta  
+### Tela de Dieta  
 Tarefa 9
 
 | Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | Escala de insatisfação | Problemas observados |
