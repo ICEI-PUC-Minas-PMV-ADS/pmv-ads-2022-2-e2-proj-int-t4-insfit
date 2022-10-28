@@ -12,11 +12,34 @@ html {
   position: relative;
   min-height: 100%;
 }
-
+#menu {
+    color: #fff;
+    background: #1c211b;
+}
 body {
   margin-bottom: 60px;
 }
 .verPerfil {
     position: relative;
     left: 70vw;
+}
+
+.bg-white {
+    --bs-bg-opacity: 1;
+    background-color: #1c211b;
+    color: #fff;
+}
+.text-dark {
+    
+     color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-brand {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link .navbar-brand : houver {
+    color: #7f9f3e
 }
