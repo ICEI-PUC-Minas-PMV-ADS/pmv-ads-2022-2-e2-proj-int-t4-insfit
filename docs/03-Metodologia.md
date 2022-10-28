@@ -62,9 +62,8 @@ As ferramentas empregadas no projeto são:
 - Meio de Comunicação: Discord
 - Desenho as telas e dos diagramas: Figma
 - Gestão de código fonte: Git e GitHub
-- Hospedagem: Azure
-- Banco de dados: SQL
+- Hospedagem: Microsoft Azure
+- Banco de dados: SQL (Structured Query Language)
 
-Escolhemos o visual studio 2022 pois ele tem uma boa integração com o C#. Para os desenvolvimento das telas e dos diagrmas, optamos por usar o figma devido a facilidade que a plataforma oferece para compartilhar o desenvolvimentos com os outros usuario e pelo fato de ser simples de usar. No meio de comunicação e na gestão do código fonto, o grupo optou por ambas as plataformas devido a familiaridade dos mesmo com a plataforma. Quanto as hospedagem, escolhemos o azure pelo fato der termos creditos e ele já possui um banco de dados SQL na própria plataforma 
+Escolhemos o visual studio 2022 pois ele tem uma boa integração com o C#. Para os desenvolvimento das telas e dos diagrmas, optamos por usar o figma devido a facilidade que a plataforma oferece para compartilhar o desenvolvimentos com os outros usuario e pelo fato de ser simples de usar. No meio de comunicação e na gestão do código fonto, o grupo optou por ambas as plataformas devido a familiaridade dos mesmo com a plataforma. Quanto as hospedagem, escolhemos o microsoft azure pelo fato der termos creditos e ele já possui um banco de dados SQL (Structured Query Language) na própria plataforma.
  
-

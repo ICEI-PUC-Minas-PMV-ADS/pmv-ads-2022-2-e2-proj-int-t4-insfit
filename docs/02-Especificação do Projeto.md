@@ -31,8 +31,8 @@ Raimunda, tem 65 anos, já e aposentada. Pois o habito de fazer atividade fisica
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                            |
-|--------------------|------------------------------------|----------------------------------------           |
+|PERSONA| FUNCIONALIDADE | MOTIVO/VALOR |
+|-------|----------------|--------------|
 |Sampa  | Aprender sobre atividades fisicas  | buscar uma saúde melhor                           |
 |Astolfo  | Visualizar academias em um raio mais próximo.|  melhor flexibilidade nós treinos.      |
 |Raimunda  | Busca por receitas saudáveis.      |  possa ter opções de alimentações equilibradas    |
@@ -41,7 +41,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | Angélica | Uma forma de comunicação interativa entre diversos usuários.|estabelecer uma comunicação entre diversos usuários.|
 | Sampa |  Uma agenda online a qual eu possa gerenciar minhas rotinas. |ter controle sobre os meus treinos.|
 | Sampa | Um fornecimento de um relatório mensal da minha evolução nas atividades físicas| controle da minha evolução.|
-
 
 
 > **Links Úteis**:
