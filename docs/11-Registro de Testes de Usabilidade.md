@@ -44,52 +44,43 @@ Para está etapa do projeto, os testes serão realizados nas principais funciona
 | Tarefa 1 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
 | Cadastro de novos usuários| Concluir o cadastro com sucesso|-Dispositivo usado<br>-Tempo de conclusão da tarefa<br>-Escala aprimorada de dificuldade<br>-Navegação da aplicação<br>-escala de insastifação<br>-Observações, problemas ou sugestões|
-<br>
-<br>
+
 | Tarefa 1 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
 | Fazer o login no sistema |  Conseguir logar no sistema e ser encaminhado para a página |-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
-<br>
-<br>
+
 | Tarefa 2 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
 | Alterar e incerir dados do perfil| Alterar campo do perfil. |-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
-<br>
-<br>
+
 | Tarefa 3 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
 | Vizualizar metas |  verificar se está atualizando na medida que forem compridas. |-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
-<br>
-<br>
+
 | Tarefa 4    | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
 | Vizualização das informações no feed| Concluir a postagem e vizualização |-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
-<br>
-<br>
+
 | Tarefa 5| Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
 | Visualizar e incerir dados do relatório| Editar e modificar as informações inceridas no relatório.|-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
-<br>
-<br>
+
 | Tarefa 6 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
 | Visualizar academias próximas| Clicar sobre o item e pesquisar academias. |-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
-<br>
-<br>
+
 | Tarefa 7 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
 |Buscar dados através de um filtro no feed| Visualização dos dados do feed a partir das informações filtradas. |-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
-<br>
-<br>
+
 | Tarefa 8 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
 |Cadastrar nova senha| Gerar nova senha. |-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
-<br>
-<br> 
+
 | Tarefa 9 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
 | Vizualização das informações na dieta| Concluir a vizualização|-Dispositivo usado<br>-Tempo de conclusão da tarefa<br>-Escala aprimorada de dificuldade<br>-Navegação da aplicação<br>-Escala de insastifação<br>-Observações, problemas ou sugestões|
-<br>
+
 
 
 ## Escala de avaliação
