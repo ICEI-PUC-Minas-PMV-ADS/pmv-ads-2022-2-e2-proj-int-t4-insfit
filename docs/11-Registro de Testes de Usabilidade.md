@@ -23,7 +23,7 @@
 | 11) 8º desafio: Recuperar senha cadastrada.|
 | 12) 9º desafio: Deverá abrir dieta, navegar, editar e vizualizar.|
 <br>
-<br>
+
 
 ## Avaliações 
 | Itens a serem avaliados pós teste |
