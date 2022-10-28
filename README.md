@@ -1,4 +1,5 @@
 # INSFIT
+![logo insfit](https://user-images.githubusercontent.com/101743181/198693185-44f5ee43-4664-49d6-9e08-7d99002e6414.png)
 
 `Analise e desenvolvimento de sistema`
 
@@ -6,7 +7,7 @@
 
 `2º/2022`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O insfit tem por objetivo auxiliar a adquirir hábitos mais saudáveis com a prática de exercícios fisicos de casa sem a necessidade de acessórios e equipamentos, desde que realizados de forma correta.
 
 ## Integrantes
 
