@@ -7,7 +7,6 @@
 | 4) Interpretação e Consolidação dos dados : Reunir, contabilizar e sumarizar os dados coletados dos participantes .|
 | 5) Relato dos Resultados: Relatar a performance e a opinião dos participantes. |
 <br>
-<br>
 
 ## Passo a passo 
 | Passo a Passo  |
@@ -35,7 +34,6 @@
 | 4) Navegar na aplicação foi tranquilo? (Escala de 1 a 5 onde 1 é difícil e 5 fácil).|
 | 5) Escala de insatisfação (Escala de 1 a 5 onde 1 é difícil e 5 fácil).|
 | 6) Problemas observados (Quetão aberta).|
-<br>
 <br>
 
 Para está etapa do projeto, os testes serão realizados nas principais funcionalidades do sistema: login, cadastro do usuário e personal, vizualização e navegação da telas.
@@ -221,7 +219,7 @@ Tarefa 9
 
 
 
-
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxAPAGARxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
 
@@ -233,3 +231,6 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Registro de
 
 > **Links Úteis**:
 > - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxAPAGARxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
