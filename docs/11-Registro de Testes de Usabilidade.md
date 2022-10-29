@@ -174,32 +174,30 @@ Tarefa 5
 | Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | Escala de avaliação | Problemas observados |
 |------------|--------|---------------|---------|---------------------------|------------------------------|----------------------------|-----------------------------|
 | Usuário 1 | XX | XXX | 00:00:00 | Fácil | 5.0 |  5.0 | XXX |
- | Usuário 2 | XX | XXX | 00:01:32 | Fácil | 4.0 | 5.0 | XXX |
-| Usuário 3 | XX | XXX | 00:00:20 | Fácil | 4.0 | 5.0 | XXX |
-| Usuário 4 | XX | XXX | 00:01:05 | Fácil | 3.0 | 4.0 |XXX |
-| Usuário 5 | XX | XXX | 00:00:43 | Fácil | 5.0 | 5.0 |XXX |
+ | Usuário 2 | XX | XXX | 00:00:00 | Fácil | 4.0 | 5.0 | XXX |
+| Usuário 3 | XX | XXX | 00:00:00 | Fácil | 4.0 | 5.0 | XXX |
+| Usuário 4 | XX | XXX | 00:00:00 | Fácil | 3.0 | 4.0 |XXX |
+| Usuário 5 | XX | XXX | 00:00:00 | Fácil | 5.0 | 5.0 |XXX |
 
 ### Tela de localização
 Tarefa 6
 
 | Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | Escala de avaliação | Problemas observados |
 |------------|--------|---------------|---------|---------------------------|------------------------------|----------------------------|-----------------------------|
-| Usuário 1 | 21 | Computador | 00:00:50 | Fácil | 5.0 |  5.0 | XXX |
- | Usuário 2 | 22 | Computador | 00:01:32 | Fácil | 4.0 | 5.0 | XXX |
-| Usuário 3 | 23 | Computador | 00:00:20 | Fácil | 4.0 | 5.0 | XXX |
-| Usuário 4 | 24 | Computador | 00:01:05 | Fácil | 3.0 | 4.0 |XXX |
-| Usuário 5 | 25 | Computador | 00:00:43 | Fácil | 5.0 | 5.0 |XXX |
+| Usuário 1 | XX | XXX | 00:00:00 | Fácil | 5.0 |  5.0 | XXX |
+ | Usuário 2 | XX | XXX | 00:00:00 | Fácil | 4.0 | 5.0 | XXX |
+| Usuário 3 | XX | XXX | 00:00:00 | Fácil | 4.0 | 5.0 | XXX |
+| Usuário 4 | XX | XXX | 00:00:00 | Fácil | 3.0 | 4.0 |XXX |
+| Usuário 5 | XX | XXX | 00:00:00 | Fácil | 5.0 | 5.0 |XXX |
 
 ### Tela de Dieta  
 Tarefa 9
 
 | Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | Escala de avaliação | Problemas observados |
 |------------|--------|---------------|---------|---------------------------|------------------------------|----------------------------|-----------------------------|
-| Usuário 1 | 21 | Computador | 00:00:50 | Fácil | 5.0 |  5.0 | XXX |
- | Usuário 2 | 22 | Computador | 00:01:32 | Fácil | 4.0 | 5.0 | XXX |
-| Usuário 3 | 23 | Computador | 00:00:20 | Fácil | 4.0 | 5.0 | XXX |
-| Usuário 4 | 24 | Computador | 00:01:05 | Fácil | 3.0 | 4.0 |XXX |
-| Usuário 5 | 25 | Computador | 00:00:43 | Fácil | 5.0 | 5.0 |XXX |
-
-
+| Usuário 1 | XX | XXX | 00:00:00 | Fácil | 5.0 |  5.0 | XXX |
+ | Usuário 2 | XX | XXX | 00:00:00 | Fácil | 4.0 | 5.0 | XXX |
+| Usuário 3 | XX | XXX | 00:00:00 | Fácil | 4.0 | 5.0 | XXX |
+| Usuário 4 | XX | XXX | 00:00:00 | Fácil | 3.0 | 4.0 |XXX |
+| Usuário 5 | XX | XXX | 00:00:00 | Fácil | 5.0 | 5.0 |XXX |
 
