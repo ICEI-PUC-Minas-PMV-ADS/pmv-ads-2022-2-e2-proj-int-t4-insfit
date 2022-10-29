@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Q/ICGDzlzyRHzUqoBkMVEjFSsHxcp3b9KZ4gWzz8EZg=",
+  "Hash": "JyLKnUiuD0foJ1FWQ/1fq7K8rBZ485HnM2RB28qb1Hc=",
   "Source": "INSFIT",
   "BasePath": "_content/INSFIT",
   "Mode": "Default",
@@ -102,12 +102,12 @@
       "OriginalItemSpec": "wwwroot\\css\\Feed.css"
     },
     {
-      "Identity": "C:\\Users\\Matheus\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\css\\Maps.css",
+      "Identity": "C:\\Users\\Matheus\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\css\\Mapa.css",
       "SourceId": "INSFIT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Matheus\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\",
       "BasePath": "_content/INSFIT",
-      "RelativePath": "css/Maps.css",
+      "RelativePath": "css/Mapa.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -116,7 +116,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Maps.css"
+      "OriginalItemSpec": "wwwroot\\css\\Mapa.css"
     },
     {
       "Identity": "C:\\Users\\Matheus\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\css\\Perfil.css",

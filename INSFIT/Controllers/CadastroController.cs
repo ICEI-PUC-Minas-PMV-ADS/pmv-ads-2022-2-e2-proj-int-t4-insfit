@@ -21,6 +21,11 @@ namespace INSFIT.Controllers
             _context = context;
         }
 
+        public IActionResult Mapa()
+        {
+            return View();
+        }
+
         public IActionResult Login()
         {
             return View();
