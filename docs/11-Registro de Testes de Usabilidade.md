@@ -110,7 +110,7 @@ Tarefa 1
 
 | Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | Escala de avaliação | Problemas observados |
 |------------|--------|---------------|---------|---------------------------|------------------------------|----------------------------|-----------------------------|
-| Usuário 1 | 20 | Computador | 00:00:50 | Fácil | 5.0 |  5.0 | login fácil|
+| Usuário 1 | 20 | Computador | 00:00:50 | Fácil | 5.0 |  5.0 | login fácil |
  | Usuário 2 | 25 | smartphone | 00:01:10 | Fácil | 4.0 | 4.0 | Praticidade |
 | Usuário 3 | 30 | Noteebook | 00:02:20 | Médio | 4.0 | 4.0 | Acesso lento/ sugestão: Melhorar a responsividade |
 | Usuário 4 | 40 | Notebook | 00:03:05 | Dificil | 3.0 | 3.0 | Dificuldade no cadastro/ sugestão: Melhor responsividade |
@@ -120,11 +120,11 @@ Tarefa 8
 
 | Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | Escala de avaliação | Problemas observados |
 |------------|--------|---------------|---------|---------------------------|------------------------------|----------------------------|-----------------------------|
-| Usuário 1 | 21 | Computador | 00:00:50 | Fácil | 5.0 |  5.0 | XXX |
- | Usuário 2 | 22 | Computador | 00:01:32 | Fácil | 4.0 | 5.0 | XXX |
-| Usuário 3 | 23 | Computador | 00:00:20 | Fácil | 4.0 | 5.0 | XXX |
-| Usuário 4 | 24 | Computador | 00:01:05 | Fácil | 3.0 | 4.0 |XXX |
-| Usuário 5 | 25 | Computador | 00:00:43 | Fácil | 5.0 | 5.0 |XXX |
+| Usuário 1 | 20 | Computador | 00:00:50 | Fácil | 5.0 |  5.0 | Design bem explicativo |
+ | Usuário 2 | 25 | Smartphone | 00:01:50| Fácil | 4.0 | 4.0 | Fácil utilização |
+| Usuário 3 | 30 | Notebook | 00:00:20 | Médio | 3.0 | 3.0 | Interface confusa |
+| Usuário 4 | 40 | Notebook | 00:01:05 | Dificl | 2.0 | 3.0 | O site não gera senha/ Sugestão: melhorar a criptografia  |
+| Usuário 5 | 50 | smartphone | 00:05:43 | dificl | 2.0 | 2.0 | Dificuldade de vizualização/ Sugestão: aumentar tamanho da fonte |
 
 ### Tela de perfil
 Tarefa 2
