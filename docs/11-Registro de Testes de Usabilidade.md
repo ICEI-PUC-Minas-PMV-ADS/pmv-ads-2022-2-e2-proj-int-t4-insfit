@@ -41,7 +41,7 @@ Para está etapa do projeto, os testes serão realizados nas principais funciona
 
 | Tarefa 1 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-| Cadastro de novos usuários| Concluir o cadastro com sucesso|-Dispositivo usado<br>-Tempo de conclusão da tarefa<br>-Escala aprimorada de dificuldade<br>-Navegação da aplicação<br>-escala de insastifação<br>-Observações, problemas ou sugestões|
+| Cadastro de novos usuários| Concluir o cadastro com sucesso|-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-escala de insastifação;<br>-Observações, problemas ou sugestões.|
 
 | Tarefa 1 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
@@ -82,7 +82,7 @@ Para está etapa do projeto, os testes serão realizados nas principais funciona
 
 
 ## Escala de avaliação
-A escala de avaliação está sendo disponibilizada para que uma haja uma pontuação correta ao avaliar o sitema web INSFIT. Assim o participante da análise do sistema porerá seguir com os tipos de avaliações abaixo: 
+A escala de avaliação está sendo disponibilizada para que uma haja uma pontuação correta ao avaliar o sitema web INSFIT. Assim o participante da análise do sistema poderá seguir com os tipos de avaliações abaixo: 
 
 Escala | Descriminação|
 |-------------------|---|
