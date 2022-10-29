@@ -17,7 +17,8 @@ html {
     background: #1c211b;
 }
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background: #161815;
 }
 .verPerfil {
     position: relative;
@@ -43,4 +44,10 @@ body {
 
 .navbar-light .navbar-nav .nav-link:hover {
     color: #7da62c;
+}
+.border-top {
+    border-top: 1px solid #161815 !important;
+}
+.border-bottom {
+    border-bottom: 1px solid #1c211b !important;
 }
