@@ -16,7 +16,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
-![modelo ER](img/Modelo%20Entidade%20Relacionamento%20Peter%20Chen%20(Community)%20(1).png)
+![modelo ER](img/modeloDeEntidadeRelacional.png)
 
 
 
