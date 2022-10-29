@@ -92,10 +92,26 @@ body {
     color: #fff;
     background-color: #7da62c;
     border-color: #7da62c;
+    position:relative;
+    left: 20em;
+    top: 2em;
 }
+
 
     .btn-primary:hover {
         color: #fff;
         background-color: transparent;
         border-color: #7da62c;
     }
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#fff
+}
+label {
+    display: inline-block;
+    padding: 8px;
+}

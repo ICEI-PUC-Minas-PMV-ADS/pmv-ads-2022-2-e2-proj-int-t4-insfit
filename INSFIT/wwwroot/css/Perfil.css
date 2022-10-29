@@ -28,3 +28,22 @@ body {
 .navbar-light .navbar-nav .nav-link:hover {
     color: #7da62c;
 }
+.botaovolta {
+    width: 78px;
+    position: relative;
+    left: 42em;
+    position: relative;
+    padding: 8px;
+    background-color: #7da62c;
+    border: 1px solid #7da62c;
+    border-radius: 5px;
+    height: 38px;
+    bottom: 6px;
+    text-align: center;
+}
+    .botaovolta:hover {
+        color: #fff;
+        background-color: transparent;
+        border: 1px solid #7da62c;
+        
+    }
