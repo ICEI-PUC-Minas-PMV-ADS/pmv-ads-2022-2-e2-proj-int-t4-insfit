@@ -140,7 +140,7 @@ Tarefa 2
 ### Tela de feed
 Tarefa 3
 
-| Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | EEscala de avaliação | Problemas observados |
+| Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | Escala de avaliação | Problemas observados |
 |------------|--------|---------------|---------|---------------------------|------------------------------|----------------------------|-----------------------------|
 | Usuário 1 | 21 | Computador | 00:00:50 | Fácil | 5.0 |  5.0 | XXX |
  | Usuário 2 | 22 | Computador | 00:01:32 | Fácil | 4.0 | 5.0 | XXX |
