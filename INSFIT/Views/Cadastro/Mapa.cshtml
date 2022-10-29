@@ -4,44 +4,29 @@
     ViewData["Title"] = "Mapa";
 }
 
-<h1>Mapa</h1>
 
-<h4>Cadastro</h4>
 <hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Mapa">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="name" class="control-label"></label>
-                <input asp-for="name" class="form-control" />
-                <span asp-validation-for="name" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="email" class="control-label"></label>
-                <input asp-for="email" class="form-control" />
-                <span asp-validation-for="email" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="senha" class="control-label"></label>
-                <input asp-for="senha" class="form-control" />
-                <span asp-validation-for="senha" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="tipoUsuario" class="control-label"></label>
-                <select asp-for="tipoUsuario" class="form-control"></select>
-                <span asp-validation-for="tipoUsuario" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+<div>
+    <div>
+        <h1 style='text-align:center'> Encontre as academia mais pertas de você!</h1>
+        <div class="form-outline">
+            <label class="control-label">Insira seu endereço</label>
+            <input class="form-control" />
+            <span class="text-danger"></span>
+        </div>
+        <div>
+            <br/>
+            <button type="submit" class="btn btn-primary btn-block mb-4">Consultar</button>
+        </div>
+    </div>
+    <div>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14162.638587632586!2d-43.94322536515073!3d-19.916065153297428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce7b38dfdae777%3A0xd618083e84ba2163!2sSmart%20Fit%20-%20Amazonas%20-%20BH!5e0!3m2!1spt-BR!2sbr!4v1667058988799!5m2!1spt-BR!2sbr" width="1280" height="720" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
