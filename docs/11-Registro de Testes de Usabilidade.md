@@ -131,22 +131,22 @@ Tarefa 2
 
 | Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | Escala de avaliação | Problemas observados |
 |------------|--------|---------------|---------|---------------------------|------------------------------|----------------------------|-----------------------------|
-| Usuário 1 | 21 | Computador | 00:00:50 | Fácil | 5.0 |  5.0 | XXX |
- | Usuário 2 | 22 | Computador | 00:01:32 | Fácil | 4.0 | 5.0 | XXX |
-| Usuário 3 | 23 | Computador | 00:00:20 | Fácil | 4.0 | 5.0 | XXX |
-| Usuário 4 | 24 | Computador | 00:01:05 | Fácil | 3.0 | 4.0 |XXX |
-| Usuário 5 | 25 | Computador | 00:00:43 | Fácil | 5.0 | 5.0 |XXX |
+| Usuário 1 | 20 | Computador | 00:00:58 | Fácil | 5.0 |  5.0 | Facilidade em criar o perfil |
+ | Usuário 2 | 25 | Smartphone | 00:01:32 | Fácil | 4.0 | 5.0 | Facilidade em realizar alterações |
+| Usuário 3 | 30 | Notebook | 00:02:20 | Médio | 3.0 | 3.0 | Demora em carregar todas as informações/ sugestão: melhorar responsividade |
+| Usuário 4 | 40 | Notebook | 00:02:05 | Difícil | 2.0 | 3.0 |Não consegue alterar as informações com facilidade/ sugestão: ser mais explicativo |
+| Usuário 5 | 50 | Smartphone | 00:02:43 | Difícil | 2.0 | 2.0 |Dificuldade em visualizar a página/ sugestão: melhorar responsividade |
 
 ### Tela de feed
 Tarefa 3
 
 | Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | Escala de avaliação | Problemas observados |
 |------------|--------|---------------|---------|---------------------------|------------------------------|----------------------------|-----------------------------|
-| Usuário 1 | 21 | Computador | 00:00:50 | Fácil | 5.0 |  5.0 | XXX |
- | Usuário 2 | 22 | Computador | 00:01:32 | Fácil | 4.0 | 5.0 | XXX |
-| Usuário 3 | 23 | Computador | 00:00:20 | Fácil | 4.0 | 5.0 | XXX |
-| Usuário 4 | 24 | Computador | 00:01:05 | Fácil | 3.0 | 4.0 |XXX |
-| Usuário 5 | 25 | Computador | 00:00:43 | Fácil | 5.0 | 5.0 |XXX |
+| Usuário 1 | 20 | Computador | 00:00:50 | Fácil | 5.0 |  5.0 | XXX |
+ | Usuário 2 | 25 | Smartphone | 00:01:32 | Fácil | 4.0 | 5.0 | XXX |
+| Usuário 3 | 30 | Notebook | 00:00:20 | Fácil | 4.0 | 5.0 | XXX |
+| Usuário 4 | 40 | Notebook | 00:01:05 | Fácil | 3.0 | 4.0 |XXX |
+| Usuário 5 | 50 | Smartphone | 00:00:43 | Fácil | 5.0 | 5.0 |XXX |
 
 Tarefa 4
 
