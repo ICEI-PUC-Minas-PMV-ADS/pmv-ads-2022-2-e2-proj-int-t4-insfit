@@ -77,3 +77,25 @@ body {
 #insfit {
     color: #7da62c;
 }
+.form-control {
+    color: #FFF;
+    background-color: transparent;
+    border: 1px solid #7da62c;
+    border-top: 0px;
+    border-left: 0;
+}
+.row {
+   
+    justify-content: center;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #7da62c;
+    border-color: #7da62c;
+}
+
+    .btn-primary:hover {
+        color: #fff;
+        background-color: transparent;
+        border-color: #7da62c;
+    }
