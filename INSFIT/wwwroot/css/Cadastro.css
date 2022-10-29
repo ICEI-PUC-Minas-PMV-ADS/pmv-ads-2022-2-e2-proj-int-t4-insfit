@@ -13,7 +13,7 @@ Section: Design Block -->
     width: 220px;
     top: -60px;
     left: -130px;
-    background: radial-gradient(#44006b, #ad1fff);
+    background: radial-gradient(#006b32, #27ff1f);
     overflow: hidden;
 }
 
@@ -23,14 +23,18 @@ Section: Design Block -->
     right: -110px;
     width: 300px;
     height: 300px;
-    background: radial-gradient(#44006b, #ad1fff);
+    background: radial-gradient(#006b32, #27ff1f);
     overflow: hidden;
 }
 
 .bg-glass {
-    background-color: hsla(0, 0%, 100%, 0.9) !important;
+    background-color: #1c211b !important;
     backdrop-filter: saturate(200%) blur(25px);
+    color: white;
 }
-background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,255,201,0.6783088235294117) 67%, rgba(0,212,255,1) 82%);
+#imglogo{
+    display:flex;
+    right;
+
+}
 </style >

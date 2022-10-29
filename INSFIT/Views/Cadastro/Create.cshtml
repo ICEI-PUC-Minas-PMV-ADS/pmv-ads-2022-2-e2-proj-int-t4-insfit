@@ -5,22 +5,10 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
 
-<h4>Cadastro</h4>
-<hr />
 
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-          
-        </form>
-    </div>
-</div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
@@ -36,7 +24,7 @@
       <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
         <h1 class="my-5 display-5 fw-bold ls-tight" style="color: hsl(218, 81%, 95%)">
           INSFIT <br />
-                    <img width="400px" height="400px"
+                    <img width="200px" height="200px"
                      src="~/img/logo insfit.png" alt="logo">
         </h1>
         <p class="mb-4 opacity-70" style="color: hsl(218, 81%, 85%)">
@@ -53,6 +41,10 @@
                         <form asp-action="Create">
               <!-- 2 column grid layout with text inputs for the first and last names -->
                             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <div id="imglogo">
+                            <img width="50px" height="50px"
+                             src="~/img/logo insfit.png" alt="logo">
+                    </div>
               <div class="row">
                 <div class="col-md-6 mb-4">
                   <div class="form-outline">
