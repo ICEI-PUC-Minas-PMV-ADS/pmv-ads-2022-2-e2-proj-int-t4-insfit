@@ -19,6 +19,8 @@ html {
 body {
     margin-bottom: 60px;
     background: #161815;
+    color: #fff;
+    overflow-x: hidden;
 }
 .verPerfil {
     position: relative;
@@ -50,4 +52,25 @@ body {
 }
 .border-bottom {
     border-bottom: 1px solid #1c211b !important;
+}
+.escolhasIniciais {
+    font-size: 20px;
+    position: relative;
+    margin: 0 auto;
+    padding: 7px;
+    color: #7da62c;
+    background-color: transparent;
+    border-color: #7da62c;
+}
+
+.escolhasIniciais:hover {
+        color: #fff ;
+        Background-color:#7da62c;
+    }
+
+#indicadores {
+    display: flex;
+    position: relative;
+    left: 30vw;
+    top: 5em;
 }
