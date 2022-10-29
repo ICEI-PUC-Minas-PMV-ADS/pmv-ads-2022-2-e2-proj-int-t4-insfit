@@ -49,7 +49,7 @@ Para está etapa do projeto, os testes serão realizados nas principais funciona
 
 | Tarefa 2 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-| Alterar e incerir dados do perfil| Alterar campo do perfil. |-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
+| Alterar e inserir dados do perfil| Alterar campo do perfil. |-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
 
 | Tarefa 3 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
@@ -142,31 +142,31 @@ Tarefa 3
 
 | Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | Escala de avaliação | Problemas observados |
 |------------|--------|---------------|---------|---------------------------|------------------------------|----------------------------|-----------------------------|
-| Usuário 1 | 20 | Computador | 00:00:50 | Fácil | 5.0 |  5.0 | XXX |
- | Usuário 2 | 25 | Smartphone | 00:01:32 | Fácil | 4.0 | 5.0 | XXX |
-| Usuário 3 | 30 | Notebook | 00:00:20 | Fácil | 4.0 | 5.0 | XXX |
-| Usuário 4 | 40 | Notebook | 00:01:05 | Fácil | 3.0 | 4.0 |XXX |
-| Usuário 5 | 50 | Smartphone | 00:00:43 | Fácil | 5.0 | 5.0 |XXX |
+| Usuário 1 | 20 | Computador | 00:00:22 | Fácil | 5.0 |  5.0 | Conseguiu visualizar as metas |
+ | Usuário 2 | 25 | Smartphone | 00:04:00 | Difícil | 2.0 | 2.0 | Não apareceu as metas na versão mobile/ sugestão: Incluir metas na versão utilizada |
+| Usuário 3 | 30 | Notebook | 00:01:20 | Médio | 4.0 | 3.0 | Não conseguiu alterar as metas da maneira desejada. |
+| Usuário 4 | 40 | Notebook | 00:01:05 | Médio | 3.0 | 4.0 | Conseguiu visualizar as metas mas não conseguiu alterar |
+| Usuário 5 | 50 | Smartphone | 00:05:22 | Difícil | 1.0 | 1.0 |Não conseguiu visualizar nem incluir metas/ sugestão: incluir de uma forma mais didática e simples. |
 
 Tarefa 4
 
 | Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | Escala de avaliação | Problemas observados |
 |------------|--------|---------------|---------|---------------------------|------------------------------|----------------------------|-----------------------------|
-| Usuário 1 | 21 | Computador | 00:00:50 | Fácil | 5.0 |  5.0 | XXX |
- | Usuário 2 | 22 | Computador | 00:01:32 | Fácil | 4.0 | 5.0 | XXX |
-| Usuário 3 | 23 | Computador | 00:00:20 | Fácil | 4.0 | 5.0 | XXX |
-| Usuário 4 | 24 | Computador | 00:01:05 | Fácil | 3.0 | 4.0 |XXX |
-| Usuário 5 | 25 | Computador | 00:00:43 | Fácil | 5.0 | 5.0 |XXX |
+| Usuário 1 | 20 | Computador | 00:00:34 | Fácil | 5.0 |  5.0 | Não obteve problemas de acesso |
+ | Usuário 2 | 25 | Smartphone | 00:01:34 | Médio | 3.0 | 3.0 | Obteve dificuldade em visualizar todas as informações/ sugestão: Melhorar responsividade |
+| Usuário 3 | 30 | Notebook | 00:01:20 | Fácil | 4.0 | 4.0 | Alguns travamentos e lentidão mas sem atrapalhar a experiencia |
+| Usuário 4 | 40 | Notebook | 00:02:46 | Difícil | 2.0 | 2.0 |Obteve muitos travamentos/ sugestão: Melhor performace no carregamento de informações. |
+| Usuário 5 | 50 | Smartphone | 00:05:31 | Difícil | 2.0 | 2.0 |Não conseguiu visualizar as informações/ Sugestão: Aumentar fonte e responsividade para mobile. |
 
 Tarefa 7
 
 | Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | Escala de avaliação | Problemas observados |
 |------------|--------|---------------|---------|---------------------------|------------------------------|----------------------------|-----------------------------|
-| Usuário 1 | 21 | Computador | 00:00:50 | Fácil | 5.0 |  5.0 | XXX |
- | Usuário 2 | 22 | Computador | 00:01:32 | Fácil | 4.0 | 5.0 | XXX |
-| Usuário 3 | 23 | Computador | 00:00:20 | Fácil | 4.0 | 5.0 | XXX |
-| Usuário 4 | 24 | Computador | 00:01:05 | Fácil | 3.0 | 4.0 |XXX |
-| Usuário 5 | 25 | Computador | 00:00:43 | Fácil | 5.0 | 5.0 |XXX |
+| Usuário 1 | 20 | Computador | 00:00:44 | Fácil | 5.0 |  5.0 | Conseguiu filtrar sem problemas |
+ | Usuário 2 | 25 | Smartphone | 00:00:59 | Fácil | 4.0 | 5.0 | Conseguiu filtrar sem problemas |
+| Usuário 3 | 30 | Notebook | 00:01:21 | Fácil | 4.0 | 5.0 | Houve alguns engasgos e travamentos, mas filtrou as informações |
+| Usuário 4 | 40 | Notebook | 00:01:05 | Médio | 3.0 | 3.0 | Filtrou, mas não apareceu o desejado |
+| Usuário 5 | 50 | Smartphone | 00:00:43 | Difícil | 2.0 | 2.0 |Não conseguiu acessar o filtro do feed/ Sugestão: Melhor explicação. |
 
 ### Tela de relatório
 Tarefa 5
