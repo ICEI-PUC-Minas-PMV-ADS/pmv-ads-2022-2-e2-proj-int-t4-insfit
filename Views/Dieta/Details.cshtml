@@ -1,0 +1,43 @@
+﻿@model INSFIT.Models.Dieta
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Dieta</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CampoImgem)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CampoImgem)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CampodePesquisa)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CampodePesquisa)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DataPublicacao)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DataPublicacao)
+        </dd>
+       
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id_Dieta">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

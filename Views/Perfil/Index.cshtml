@@ -1,0 +1,56 @@
+﻿@model IEnumerable<INSFIT.Models.Perfil>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Buscar usaurio</h1>
+<link  rel="stylesheet" href="~/css/Perfil.css"/>
+<p>
+    <figure>
+      <a asp-action="Create"><img src="/img/contact-form.png"  style="width: 28px;" alt="Cadastro novo perfil"></img></a>
+    </figure>
+</p>
+<table class="table table-borderless">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+             <th>
+                @Html.DisplayNameFor(model => model.Telefone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Usuario)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Telefone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Usuario)
+            </td>
+            <td>
+                
+                <a asp-action="Details" asp-route-id="@item.Id"><img src="/img/detalhes.png" style="width: 28px;"></img></a> |
+               
+            </td>
+        </tr>
+}
+  
+    </tbody>
+</table>
