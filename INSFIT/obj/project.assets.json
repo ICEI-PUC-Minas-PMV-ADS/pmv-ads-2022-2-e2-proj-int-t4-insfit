@@ -10426,19 +10426,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dell\\.nuget\\packages\\": {}
+    "C:\\Users\\vicin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dell\\Documents\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\INSFIT.csproj",
+      "projectUniqueName": "C:\\Users\\vicin\\Desktop\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\INSFIT.csproj",
       "projectName": "INSFIT",
-      "projectPath": "C:\\Users\\Dell\\Documents\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\INSFIT.csproj",
-      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dell\\Documents\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\obj\\",
+      "projectPath": "C:\\Users\\vicin\\Desktop\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\INSFIT.csproj",
+      "packagesPath": "C:\\Users\\vicin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vicin\\Desktop\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vicin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10446,6 +10451,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -10506,7 +10512,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
