@@ -13,32 +13,35 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 
 
 
-![Diagrama de Fluxo](img/Diagrama%20de%20Fluxo.png)
+![Diagrama de Fluxo](img/Diagrama%20de%20Fluxo.jpeg)
 
 
 ## Wireframes
 
 ### Login
-![relatorio](img/Login.png)
+![login](img/LOGIN.jpg)
 
-### Cadastro Usuário
-![relatorio](img/Cadastro.png)
+### Cadastro Usuário/Personal
+![cadastro](img/CADASTRO.jpg)
 
 ### Localização
-![relatorio](img/Localiza%C3%A7%C3%A3o.png)
+
+A tela se encontra em desenvolvimento pela equipe Insfit.
 
 ### Relatório Mensal
-![relatorio](img/relatorio.jpg)
+
+A tela se encontra em desenvolvimento pela equipe Insfit.
 
 ### Dieta
-![dieta](img/dieta.jpg)
+
+A tela se encontra em desenvolvimento pela equipe Insfit.
 
 ### Perfil do personal
-![personal](img/personal.png)
+![personal](img/PERFIL.jpg)
 
 ### Perfil do aluno
-![aluno](img/aluno.png)
+![aluno](img/PERFIL.jpg)
 
 ### Feed
-![feed](img/wireframefeed.png)
+![feed](img/FEED.jpg)
 
