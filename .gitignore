@@ -5,7 +5,16 @@
 *.vsidx
 *.v2
 *.v2
+*.v1
 *.exe
+*.json
+*.dll
+*.cache
+*.props
+*.pdb
+*.sentinel
+*.editorconfig
+*.suo
 INSFIT/obj/Debug/net6.0/INSFIT.assets.cache
 INSFIT/obj/Debug/net6.0/INSFIT.csproj.AssemblyReference.cache
 INSFIT/obj/Debug/net6.0/INSFIT.GeneratedMSBuildEditorConfig.editorconfig
