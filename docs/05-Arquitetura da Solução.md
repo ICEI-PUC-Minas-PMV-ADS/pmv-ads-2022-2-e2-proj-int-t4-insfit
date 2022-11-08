@@ -32,5 +32,5 @@ Para o desenvolvimento do sistem iremos utilizar a linguagem C# com  o Enty Fram
 
 ## Hospedagem
 
-O site será hospedado na azure, o link ficara disponivel em breve.
+O site será hospedado na Microsoft Azure, o link ficará disponível em breve.
 
