@@ -1,9 +1,13 @@
 ﻿body {
     background: #161815;
     color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
 }
 #descricao {
     color: #7da62c;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .botaoLike {
@@ -24,7 +28,8 @@
     }
 .botaoComment {
     font-size: 13px;
-    width: 75px;
+    text-align: center;
+    width: 80px;
     position: relative;
     margin-left: 20px;
     padding: 7px;
