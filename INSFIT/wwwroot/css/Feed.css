@@ -5,10 +5,16 @@
 .table {
     color: #fff;
 }
- .btn-group {
-     color: #fff;
-     background-color: #fff;
+.btn-group {
+    background-color: #7da62c;
+    margin-left: 118px;
+}
+ publications {
+     margin-left: 118px;
  }
- .social-body {
-     padding: 15px;
+ #postagem {
+     margin-left: 118px;
+ }
+ #outros {
+     margin-left:118px;
  }

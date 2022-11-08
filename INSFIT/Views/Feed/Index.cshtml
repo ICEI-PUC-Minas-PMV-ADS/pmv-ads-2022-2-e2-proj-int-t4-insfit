@@ -11,7 +11,7 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
-<table class="table table-borderless">
+<!--<div class="table table-borderless">
     <thead>
         <tr>
             <th>
@@ -29,30 +29,23 @@
             <th>
                 @Html.DisplayNameFor(model => model.Comentario)
             </th>
-            <th></th>
         </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-            <tr>
-
-
-            </tr>
-}
-    </tbody>
-</table>
+    </thead>-->
+</div>
 
 <body>
     @foreach (var item in Model)
     {
-<div class="social-body">
-    <p>
+<div class="publications">
+    <p id="postagem">
                 <td>
                     @Html.DisplayFor(modelItem => item.CampoTexto)
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.CampoImgem)
                 </td>
+    </p>
+    <p id="outros">
                 <td>
                     @Html.DisplayFor(modelItem => item.CampodePesquisa)
                 </td>
