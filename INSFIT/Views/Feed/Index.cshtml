@@ -3,14 +3,14 @@
 @{
     ViewData["Title"] = "Index";
 }
-
-<h1>Feed</h1>
-
 <link rel="stylesheet" href="~/css/Feed.css">
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+    <h1 id="descricao">Feed</h1>
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+
+
 <!--<div class="table table-borderless">
     <thead>
         <tr>
@@ -30,14 +30,23 @@
                 @Html.DisplayNameFor(model => model.Comentario)
             </th>
         </tr>
-    </thead>-->
-</div>
+    </thead>
+</div>-->
 
 <body>
     @foreach (var item in Model)
     {
 <div class="publications">
-    <p id="postagem">
+<p></p>
+    <div class="dataPublicacao">
+          <p>
+             <td>
+                  @Html.DisplayFor(modelItem => item.DataPublicacao)
+             </td>
+          </p>
+    </div>
+    <div class="postagem">
+    <p>
                 <td>
                     @Html.DisplayFor(modelItem => item.CampoTexto)
                 </td>
@@ -45,27 +54,29 @@
                     @Html.DisplayFor(modelItem => item.CampoImgem)
                 </td>
     </p>
-    <p id="outros">
+            </div>
+    <div class="outros">
+    <p>
                 <td>
                     @Html.DisplayFor(modelItem => item.CampodePesquisa)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.DataPublicacao)
-                </td>
-                <td>
                     @Html.DisplayFor(modelItem => item.Comentario)
                 </td>
+    </p>
+            </div>
+    <div class="opcoes">
                 <td>
                     <a asp-action="Edit" asp-route-id="@item.Id_Feed">Edit</a> |
                     <a asp-action="Details" asp-route-id="@item.Id_Feed">Details</a> |
                     <a asp-action="Delete" asp-route-id="@item.Id_Feed">Delete</a>
                 </td>
-    </p>
-
+            </div>
     <div class="btn-group">
-        <button class="btn btn-white btn-xs"><i class="fa fa-thumbs-up"></i> Like</button>
-        <button class="btn btn-white btn-xs"><i class="fa fa-comments"></i> Comment</button>
+        <button class="botaoLike"> Curtir</button>
+        <button class="botaoComment"> Comentar</button>
     </div>
+ <p></p>
 </div>
         }
 </body>

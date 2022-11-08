@@ -2,19 +2,62 @@
     background: #161815;
     color: #fff;
 }
-.table {
-    color: #fff;
+#descricao {
+    color: #7da62c;
 }
-.btn-group {
-    background-color: #7da62c;
+
+.botaoLike {
+    font-size: 13px;
+    width: 75px;
+    position: relative;
+    margin-left: 118px;
+    padding: 7px;
+    color: #7da62c;
+    background-color: transparent;
+    border-color: #7da62c;
+    border-radius: 10px;
+}
+
+    .botaoLike:hover {
+        color: #fff;
+        Background-color: #7da62c;
+    }
+.botaoComment {
+    font-size: 13px;
+    width: 75px;
+    position: relative;
+    margin-left: 20px;
+    padding: 7px;
+    color: #7da62c;
+    background-color: transparent;
+    border-color: #7da62c;
+    border-radius: 10px;
+}
+
+    .botaoComment:hover {
+        color: #fff;
+        Background-color: #7da62c;
+    }
+.publications{
+    border: 1px solid;
+    border-color: #173809;
+    border-radius: 10px;
+    width: relative;
+    height: relative;
+    
+}
+.postagem {
+    margin-left: 118px;
+    margin-right: 118px;
+}
+.outros {
     margin-left: 118px;
 }
- publications {
+ .dataPublicacao {
      margin-left: 118px;
+     font-size: 10px;
  }
- #postagem {
-     margin-left: 118px;
+ .opcoes {
+     margin-left: 900px;
  }
- #outros {
-     margin-left:118px;
- }
+
