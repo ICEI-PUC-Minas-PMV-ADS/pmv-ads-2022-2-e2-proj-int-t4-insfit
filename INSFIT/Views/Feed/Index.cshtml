@@ -34,29 +34,45 @@
     </thead>
     <tbody>
 @foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.CampoTexto)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CampoImgem)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CampodePesquisa)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DataPublicacao)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Comentario)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id_Feed">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id_Feed">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id_Feed">Delete</a> |
-                <a asp-action="Comentarios" asp-route-id="@item.Id_Feed">Comentarios</a>
-            </td>
-        </tr>
+            <tr>
+
+
+            </tr>
 }
     </tbody>
 </table>
+
+<body>
+    @foreach (var item in Model)
+    {
+<div class="social-body">
+    <p>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CampoTexto)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CampoImgem)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CampodePesquisa)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DataPublicacao)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Comentario)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id_Feed">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id_Feed">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id_Feed">Delete</a>
+                </td>
+    </p>
+
+    <div class="btn-group">
+        <button class="btn btn-white btn-xs"><i class="fa fa-thumbs-up"></i> Like</button>
+        <button class="btn btn-white btn-xs"><i class="fa fa-comments"></i> Comment</button>
+    </div>
+</div>
+        }
+</body>

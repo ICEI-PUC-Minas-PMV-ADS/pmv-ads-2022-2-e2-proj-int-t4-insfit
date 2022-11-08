@@ -1,9 +1,14 @@
 ﻿body {
-    margin-top: 20px;
     background: #161815;
     color: #fff;
 }
 .table {
     color: #fff;
 }
- 
+ .btn-group {
+     color: #fff;
+     background-color: #fff;
+ }
+ .social-body {
+     padding: 15px;
+ }
