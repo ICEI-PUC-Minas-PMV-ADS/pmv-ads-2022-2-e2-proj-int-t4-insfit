@@ -25,6 +25,10 @@ namespace INSFIT.Data
 
         public DbSet<INSFIT.Models.Dieta> Dieta { get; set; }
 
+       // public DbSet<INSFIT.Models.Mapa> Mapa { get; set; }
+
+        public DbSet<INSFIT.Models.Relatorio> Relatorio { get; set; }
+
        /*Criando metodo para adicionar as relações da tabela*/
      //   protected override void OnModelCreating(ModelBuilder modelBuilder)
        // {
