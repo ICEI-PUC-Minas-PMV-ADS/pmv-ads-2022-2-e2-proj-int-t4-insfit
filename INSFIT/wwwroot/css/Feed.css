@@ -10,39 +10,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.botaoLike {
-    font-size: 13px;
-    width: 75px;
-    position: relative;
-    margin-left: 118px;
-    padding: 7px;
-    color: #7da62c;
-    background-color: transparent;
-    border-color: #7da62c;
-    border-radius: 10px;
-}
-
-    .botaoLike:hover {
-        color: #fff;
-        Background-color: #7da62c;
-    }
-.botaoComment {
-    font-size: 13px;
-    text-align: center;
-    width: 80px;
-    position: relative;
-    margin-left: 20px;
-    padding: 7px;
-    color: #7da62c;
-    background-color: transparent;
-    border-color: #7da62c;
-    border-radius: 10px;
-}
-
-    .botaoComment:hover {
-        color: #fff;
-        Background-color: #7da62c;
-    }
 .publications{
     border: 1px solid;
     border-color: #173809;
@@ -58,6 +25,9 @@
 .outros {
     margin-left: 118px;
 }
+.comentarios {
+    margin-left: 118px;
+}
  .dataPublicacao {
      margin-left: 118px;
      font-size: 10px;
@@ -65,4 +35,11 @@
  .opcoes {
      margin-left: 900px;
  }
-
+.like {
+    font-size: 13px;
+    position: relative;
+    margin: 0 auto;
+    padding: 7px;
+    color: #7da62c;
+    background-color: transparent;
+    border-color: #7da62c;

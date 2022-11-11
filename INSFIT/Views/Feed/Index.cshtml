@@ -4,7 +4,7 @@
     ViewData["Title"] = "Index";
 }
 <link rel="stylesheet" href="~/css/Feed.css">
-
+<script src="~/js/Feed.js"></script>
 
     <h1 id="descricao">Feed</h1>
     <p>
@@ -60,9 +60,6 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.CampodePesquisa)
                 </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Comentario)
-                </td>
     </p>
             </div>
     <div class="opcoes">
@@ -72,10 +69,17 @@
                     <a asp-action="Delete" asp-route-id="@item.Id_Feed">Delete</a>
                 </td>
             </div>
-    <div class="btn-group">
-        <button class="botaoLike"> Curtir</button>
-        <button class="botaoComment"> Comentar</button>
-    </div>
+    <div class="like">
+            <button id="curtir">Curtir
+            <div class="number" id="number">0</div>
+            </button>
+            </div>
+
+    <div class="comentarios">
+                <td>
+                    @Html.DisplayFor(modelItem => item.Comentario)
+                </td>
+            </div>
  <p></p>
 </div>
         }
