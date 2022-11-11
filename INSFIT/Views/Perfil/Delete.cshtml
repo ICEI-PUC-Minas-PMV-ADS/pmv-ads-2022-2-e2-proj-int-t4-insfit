@@ -35,7 +35,10 @@
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Peso)
         </dd>
-         <dd class = "col-sm-10">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Telefone)
+        </dt>
+        <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Telefone)
         </dd>
         <dt class = "col-sm-2">
@@ -43,6 +46,12 @@
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Usuario)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cadastro)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cadastro.email)
         </dd>
     </dl>
     

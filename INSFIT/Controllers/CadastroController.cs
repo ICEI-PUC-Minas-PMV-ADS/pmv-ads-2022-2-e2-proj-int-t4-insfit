@@ -47,14 +47,15 @@ namespace INSFIT.Controllers
 
             if (isSenhaOk)
             {
+                
                 //Criando as credenciais 
-                /* List<Claim> claims = new List<Claim>
+               /* List<Claim> claims = new List<Claim>
                  {
                      new Claim(ClaimTypes.Name, user.name),
                      new Claim(ClaimTypes.NameIdentifier, user.name),
-                     new Claim(ClaimTypes.Role, user.Perfil.ToString())
+                    new Claim(ClaimTypes.Role, user.Perfil.ToString())
                  };
-
+                
                  var userIdentity = new ClaimsIdentity(claims, "login");
 
                  ClaimsPrincipal principal = new ClaimsPrincipal(userIdentity);
@@ -123,6 +124,7 @@ namespace INSFIT.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            //return Redirect("Perfil/Create");
             return View(cadastro);
         }
 

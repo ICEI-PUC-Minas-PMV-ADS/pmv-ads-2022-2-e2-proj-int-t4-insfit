@@ -4,14 +4,12 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Buscar usaurio</h1>
-<link  rel="stylesheet" href="~/css/Perfil.css"/>
+<h1>Index</h1>
+
 <p>
-    <figure>
-      <a asp-action="Create"><img src="/img/contact-form.png"  style="width: 28px;" alt="Cadastro novo perfil"></img></a>
-    </figure>
+    <a asp-action="Create">Create New</a>
 </p>
-<table class="table table-borderless" id="tabela-usuarios">
+<table class="table">
     <thead>
         <tr>
             <th>
@@ -20,11 +18,20 @@
             <th>
                 @Html.DisplayNameFor(model => model.Email)
             </th>
-             <th>
+            <th>
+                @Html.DisplayNameFor(model => model.Altura)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Peso)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.Telefone)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Usuario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cadastro)
             </th>
             <th></th>
         </tr>
@@ -39,18 +46,26 @@
                 @Html.DisplayFor(modelItem => item.Email)
             </td>
             <td>
+                @Html.DisplayFor(modelItem => item.Altura)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Peso)
+            </td>
+            <td>
                 @Html.DisplayFor(modelItem => item.Telefone)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Usuario)
             </td>
             <td>
-                
-                <a asp-action="Details" asp-route-id="@item.Id"><img src="/img/detalhes.png" style="width: 28px;"></img></a> |
-               
+                @Html.DisplayFor(modelItem => item.Cadastro.email)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
             </td>
         </tr>
 }
-  
     </tbody>
 </table>

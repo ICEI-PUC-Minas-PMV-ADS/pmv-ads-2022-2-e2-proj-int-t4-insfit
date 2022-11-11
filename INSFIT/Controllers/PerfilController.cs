@@ -22,9 +22,9 @@ namespace INSFIT.Controllers
         // GET: Perfil
         public async Task<IActionResult> Index()
         {
-              return View(await _context.Perfil.ToListAsync());
+            var iNSFITContext = _context.Perfil.Include(p => p.Cadastro);
+            return View(await iNSFITContext.ToListAsync());
         }
-       
 
         // GET: Perfil/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -35,23 +35,8 @@ namespace INSFIT.Controllers
             }
 
             var perfil = await _context.Perfil
+                .Include(p => p.Cadastro)
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (perfil == null)
-            {
-                return NotFound();
-            }
-
-            return View(perfil);
-        }
-        public async Task<IActionResult> UsuarioLogado()
-        {
-            //if (id == null || _context.Perfil == null)
-            //{
-              //  return NotFound();
-           // }
-
-            var perfil = await _context.Perfil
-                .FirstOrDefaultAsync(m => m.Name == "Vitor");
             if (perfil == null)
             {
                 return NotFound();
@@ -63,6 +48,7 @@ namespace INSFIT.Controllers
         // GET: Perfil/Create
         public IActionResult Create()
         {
+            ViewData["indetificador"] = new SelectList(_context.Cadastro, "id_cadastro", "email");
             return View();
         }
 
@@ -71,14 +57,15 @@ namespace INSFIT.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Email,Altura,Peso,Usuario")] Perfil perfil)
+        public async Task<IActionResult> Create([Bind("Id,Name,Email,Altura,Peso,Telefone,Usuario,indetificador")] Perfil perfil)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 _context.Add(perfil);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["indetificador"] = new SelectList(_context.Cadastro, "id_cadastro", "email", perfil.indetificador);
             return View(perfil);
         }
 
@@ -95,6 +82,7 @@ namespace INSFIT.Controllers
             {
                 return NotFound();
             }
+            ViewData["indetificador"] = new SelectList(_context.Cadastro, "id_cadastro", "email", perfil.indetificador);
             return View(perfil);
         }
 
@@ -103,7 +91,7 @@ namespace INSFIT.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Email,Altura,Peso,Usuario")] Perfil perfil)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Email,Altura,Peso,Telefone,Usuario,indetificador")] Perfil perfil)
         {
             if (id != perfil.Id)
             {
@@ -130,6 +118,7 @@ namespace INSFIT.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["indetificador"] = new SelectList(_context.Cadastro, "id_cadastro", "email", perfil.indetificador);
             return View(perfil);
         }
 
@@ -142,6 +131,7 @@ namespace INSFIT.Controllers
             }
 
             var perfil = await _context.Perfil
+                .Include(p => p.Cadastro)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (perfil == null)
             {

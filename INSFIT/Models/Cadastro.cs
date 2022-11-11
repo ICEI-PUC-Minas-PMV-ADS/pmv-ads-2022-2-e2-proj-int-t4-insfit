@@ -23,6 +23,8 @@ namespace INSFIT.Models
      //   public virtual List<Perfil> Perfil { get; set; }
         public TipoUsuario tipoUsuario { get; set; }
 
+        public ICollection<Perfil> Perfil { get; set; }=new List<Perfil>(); 
+
         /*Eu criando a relação com o perfil
         public int? IdUser { get; set; }
         public Perfil perfil { get; set; }*/
