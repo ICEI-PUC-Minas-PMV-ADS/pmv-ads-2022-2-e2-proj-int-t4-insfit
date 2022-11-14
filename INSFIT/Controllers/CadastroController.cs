@@ -80,6 +80,11 @@ namespace INSFIT.Controllers
             return View();
         }
 
+        public IActionResult AccessDenied()
+        {
+            return View();
+        }
+
 
         // GET: Cadastro
         public async Task<IActionResult> Index()
