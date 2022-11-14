@@ -43,32 +43,32 @@ namespace INSFIT.Controllers
                 return View();
             }
 
+            //Comparando senha com o banco
             bool isSenhaOk = BCrypt.Net.BCrypt.Verify(cadastro.senha, user.senha);
 
             if (isSenhaOk)
             {
-                
-                //Criando as credenciais 
-               /* List<Claim> claims = new List<Claim>
-                 {
-                     new Claim(ClaimTypes.Name, user.name),
-                     new Claim(ClaimTypes.NameIdentifier, user.name),
-                    new Claim(ClaimTypes.Role, user.Perfil.ToString())
-                 };
-                
-                 var userIdentity = new ClaimsIdentity(claims, "login");
 
-                 ClaimsPrincipal principal = new ClaimsPrincipal(userIdentity);
+                var claims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.Name, user.name),
+                    new Claim(ClaimTypes.NameIdentifier, user.name),
+                    new Claim(ClaimTypes.Role, user.tipoUsuario.ToString())
+                };
 
-                 //Tempo de expiração da sessão
-                 var props = new AuthenticationProperties
-                 {
-                     AllowRefresh = true,
-                     ExpiresUtc = DateTime.Now.ToLocalTime().AddDays(1),
-                     IsPersistent = true
-                 };
+                var userIdentity = new ClaimsIdentity(claims, "login");
 
-                 await HttpContext.SignInAsync(principal, props);*/
+                ClaimsPrincipal  principal = new ClaimsPrincipal(userIdentity);
+
+                var props = new AuthenticationProperties
+                {
+                    AllowRefresh = true,
+                    ExpiresUtc = DateTime.UtcNow.ToLocalTime().AddDays(1),//Tempo para expirar a senha
+                    IsPersistent = true
+                };
+
+                await HttpContext.SignInAsync(principal, props);
+
 
                 //Redirecionando para Home autenticado
                 return Redirect("/Feed");
@@ -76,6 +76,7 @@ namespace INSFIT.Controllers
                 ViewBag.Message = "Bem vindo";
             }
 
+            ViewBag.Message = "E-mail e/ou Senha inválidos!";
             return View();
         }
 
