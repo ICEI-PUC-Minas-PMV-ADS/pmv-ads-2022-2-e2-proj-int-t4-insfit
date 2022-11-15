@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace INSFIT.Migrations
 {
     [DbContext(typeof(INSFITContext))]
-    [Migration("20221029150523_Mapa")]
-    partial class Mapa
+    [Migration("20221115010033_funcionando")]
+    partial class funcionando
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -140,9 +140,53 @@ namespace INSFIT.Migrations
                     b.Property<int>("Usuario")
                         .HasColumnType("int");
 
+                    b.Property<int>("indetificador")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
+                    b.HasIndex("indetificador");
+
                     b.ToTable("Usuarios");
+                });
+
+            modelBuilder.Entity("INSFIT.Models.Relatorio", b =>
+                {
+                    b.Property<int>("Id_relatorio")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id_relatorio"), 1L, 1);
+
+                    b.Property<double>("altura")
+                        .HasColumnType("float");
+
+                    b.Property<string>("nome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("peso")
+                        .HasColumnType("float");
+
+                    b.HasKey("Id_relatorio");
+
+                    b.ToTable("relatorio");
+                });
+
+            modelBuilder.Entity("INSFIT.Models.Perfil", b =>
+                {
+                    b.HasOne("INSFIT.Models.Cadastro", "Cadastro")
+                        .WithMany("Perfil")
+                        .HasForeignKey("indetificador")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Cadastro");
+                });
+
+            modelBuilder.Entity("INSFIT.Models.Cadastro", b =>
+                {
+                    b.Navigation("Perfil");
                 });
 #pragma warning restore 612, 618
         }

@@ -4,7 +4,7 @@
 
 namespace INSFIT.Migrations
 {
-    public partial class Mapa : Migration
+    public partial class funcionando : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
