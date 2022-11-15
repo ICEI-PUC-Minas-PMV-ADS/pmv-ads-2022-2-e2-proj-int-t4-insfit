@@ -2,6 +2,8 @@
 using Microsoft.Extensions.DependencyInjection;
 using INSFIT.Data;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Server.IIS;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<INSFITContext>(options =>
@@ -9,6 +11,9 @@ builder.Services.AddDbContext<INSFITContext>(options =>
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie();
 
 var app = builder.Build();
 
@@ -20,7 +25,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-/*public void ConfigureServices(IServiceCollection services) {
+ void ConfigureServices(IServiceCollection services) {
 
     services.Configure<CookiePolicyOptions>(options =>
     {
@@ -29,13 +34,13 @@ if (!app.Environment.IsDevelopment())
     });
 
     services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-        .AddCookie(options =>
+        .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, options =>
         {
             options.AccessDeniedPath = "/Cadastro/AccessDenied";
             options.LoginPath = "/Cadastro/Login";
         });
     services.AddControllersWithViews();
-}*/
+}
 
 
 
@@ -47,6 +52,11 @@ app.UseRouting();
 app.UseAuthorization();
 app.UseAuthorization();
 app.UseAuthentication();
+
+app.UseCookiePolicy();
+
+app.UseAuthentication();
+
 app.UseCookiePolicy();  
 
 app.MapControllerRoute(

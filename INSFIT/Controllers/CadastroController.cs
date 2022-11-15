@@ -9,6 +9,7 @@ using INSFIT.Data;
 using INSFIT.Models;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
+using FsCheck;
 
 namespace INSFIT.Controllers
 {
@@ -73,11 +74,16 @@ namespace INSFIT.Controllers
                 //Redirecionando para Home autenticado
                 return Redirect("/Feed");
 
-                ViewBag.Message = "Bem vindo";
             }
 
             ViewBag.Message = "E-mail e/ou Senha inválidos!";
             return View();
+        }
+
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync();
+            return RedirectToAction("Login", "Cadastro");
         }
 
         public IActionResult AccessDenied()

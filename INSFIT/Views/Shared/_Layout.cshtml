@@ -1,8 +1,4 @@
-﻿@using Microsoft.AspNetCore.Identity
-@inject SignInManager<IdentityUser> SignInManager
-@inject UserManager<IdentityUser> UserManager
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -49,9 +45,9 @@
                     </ul>
                     <ul class ="navbar-nav">
                         
-                        @if (SignInManager.IsSignedIn(User)) {
+                        @if (User.Identity.IsAuthenticated) {
                             <li class="nav-item">
-                                Olá, @User.Identity.Name
+                                Olá, @User.Identity.Name <a class="nav-link text dark" asp-area="" asp-controller="Cadastro" asp-action="Logout">Sair</a>
                             </li>
                         }else{
                              <li class="nav-item">
