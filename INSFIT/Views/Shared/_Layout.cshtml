@@ -47,7 +47,7 @@
                         
                         @if (User.Identity.IsAuthenticated) {
                             <li class="nav-item">
-                                Olá, @User.Identity.Name <a class="nav-link text dark" asp-area="" asp-controller="Cadastro" asp-action="Logout">Sair</a>
+                                Olá, @User.Identity.Name <a class="nav-link text dark" asp-area="" asp-controller="Cadastro" asp-action="Logout"><img src="~/img/logout.png" class="media-object  img-responsive"></a>
                             </li>
                         }else{
                              <li class="nav-item">
