@@ -3,7 +3,7 @@ const number = document.querySelector('#number');
 
 button.addEventListener('click', () => {
     let curtirValue = document.querySelector('#number').textContent;
-    let newValue = Number(curtirValue) + 1;
+    let newValue = number(curtirValue) + 1;
     button.classList.add('curtir');
     number.innerHTML = newValue;
 });

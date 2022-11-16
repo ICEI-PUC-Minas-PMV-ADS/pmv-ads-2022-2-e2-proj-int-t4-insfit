@@ -35,11 +35,15 @@
  .opcoes {
      margin-left: 900px;
  }
-.like {
-    font-size: 13px;
+#curtir {
+    font-size: 11px;
     position: relative;
-    margin: 0 auto;
+    width: 65px;
+    height: 40px;
+    margin-left: 118px;
+    border-radius: 10px;
     padding: 7px;
     color: #7da62c;
     background-color: transparent;
     border-color: #7da62c;
+}

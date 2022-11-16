@@ -58,7 +58,7 @@
     <div class="outros">
     <p>
                 <td>
-                    @Html.DisplayFor(modelItem => item.CampodePesquisa)
+                     @Html.DisplayFor(modelItem => item.CampodePesquisa)
                 </td>
     </p>
             </div>
@@ -69,10 +69,12 @@
                     <a asp-action="Delete" asp-route-id="@item.Id_Feed">Delete</a>
                 </td>
             </div>
-    <div class="like">
-            <button id="curtir">Curtir
-            <div class="number" id="number">0</div>
-            </button>
+
+            <div class="like">
+                <button onclick="curtir" id="curtir">
+                    Curtir
+                    <div class="number" id="number">0</div>
+                </button>
             </div>
 
     <div class="comentarios">
