@@ -30,11 +30,7 @@
     margin-left: 118px;
 }
 .comentarios {
-    width: 950px;
     margin-left: 100px;
-    border: 1px solid;
-    border-color: #173809;
-    border-radius: 10px;
 }
  .dataPublicacao {
      margin-left: 118px;
@@ -46,10 +42,13 @@
  }
 
  /*Botao Like*/
-button {
+.curtir {
+    border-bottom: 1px solid;
+    border-color: #173809;
+}
+button{
     height: 40px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin-left: 118px;
     border-radius: 10px;
@@ -59,7 +58,7 @@ button {
     color: #fff;
     background-color: transparent;
     cursor: pointer;
-    transition: all .25s ease-in-out;
+
 }
 
 .label {

@@ -1,4 +1,4 @@
-﻿//botao curtir
+﻿
 //botao de curtir
 const button = document.querySelector('#like');
 const number = document.querySelector('#number');
