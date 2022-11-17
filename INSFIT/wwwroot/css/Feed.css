@@ -9,14 +9,18 @@
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.nomeUsuario {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 118px;
+}
 
 .publications{
     border: 1px solid;
     border-color: #173809;
     border-radius: 10px;
+    margin-bottom: 20px;
     width: relative;
     height: relative;
-    
 }
 .postagem {
     margin-left: 118px;
@@ -33,7 +37,8 @@
      font-size: 10px;
  }
  .opcoes {
-     margin-left: 900px;
+     margin-left: 1000px;
+     font-size: 10px;
  }
 #curtir {
     font-size: 11px;
