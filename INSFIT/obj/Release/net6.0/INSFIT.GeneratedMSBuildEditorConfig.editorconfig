@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Dell\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Dell/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Cadastro/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9cQWNjZXNzRGVuaWVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Dell/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Cadastro/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -113,6 +117,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Dell/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Perfil/UsuarioLogado.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyZmlsXFVzdWFyaW9Mb2dhZG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Relatorio/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVsYXRvcmlvXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Relatorio/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVsYXRvcmlvXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Relatorio/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVsYXRvcmlvXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Relatorio/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVsYXRvcmlvXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Relatorio/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVsYXRvcmlvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Dell/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Shared/Error.cshtml]
