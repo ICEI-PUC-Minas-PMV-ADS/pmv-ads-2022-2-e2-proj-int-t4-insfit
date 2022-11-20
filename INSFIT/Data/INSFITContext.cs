@@ -31,16 +31,16 @@ namespace INSFIT.Data
 
        // public DbSet<INSFIT.Models.Mapa> Mapa { get; set; }
 
-        public DbSet<INSFIT.Models.Contatos> Contatos { get; set; }
+        //public DbSet<INSFIT.Models.Contatos> Contatos { get; set; }
 
        /*Criando metodo para adicionar as relações da tabela*/
-       protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.ApplyConfiguration(new ContatoMap());
+       //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+           // modelBuilder.ApplyConfiguration(new ContatoMap());
            // modelBuilder.ApplyConfiguration(new MapPerfilCadastro());
             //modelBuilder.ApplyConfiguration(new MapPerfilDieta());
             //modelBuilder.ApplyConfiguration(new MapPerfilRelatorio());
-            base.OnModelCreating(modelBuilder);
-        }
+            //base.OnModelCreating(modelBuilder);
+        //}
     }
 }

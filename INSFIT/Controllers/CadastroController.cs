@@ -11,6 +11,8 @@ using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using FsCheck;
 using Microsoft.AspNet.Identity;
+//using Microsoft.AspNetCore.Identity;
+//using Microsoft.AspNet.Identity;
 
 namespace INSFIT.Controllers
 {

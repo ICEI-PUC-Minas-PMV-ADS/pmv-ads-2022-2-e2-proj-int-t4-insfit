@@ -48,25 +48,21 @@
               "target": "Package",
               "version": "[2.16.5, )"
             },
-            "Microsoft.AspNet.Identity.AspNetCoreCompat": {
-              "target": "Package",
-              "version": "[0.3.4, )"
-            },
             "Microsoft.AspNet.Identity.Core": {
               "target": "Package",
               "version": "[2.2.3, )"
-            },
-            "Microsoft.AspNetCore.Authentication.ActiveDirectory": {
-              "target": "Package",
-              "version": "[1.1.0, )"
             },
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
               "version": "[2.2.0, )"
             },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -82,7 +78,15 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "Microsoft.Identity.Client": {
+              "target": "Package",
+              "version": "[4.48.1, )"
+            },
             "Microsoft.Identity.Web": {
+              "target": "Package",
+              "version": "[1.25.8, )"
+            },
+            "Microsoft.Identity.Web.MicrosoftGraph": {
               "target": "Package",
               "version": "[1.25.8, )"
             },
