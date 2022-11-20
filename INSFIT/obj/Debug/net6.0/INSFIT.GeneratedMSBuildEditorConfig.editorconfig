@@ -8,153 +8,173 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = INSFIT
 build_property.RootNamespace = INSFIT
-build_property.ProjectDir = C:\Users\vicin\Desktop\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\
+build_property.ProjectDir = C:\Users\vitor\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\vicin\Desktop\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT
+build_property.MSBuildProjectDirectory = C:\Users\vitor\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Cadastro/AccessDenied.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Cadastro/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9cQWNjZXNzRGVuaWVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Cadastro/Create.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Cadastro/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Cadastro/Delete.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Cadastro/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Cadastro/Details.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Cadastro/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Cadastro/Edit.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Cadastro/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Cadastro/Index.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Cadastro/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Cadastro/Login.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Cadastro/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Cadastro/Mapa.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Cadastro/Mapa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9cTWFwYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Dieta/Create.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Contatos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Contatos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Contatos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Contatos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Contatos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Dieta/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlldGFcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Dieta/Delete.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Dieta/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlldGFcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Dieta/Details.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Dieta/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlldGFcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Dieta/Edit.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Dieta/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlldGFcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Dieta/Index.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Dieta/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlldGFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Feed/Create.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Feed/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Feed/Delete.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Feed/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Feed/Details.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Feed/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Feed/Edit.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Feed/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Feed/Index.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Feed/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Home/Index.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Home/Privacy.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Perfil/Create.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Perfil/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyZmlsXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Perfil/Delete.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Perfil/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyZmlsXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Perfil/Details.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Perfil/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyZmlsXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Perfil/Edit.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Perfil/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyZmlsXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Perfil/Index.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Perfil/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyZmlsXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Perfil/UsuarioLogado.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Perfil/UsuarioLogado.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyZmlsXFVzdWFyaW9Mb2dhZG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Relatorio/Create.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Relatorio/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVsYXRvcmlvXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Relatorio/Delete.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Relatorio/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVsYXRvcmlvXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Relatorio/Details.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Relatorio/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVsYXRvcmlvXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Relatorio/Edit.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Relatorio/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVsYXRvcmlvXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Relatorio/Index.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Relatorio/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVsYXRvcmlvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Shared/Error.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/_ViewImports.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/_ViewStart.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vicin/Desktop/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Shared/_Layout.cshtml]
+[C:/Users/vitor/Documents/GitHub/pmv-ads-2022-2-e2-proj-int-t4-insfit/INSFIT/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-u2v5i3f6cv

@@ -10,6 +10,7 @@ using INSFIT.Models;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using FsCheck;
+using Microsoft.AspNet.Identity;
 
 namespace INSFIT.Controllers
 {
@@ -54,6 +55,7 @@ namespace INSFIT.Controllers
                 {
                     new Claim(ClaimTypes.Name, user.name),
                     new Claim(ClaimTypes.NameIdentifier, user.name),
+                    // Claim(ClaimTypes.Role, user.id_cadastro),
                     new Claim(ClaimTypes.Role, user.tipoUsuario.ToString())
                 };
 
@@ -91,30 +93,34 @@ namespace INSFIT.Controllers
             return View();
         }
 
-
+        //var userId
         // GET: Cadastro
         public async Task<IActionResult> Index()
         {
-              return View(await _context.Cadastro.ToListAsync());
-        }
+              var userId = User.Identity.GetUserId();
+              return View(await _context.Cadastro.Where(c => c.id_cadastro.Equals(userId)).ToListAsync());
+           // return
 
+        }
         // GET: Cadastro/Details/5
-        public async Task<IActionResult> Details(int? id)
+       // private readonly ISession _session;
+        public async Task<IActionResult> Details()
+
         {
-            if (id == null || _context.Cadastro == null)
-            {
+            var userId = User.Identity.GetUserId();
+            //  string idUsuario = Session["IdUsuario"].ToString();
+              if (userId == null)
+             {
+                 return NotFound();
+             }
+
+            var cadastro = await _context.Cadastro .FirstOrDefaultAsync(m => m.name.Equals(userId));
+          if (cadastro == null)
+           {
                 return NotFound();
             }
-
-            var cadastro = await _context.Cadastro
-                .FirstOrDefaultAsync(m => m.id_cadastro == id);
-            if (cadastro == null)
-            {
-                return NotFound();
-            }
-
             return View(cadastro);
-        }
+     }
 
         // GET: Cadastro/Create
         public IActionResult Create()
