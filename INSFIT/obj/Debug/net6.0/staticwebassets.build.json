@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NJxBB9WQoCxy2zlZmbYA0quQBSogOYrDb96EYJPtAqI=",
+  "Hash": "bm+mCKZUrY/kczCN2N+V5+q7NJ5TdhDGQYfRboSMAYo=",
   "Source": "INSFIT",
   "BasePath": "_content/INSFIT",
   "Mode": "Default",
@@ -1324,6 +1324,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Mapa.js"
+    },
+    {
+      "Identity": "C:\\Users\\vicin\\Desktop\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\js\\Relatorio.js",
+      "SourceId": "INSFIT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vicin\\Desktop\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\",
+      "BasePath": "_content/INSFIT",
+      "RelativePath": "js/Relatorio.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Relatorio.js"
     },
     {
       "Identity": "C:\\Users\\vicin\\Desktop\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\js\\site.js",
