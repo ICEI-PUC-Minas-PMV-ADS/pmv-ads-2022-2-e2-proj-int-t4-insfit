@@ -1607,15 +1607,7 @@ C:\Users\vitor\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\
 C:\Users\vitor\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\Microsoft.AspNet.Identity.Core.dll
 C:\Users\vitor\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\vitor\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
-C:\Users\vitor\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\vitor\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\vitor\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\vitor\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\vitor\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
-C:\Users\vitor\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
-C:\Users\vitor\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\vitor\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
-C:\Users\vitor\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 C:\Users\vitor\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\Users\vitor\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\Microsoft.Identity.Web.dll
 C:\Users\vitor\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\Microsoft.Identity.Web.Certificate.dll

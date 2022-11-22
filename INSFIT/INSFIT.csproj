@@ -30,7 +30,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="6.0.0" />
     <PackageReference Include="Microsoft.Identity.Client" Version="4.48.1" />
     <PackageReference Include="Microsoft.Identity.Web" Version="1.25.8" />
     <PackageReference Include="Microsoft.Identity.Web.MicrosoftGraph" Version="1.25.8" />
