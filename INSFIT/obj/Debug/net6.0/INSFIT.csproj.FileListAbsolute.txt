@@ -1632,16 +1632,8 @@ C:\Users\vicin\Desktop\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net
 C:\Users\vicin\Desktop\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\Microsoft.AspNet.Identity.Core.dll
 C:\Users\vicin\Desktop\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\vicin\Desktop\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
-C:\Users\vicin\Desktop\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\vicin\Desktop\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\vicin\Desktop\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\vicin\Desktop\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
-C:\Users\vicin\Desktop\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\vicin\Desktop\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
-C:\Users\vicin\Desktop\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
-C:\Users\vicin\Desktop\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\vicin\Desktop\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
-C:\Users\vicin\Desktop\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 C:\Users\vicin\Desktop\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\Microsoft.Graph.dll
 C:\Users\vicin\Desktop\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\Microsoft.Graph.Core.dll
 C:\Users\vicin\Desktop\pmv-ads-2022-2-e2-proj-int-t4-insfit\INSFIT\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
