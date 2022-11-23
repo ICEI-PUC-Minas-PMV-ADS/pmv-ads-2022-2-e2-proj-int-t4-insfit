@@ -3,13 +3,13 @@
 @{
     ViewData["Title"] = "Login";
 }
-<link rel="stylesheet" href="~/css/Cadastro.css">
+<link rel="stylesheet" href="~/css/Login.css">
 
-<h1>Login</h1>
 
-<hr />
+
 <div class="row">
     <div class="col-md-4">
+        <h1>Login</h1>
         <form asp-action="Login">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
@@ -22,6 +22,8 @@
                 <input asp-for="senha" class="form-control" />
                 <span asp-validation-for="senha" class="text-danger"></span>
             </div>
+            <br />
+            <a class="nav-link text dark" asp-area="" asp-controller="Cadastro" asp-action="Create" style="color: #FFFF"><b>Caso não tenha se cadastrado, clique aqui.</b></a>
             <div class="form-group">
                 <input type="submit" value="Entrar" class="btn btn-primary" />
             </div>
