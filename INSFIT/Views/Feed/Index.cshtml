@@ -4,7 +4,6 @@
     ViewData["Title"] = "Index";
 }
 <link rel="stylesheet" href="~/css/Feed.css">
-<script src="~/js/Feed.js"></script>
 
 
     <h1 id="descricao">Feed</h1>
@@ -56,8 +55,9 @@
                 </td>
     <p></p>
                 <td>
-                    @Html.DisplayFor(modelItem => item.CampoImgem)
+                    <img src="@item.CampoImgem" />
                 </td>
+
     </p>
     </div>
     <div class="outros">
@@ -69,6 +69,7 @@
     </div>
     <p></p>
     <div class="curtir">
+                <script src="~/js/Feed.js"></script>
                 <button id="like">
                     <div class="label">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
