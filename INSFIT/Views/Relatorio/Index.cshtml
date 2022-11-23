@@ -4,26 +4,14 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Relatorio</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
 </p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.nome)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.peso)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.altura)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
+
+   
+    
     <tbody>
 @foreach (var item in Model) {
         <tr>
@@ -44,7 +32,7 @@
         </tr>
 }
     </tbody>
-</table>
+
 <head> 
 
 </head>
@@ -52,7 +40,6 @@
    <h1> Calculadora de Imc </h1>
 
    <h2> Altura (cm) </h2>
-    <input type="number"/>
     <input id="altura" type="number" />
    
 
