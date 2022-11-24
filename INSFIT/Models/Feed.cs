@@ -13,7 +13,7 @@ namespace INSFIT.Models
         public int Id_Feed { get; set; }
         public string CampoTexto { get; set; }
         public string CampoImgem { get; set; }
-        public string CampodePesquisa { get; set; }
+      //  public string CampodePesquisa { get; set; }
         public DateTime DataPublicacao { get; set; }
         public string Comentario { get; set; }
       //  public int? IdUser { get; set; }
