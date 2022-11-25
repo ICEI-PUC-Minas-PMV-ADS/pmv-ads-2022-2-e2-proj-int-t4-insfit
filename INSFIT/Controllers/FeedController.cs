@@ -54,7 +54,7 @@ namespace INSFIT.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id_Feed,CampoTexto,CampoImgem,DataPublicacao,Comentario")] Feed feed)
+        public async Task<IActionResult> Create([Bind("Id_Feed,CampoTexto,CampoImgem,HttpPostedFileBase file,DataPublicacao,Comentario")] Feed feed)
         {
             if (ModelState.IsValid)
             {
