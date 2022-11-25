@@ -4,52 +4,27 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>DIETA</h1>
 
-<p>
-    <a asp-action="Create">Buscar por Dietas</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Date)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CampoImgem)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CampodePesquisa)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DataPublicacao)
-            </th>
-          
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Date)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CampoImgem)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CampodePesquisa)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DataPublicacao)
-            </td>
-       
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id_Dieta">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id_Dieta">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id_Dieta">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+
+
+
+<head>
+<h1>DIETA</h1>
+<h5>SAÚDE E BEM-ESTAR</h5>
+</head>
+
+<body>
+   
+  <input type="text" placeholder="Listas de Dietas..." list="Dietas">
+  <datalist id="Dietas">
+    <option value="">LISTA DE DIETAS:</option>
+    <option value="Café da manhã"></option>
+    <option value="Lanche da manhã"></option>
+    <option value="Almoço"></option>
+    <option value="Lanche da tarde"></option>
+    <option value="jantar"></option>
+  </datalist>
+
+    <button type="submit">Enviar</button>
+
+</body>

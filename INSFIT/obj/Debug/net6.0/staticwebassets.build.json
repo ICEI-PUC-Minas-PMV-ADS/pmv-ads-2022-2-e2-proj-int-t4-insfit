@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DFTaXL3t/QpKw0KryiS3yGkVzf7a98LhGWbNz/Z4zPw=",
+  "Hash": "wy4ZgCJd50j1TDz3GKgMMEJOFM2I/vdiZ5zQzbAdWSc=",
   "Source": "INSFIT",
   "BasePath": "_content/INSFIT",
   "Mode": "Default",
@@ -1309,6 +1309,23 @@
       "OriginalItemSpec": "wwwroot\\img\\logo insfit.png"
     },
     {
+      "Identity": "D:\\GIT\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\img\\Logo Original.png",
+      "SourceId": "INSFIT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GIT\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\",
+      "BasePath": "_content/INSFIT",
+      "RelativePath": "img/Logo Original.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logo Original.png"
+    },
+    {
       "Identity": "D:\\GIT\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\img\\logout.png",
       "SourceId": "INSFIT",
       "SourceType": "Discovered",
@@ -1324,6 +1341,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\logout.png"
+    },
+    {
+      "Identity": "D:\\GIT\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\img\\Lupa.png",
+      "SourceId": "INSFIT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GIT\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\",
+      "BasePath": "_content/INSFIT",
+      "RelativePath": "img/Lupa.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Lupa.png"
     },
     {
       "Identity": "D:\\GIT\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\js\\Feed.js",
