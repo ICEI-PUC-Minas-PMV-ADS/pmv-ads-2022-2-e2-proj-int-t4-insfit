@@ -142,10 +142,14 @@ namespace INSFIT.Controllers
                 cadastro.senha = BCrypt.Net.BCrypt.HashPassword(cadastro.senha);
                 _context.Add(cadastro);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+
+                ViewBag.Message = "Usuário cadastrado!";
+                return Redirect("Login");
+
+
             }
-            //return Redirect("Perfil/Create");
-            return View(cadastro);
+            return Redirect("/Login");
+            //return View(cadastro);
         }
 
         // GET: Cadastro/Edit/5
