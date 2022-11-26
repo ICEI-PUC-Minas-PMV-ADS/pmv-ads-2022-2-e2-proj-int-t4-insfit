@@ -24,47 +24,47 @@
 
       <div class="col-lg-6 mb-5 mb-lg-0 position-relative">
         <div id="radius-shape-1" class="position-absolute rounded-circle shadow-5-strong"></div>
-        <div id="radius-shape-2" class="position-absolute shadow-5-strong"></div>
+            <div id="radius-shape-2" class="position-absolute shadow-5-strong"></div>
 
-          <div class="card bg-glass" style="border-radius: 20px;">
-          <div class="card-body px-4 py-5 px-md-5">
-              <h1><b>Cadastro</b></h1>
-              <h6 style="text-align:center">Preencha os campos abaixo para realizar seu cadastro</h6>
-             <form asp-action="Create">
-              <!-- 2 column grid layout with text inputs for the first and last names -->
-             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-              <div class="form-outline mb-4">
-                <label asp-for="name" class="control-label">Nome</label>
-                <input asp-for="name" class="form-control" />
-                <span asp-validation-for="name" class="text-danger"></span>
-              </div>
+                <div class="card bg-glass" style="border-radius: 20px; background-color: #1c211b;">
+                  <div class="card-body px-4 py-5 px-md-5">
+                      <h1><b>Cadastro</b></h1>
+                      <h6 style="text-align:center">Preencha os campos abaixo para realizar seu cadastro</h6>
+                     <form asp-action="Create">
+                          <!-- 2 column grid layout with text inputs for the first and last names -->
+                         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                          <div class="form-outline mb-4">
+                            <label asp-for="name" class="control-label">Nome</label>
+                            <input asp-for="name" class="form-control" />
+                            <span asp-validation-for="name" class="text-danger"></span>
+                          </div>
 
-              <!-- Email input -->
-              <div class="form-outline mb-4">
-               <label asp-for="email" class="control-label">E-mail</label>
-               <input asp-for="email" class="form-control" />
-               <span asp-validation-for="email" class="text-danger"></span>
-              </div>
+                          <!-- Email input -->
+                          <div class="form-outline mb-4">
+                           <label asp-for="email" class="control-label">E-mail</label>
+                           <input asp-for="email" class="form-control" />
+                           <span asp-validation-for="email" class="text-danger"></span>
+                          </div>
 
-              <!-- Password input -->
-              <div class="form-outline mb-4">
-               <label asp-for="senha" class="control-label">Senha</label>
-               <input asp-for="senha" class="form-control" />
-                <span asp-validation-for="senha" class="text-danger"></span>
-              </div>
+                          <!-- Password input -->
+                          <div class="form-outline mb-4">
+                           <label asp-for="senha" class="control-label">Senha</label>
+                           <input asp-for="senha" class="form-control" />
+                            <span asp-validation-for="senha" class="text-danger"></span>
+                          </div>
 
-             <div class="form-group">
-              <label asp-for="tipoUsuario" class="control-label">Tipo de Cadastro</label>
-              <select asp-for="tipoUsuario" class="form-control" asp-items="Html.GetEnumSelectList<TipoUsuario>()">></select>
-              <span asp-validation-for="tipoUsuario" class="text-danger"></span>
-             </div>
+                         <div class="form-group">
+                          <label asp-for="tipoUsuario" class="control-label">Tipo de Cadastro</label>
+                          <select asp-for="tipoUsuario" class="form-control" asp-items="Html.GetEnumSelectList<TipoUsuario>()">></select>
+                          <span asp-validation-for="tipoUsuario" class="text-danger"></span>
+                         </div>
                             
-              <!-- Botão Criar -->
-              <input type="submit" value="Cadastrar" class="btn btn-primary" style="font-weight: bold"/>
-            </form>
+                          <!-- Botão Criar -->
+                          <input type="submit" value="Cadastrar" class="btn btn-primary" style="font-weight: bold"/>
+                    </form>
            
-           </div>
-          </div>
+                   </div>
+              </div>
         </div>
       </div>
     </div>

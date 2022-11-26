@@ -13,6 +13,7 @@ namespace INSFIT.Models
         public string name { get; set; }
 
         [Required(ErrorMessage = "Obrigatório inserir um e-mail")]
+        [EmailAddress(ErrorMessage = "E-mail em formato inválido.")]
         public string email { get; set; }
 
         [Required(ErrorMessage = "Obrigatório inserir uma senha")]
