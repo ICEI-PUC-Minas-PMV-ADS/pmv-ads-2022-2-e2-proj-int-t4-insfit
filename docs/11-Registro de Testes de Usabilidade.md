@@ -111,7 +111,7 @@ Tarefa 1
 | Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | Escala de avaliação | Problemas observados |
 |------------|--------|---------------|---------|---------------------------|------------------------------|----------------------------|-----------------------------|
 | Usuário 1 | 20 | Computador | 00:00:50 | Fácil | 5.0 |  5.0 | login fácil |
- | Usuário 2 | 25 | smartphone | 00:01:10 | Fácil | 4.0 | 4.0 | Praticidade |
+| Usuário 2 | 25 | smartphone | 00:01:10 | Fácil | 4.0 | 4.0 | Praticidade |
 | Usuário 3 | 30 | Noteebook | 00:02:20 | Médio | 4.0 | 4.0 | Acesso lento. / Sugestão: Melhorar a responsividade. |
 | Usuário 4 | 40 | Notebook | 00:03:05 | Dificil | 3.0 | 3.0 | Dificuldade no cadastro. / Sugestão: Melhor responsividade. |
 | Usuário 5 | 50 | Smartphone | 00:05:00| Dificil | 2.0 | 3.0 | Dificil vizualização. / Sugestão: Aumentar o tamanho da letra. |
@@ -121,7 +121,7 @@ Tarefa 8
 | Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | Escala de avaliação | Problemas observados |
 |------------|--------|---------------|---------|---------------------------|------------------------------|----------------------------|-----------------------------|
 | Usuário 1 | 20 | Computador | 00:00:50 | Fácil | 5.0 |  5.0 | Design bem explicativo. |
- | Usuário 2 | 25 | Smartphone | 00:01:50| Fácil | 4.0 | 4.0 | Fácil utilização. |
+| Usuário 2 | 25 | Smartphone | 00:01:50| Fácil | 4.0 | 4.0 | Fácil utilização. |
 | Usuário 3 | 30 | Notebook | 00:00:20 | Médio | 3.0 | 3.0 | Interface confusa. |
 | Usuário 4 | 40 | Notebook | 00:01:05 | Dificl | 2.0 | 3.0 | O site não gera senha. / Sugestão: Melhorar a criptografia.  |
 | Usuário 5 | 50 | smartphone | 00:05:43 | dificl | 2.0 | 2.0 | Dificuldade de vizualização. / Sugestão: Aumentar tamanho da fonte. |
@@ -132,7 +132,7 @@ Tarefa 2
 | Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | Escala de avaliação | Problemas observados |
 |------------|--------|---------------|---------|---------------------------|------------------------------|----------------------------|-----------------------------|
 | Usuário 1 | 20 | Computador | 00:00:58 | Fácil | 5.0 |  5.0 | Facilidade em criar o perfil. |
- | Usuário 2 | 25 | Smartphone | 00:01:32 | Fácil | 4.0 | 5.0 | Facilidade em realizar alterações. |
+| Usuário 2 | 25 | Smartphone | 00:01:32 | Fácil | 4.0 | 5.0 | Facilidade em realizar alterações. |
 | Usuário 3 | 30 | Notebook | 00:02:20 | Médio | 3.0 | 3.0 | Demora em carregar todas as informações. / Sugestão: Melhorar responsividade. |
 | Usuário 4 | 40 | Notebook | 00:02:05 | Difícil | 2.0 | 3.0 | Não consegue alterar as informações com facilidade. / Sugestão: Ser mais explicativo. |
 | Usuário 5 | 50 | Smartphone | 00:02:43 | Difícil | 2.0 | 2.0 |Dificuldade em visualizar a página. / sugestão: melhorar responsividade. |
@@ -143,7 +143,7 @@ Tarefa 3
 | Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | Escala de avaliação | Problemas observados |
 |------------|--------|---------------|---------|---------------------------|------------------------------|----------------------------|-----------------------------|
 | Usuário 1 | 20 | Computador | 00:00:22 | Fácil | 5.0 |  5.0 | Conseguiu visualizar as metas. |
- | Usuário 2 | 25 | Smartphone | 00:04:00 | Difícil | 2.0 | 2.0 | Não apareceu as metas na versão mobile. / Sugestão: Incluir metas na versão utilizada. |
+| Usuário 2 | 25 | Smartphone | 00:04:00 | Difícil | 2.0 | 2.0 | Não apareceu as metas na versão mobile. / Sugestão: Incluir metas na versão utilizada. |
 | Usuário 3 | 30 | Notebook | 00:01:20 | Médio | 4.0 | 3.0 | Não conseguiu alterar as metas da maneira desejada. |
 | Usuário 4 | 40 | Notebook | 00:01:05 | Médio | 3.0 | 4.0 | Conseguiu visualizar as metas mas não conseguiu alterar. |
 | Usuário 5 | 50 | Smartphone | 00:05:22 | Difícil | 1.0 | 1.0 | Não conseguiu visualizar nem incluir metas. / Sugestão: Incluir de uma forma mais didática e simples. |
@@ -153,7 +153,7 @@ Tarefa 4
 | Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | Escala de avaliação | Problemas observados |
 |------------|--------|---------------|---------|---------------------------|------------------------------|----------------------------|-----------------------------|
 | Usuário 1 | 20 | Computador | 00:00:34 | Fácil | 5.0 |  5.0 | Não obteve problemas de acesso. |
- | Usuário 2 | 25 | Smartphone | 00:01:34 | Médio | 3.0 | 3.0 | Obteve dificuldade em visualizar todas as informações/ Sugestão: Melhorar responsividade. |
+| Usuário 2 | 25 | Smartphone | 00:01:34 | Médio | 3.0 | 3.0 | Obteve dificuldade em visualizar todas as informações/ Sugestão: Melhorar responsividade. |
 | Usuário 3 | 30 | Notebook | 00:01:20 | Fácil | 4.0 | 4.0 | Alguns travamentos e lentidão mas sem atrapalhar a experiência. |
 | Usuário 4 | 40 | Notebook | 00:02:46 | Difícil | 2.0 | 2.0 | Obteve muitos travamentos. / Sugestão: Melhor performace no carregamento de informações. |
 | Usuário 5 | 50 | Smartphone | 00:05:31 | Difícil | 2.0 | 2.0 | Não conseguiu visualizar as informações. / Sugestão: Aumentar fonte e responsividade para mobile. |
@@ -163,7 +163,7 @@ Tarefa 7
 | Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | Escala de avaliação | Problemas observados |
 |------------|--------|---------------|---------|---------------------------|------------------------------|----------------------------|-----------------------------|
 | Usuário 1 | 20 | Computador | 00:00:44 | Fácil | 5.0 |  5.0 | Conseguiu filtrar sem problemas. |
- | Usuário 2 | 25 | Smartphone | 00:00:59 | Fácil | 4.0 | 5.0 | Conseguiu filtrar sem problemas. |
+| Usuário 2 | 25 | Smartphone | 00:00:59 | Fácil | 4.0 | 5.0 | Conseguiu filtrar sem problemas. |
 | Usuário 3 | 30 | Notebook | 00:01:21 | Fácil | 4.0 | 5.0 | Houve alguns engasgos e travamentos, mas filtrou as informações. |
 | Usuário 4 | 40 | Notebook | 00:01:05 | Médio | 3.0 | 3.0 | Filtrou, mas não apareceu o desejado. |
 | Usuário 5 | 50 | Smartphone | 00:00:43 | Difícil | 2.0 | 2.0 | Não conseguiu acessar o filtro do feed. / Sugestão: Melhor explicação. |
@@ -173,31 +173,30 @@ Tarefa 5
 
 | Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | Escala de avaliação | Problemas observados |
 |------------|--------|---------------|---------|---------------------------|------------------------------|----------------------------|-----------------------------|
-| Usuário 1 | XX | XXX | 00:00:00 | Fácil | 5.0 |  5.0 | XXX |
- | Usuário 2 | XX | XXX | 00:00:00 | Fácil | 4.0 | 5.0 | XXX |
-| Usuário 3 | XX | XXX | 00:00:00 | Fácil | 4.0 | 5.0 | XXX |
-| Usuário 4 | XX | XXX | 00:00:00 | Fácil | 3.0 | 4.0 |XXX |
-| Usuário 5 | XX | XXX | 00:00:00 | Fácil | 5.0 | 5.0 |XXX |
+| Usuário 1 | 20 | Computador | 00:00:34 | Fácil | 5.0 |  5.0 | A fonte poderia ser maior. |
+| Usuário 2 | 25 | Smartphone | 00:00:20 | Fácil | 4.0 | 5.0 | Conseguiu filtrar sem problemas. |
+| Usuário 3 | 30 | Notebook | 00:01:40 | Fácil | 5.0 | 4.0 | O sistema e eficiente. |
+| Usuário 4 | 40 | Notebook | 00:01:00 | Fácil | 5.0 | 4.0 | Não foram observados nenhum problema. |
+| Usuário 5 | 50 | Smartphone | 00:00:51 | Difícil | 2.0 | 2.0 | Não conseguiu acessar relatório. |
 
 ### Tela de localização
 Tarefa 6
 
 | Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | Escala de avaliação | Problemas observados |
 |------------|--------|---------------|---------|---------------------------|------------------------------|----------------------------|-----------------------------|
-| Usuário 1 | XX | XXX | 00:00:00 | Fácil | 5.0 |  5.0 | XXX |
- | Usuário 2 | XX | XXX | 00:00:00 | Fácil | 4.0 | 5.0 | XXX |
-| Usuário 3 | XX | XXX | 00:00:00 | Fácil | 4.0 | 5.0 | XXX |
-| Usuário 4 | XX | XXX | 00:00:00 | Fácil | 3.0 | 4.0 |XXX |
-| Usuário 5 | XX | XXX | 00:00:00 | Fácil | 5.0 | 5.0 |XXX |
+| Usuário 1 | 20 | Computador | 00:02:41 | Fácil | 5.0 |  5.0 | A fonte poderia ser maior. |
+| Usuário 2 | 25 | Smartphone | 00:04:22 | Fácil | 4.0 | 5.0 | Conseguiu filtrar sem problemas. |
+| Usuário 3 | 30 | Notebook | 00:01:04 | Fácil | 4.0 | 5.0 | O sistema e eficiente. |
+| Usuário 4 | 40 | Notebook | 00:01:32 | Médio | 3.0 | 3.0 | Não foram observados nenhum problema. |
+| Usuário 5 | 50 | Smartphone | 00:01:09 | Difícil | 2.0 | 2.0 | Teve dificuldade ao acessar o relatório. |
 
 ### Tela de Dieta  
 Tarefa 9
 
 | Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | Escala de avaliação | Problemas observados |
 |------------|--------|---------------|---------|---------------------------|------------------------------|----------------------------|-----------------------------|
-| Usuário 1 | XX | XXX | 00:00:00 | Fácil | 5.0 |  5.0 | XXX |
- | Usuário 2 | XX | XXX | 00:00:00 | Fácil | 4.0 | 5.0 | XXX |
-| Usuário 3 | XX | XXX | 00:00:00 | Fácil | 4.0 | 5.0 | XXX |
-| Usuário 4 | XX | XXX | 00:00:00 | Fácil | 3.0 | 4.0 |XXX |
-| Usuário 5 | XX | XXX | 00:00:00 | Fácil | 5.0 | 5.0 |XXX |
-
+| Usuário 1 | 20 | Computador | 00:01:05 | Fácil | 4.0 |  4.0 | Poderia ter mais opçoes de receitas. |
+| Usuário 2 | 25 | Smartphone | 00:00:22 | Fácil | 4.0 | 5.0 | Não houve problemas observados. |
+| Usuário 3 | 30 | Notebook | 00:00:45 | Fácil | 4.0 | 5.0 | Não houve problemas observados. |
+| Usuário 4 | 40 | Notebook | 00:0:59 | Fácil | 3.0 | 3.0 | Não houve problemas observados. |
+| Usuário 5 | 50 | Smartphone | 00:01:02 | Fácil | 2.0 | 2.0 | Não houve problemas observados. |

@@ -81,23 +81,26 @@
 
 1- Caso de sucesso: Após a inclusão de todas as informações o usuário poderá vizualizar seus dados quando quiser e de onde quiser.
 
-![Tela Completa](img/funcionalidade.incuir.jpg) /*colocar imagem atualizada*/
+![Tela Completa] (img/funcionalidade.incuir.jpg)/*colocar imagem atualizada*/
 
 2- Caso de insucesso: Caso o usuário não ensira todas as informações os dados não poderam ser vizualizados.
 
 ![Tela Completa](img/tela.extratos.jpg) /*colocar imagem atualizada*/
 
 
-
-
 ## MAPA 
 
+1- Caso de sucesso:
+![telaMapa] (img/funcionalidade.incuir.jpg)/*colocar imagem atualizada*/
+
+2- Caso de insucesso:
+![telaMapa] (img/funcionalidade.incuir.jpg)/*colocar imagem atualizada*/
 
 
 ## DIETA 
 
+1- Caso de sucesso:
+![telaDieta] (img/funcionalidade.incuir.jpg)/*colocar imagem atualizada*/
 
-
-## FEED 
-
-
+2- Caso de insucesso:
+![telaDieta] (img/funcionalidade.incuir.jpg)/*colocar imagem atualizada*/

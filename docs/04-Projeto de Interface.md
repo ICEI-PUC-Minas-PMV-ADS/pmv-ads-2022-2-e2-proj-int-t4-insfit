@@ -34,7 +34,7 @@ A tela se encontra em desenvolvimento pela equipe Insfit.
 
 ### Dieta
 
-A tela se encontra em desenvolvimento pela equipe Insfit.
+![dieta](img/***.jpg)
 
 ### Perfil do personal
 ![personal](img/PERFIL.jpg)
