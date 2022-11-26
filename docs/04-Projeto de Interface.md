@@ -43,5 +43,5 @@ A tela se encontra em desenvolvimento pela equipe Insfit.
 ![aluno](img/PERFIL.jpg)
 
 ### Feed
-![feed](img/FEED.jpg)
+![feed](img/PublicacoesFeed.png)
 
