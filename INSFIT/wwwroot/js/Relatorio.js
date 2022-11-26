@@ -6,7 +6,7 @@
 
     var imc = peso / (altura) ** 2
     var text=""
-    console.log(imc)
+    
     if (imc < 18.5) {
         text="Você está magro, visite a pagina dietas."
     } else if (imc < 24.9) {
@@ -22,3 +22,16 @@
 
 
 }
+
+//
+function media() {
+    var pesid = document.getElementById("pesid").value
+    var pesoat = document.getElementById("pesoat").value
+    var vlrmedia = (pesid - pesoat / pesoat) * 100 
+    if (vlrmedia > pesid) {
+        window.alert("Você está a % do seu peso ideal" + vlrmedia)
+    } else if (vlrmedia < pesid) {
+        window.alert("você esta perto do seu peso atual" + vlrmedia)
+    }
+}
+//
