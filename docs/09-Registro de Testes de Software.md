@@ -6,51 +6,51 @@
 
 1- Caso de sucesso: Usuário cadastrado do sistema.
 
-![telaCadastro1](img/TesteCadastro1.png) /*colocar imagem atualizada*/
+![telaCadastro1](img/CadastroSucess.png)
 
 2- Caso de Insucesso: Mensagem de erro informando para preencher os campos.
 
-![telaCadastro2](img/TelaCadastro2.png) /*colocar imagem atualizada*/
+![telaCadastro2](img/CadastroError.png)
 
 ## Caso de teste 02 - Validação do e-mail no cadastro
 
 1- Caso de sucesso: Sistema permite prosseguir com a inserção dos dados.
 
-![telaCadastro3](img/TelaCadastro3.png) /*colocar imagem atualizada*/
+![telaCadastro3](img/EmailOK.png)
 
 2- Caso de Insucesso: Mensagem de erro informando que o e-mail inserido é inválido.
 
-![telaCadastro4](img/TesteCadastro4.png) /*colocar imagem atualizada*/
+![telaCadastro4](img/EmailOK.png)
 
 ## Caso de teste 01 - Realizar o login
 
 1- Caso de sucesso: Login permitirá acessar o sistema.
 
-![telaLogin1](img/TesteLogin1.png) /*colocar imagem atualizada*/
+![telaLogin1](img/LoginOK.png)
 
 2- Caso de Insucesso: Mensagem de erro informando que o usuário não está cadastrado.
 
-![telaLogin2](img/TesteLogin2.png) /*colocar imagem atualizada*/
+![telaLogin2](img/LoginInvalido.png)
 
 ## Caso de teste 02 - Preenchimento dos campos ao efetuar login/cadastro
 
 1- Caso de sucesso: Sistema permitirá realizar o login.
 
-![telaLogin3](img/TesteLogin3.png) /*colocar imagem atualizada*/
+![telaLogin3](img/LoginOK.png)
 
 2- Caso de Insucesso: Mensagem de erro informando para o usuário preencher os campos.
 
-![telaLogin4](img/TesteLogin4.png) /*colocar imagem atualizada*/
+![telaLogin4](img/LoginError.png)
 
 ## Caso de teste 03 - Validação do e-mail do login
 
 1- Caso de sucesso: Sistema não apresentará mensagem de erro.
 
-![telaLogin5](img/TesteLogin5.png) /*colocar imagem atualizada*/
+![telaLogin5](img/EmailLoginOK.png)
 
 2- Caso de Insucesso: Mensagem de erro informando que o e-mail é inválido.
 
-![telaLogin6](img/TesteLogin6.png) /*colocar imagem atualizada*/
+![telaLogin6](img/EmailLoginError.png)
 
 
 ## FEED 
