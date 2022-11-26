@@ -1,5 +1,7 @@
 # Registro de Testes de Software
 
+## LOGIN
+
 ## Caso de teste 01 - Realizar o cadastro do usuário
 
 1- Caso de sucesso: Usuário cadastrado do sistema.
@@ -30,7 +32,7 @@
 
 ![telaLogin2](img/TesteLogin2.png) /*colocar imagem atualizada*/
 
-## Caso de teste 02 - Preenchimento dos campos
+## Caso de teste 02 - Preenchimento dos campos ao efetuar login/cadastro
 
 1- Caso de sucesso: Sistema permitirá realizar o login.
 
@@ -49,6 +51,9 @@
 2- Caso de Insucesso: Mensagem de erro informando que o e-mail é inválido.
 
 ![telaLogin6](img/TesteLogin6.png) /*colocar imagem atualizada*/
+
+
+## FEED 
 
 ## Caso de teste 01 - Criação de publicações no feed
 
@@ -81,3 +86,18 @@
 2- Caso de insucesso: Caso o usuário não ensira todas as informações os dados não poderam ser vizualizados.
 
 ![Tela Completa](img/tela.extratos.jpg) /*colocar imagem atualizada*/
+
+
+
+
+## MAPA 
+
+
+
+## DIETA 
+
+
+
+## FEED 
+
+

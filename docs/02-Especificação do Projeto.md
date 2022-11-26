@@ -70,10 +70,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo.                                                                        | BAIXA | 
+|RNF-001| O sistema deve ser responsivo.                                                                        | BAIXA |
 |RNF-002| Site deve ser compatível com os principais (Google Chrome, Mozilla Firefox, Safari e Microsoft Edge). |  ALTA |
-|RNF-003| Site terá um layout minimalista.                                                                      |  ALTA | 
-|RNF-004| O sistema deve utilizar banco de dados, MySQL.                                                        |  ALTA |  
+|RNF-003| Site terá um layout minimalista.                                                                      |  ALTA |
+|RNF-004| O sistema deve utilizar banco de dados, MySQL.                                                        |  ALTA |
 |RNF-005| O sistema deve estar hospedado no Microsgt Azure.                                                     |  ALTA |
 
 
