@@ -19,14 +19,14 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 ## Wireframes
 
 ### Login
-![login](img/LOGIN.jpg)
+![login](img/LoginOfficial.png)
 
 ### Cadastro Usuário/Personal
-![cadastro](img/CADASTRO.jpg)
+![cadastro](img/CadastroOfficial.png)
 
 ### Localização
 
-A tela se encontra em desenvolvimento pela equipe Insfit.
+![mapa](img/MapaOfficial.png)
 
 ### Relatório Mensal
 
