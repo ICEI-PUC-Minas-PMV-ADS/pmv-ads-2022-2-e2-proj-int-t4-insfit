@@ -62,11 +62,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-002| O sistema deve ter uma opção onde o usuário possa verificar locais para treinos mais próximos.  | ALTA |
 |RF-003| O sistema deve possibilitar ao usuário encontrar o seu personal trainer.                        | MÉDIA |
 |RF-004| O sistema deve possibilitar ao usuário encontrar sugestões de receitas mais saudáveis.          | MÉDIA |
-|RF-005| O sistema deve possibilitar ao usuário criação de agenda de treinos.                            | BAIXA |
-**|RF-006| O sistema deve ter possibilidades de metas relacionadas aos seus treinos.                       | ALTA |
-|RF-007| O sistema deve possibilitar ao usuário o fornecimento de um relatório mensal.                   | MÉDIA |
-|RF-008| O sistema deve possibilitar o usuário criar seu cadastro com e-mail e senha.                    | MÉDIA |
-|RF-009| O sistema deve ter o sistema de Login.                                                          | MÉDIA |
+|RF-005| O sistema deve possibilitar ao usuário o fornecimento de um relatório mensal.                   | MÉDIA |
+|RF-006| O sistema deve possibilitar o usuário criar seu cadastro com e-mail e senha.                    | MÉDIA |
+|RF-007| O sistema deve ter o sistema de Login.                                                          | MÉDIA |
 
 ### Requisitos não Funcionais
 
