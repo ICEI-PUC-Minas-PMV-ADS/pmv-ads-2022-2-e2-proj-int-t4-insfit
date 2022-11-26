@@ -5,11 +5,6 @@
 }
 
 <h1>Relatorio</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-
    
     
     <tbody>
@@ -32,38 +27,42 @@
         </tr>
 }
     </tbody>
-
-<head> 
+<head>
+    <link rel="stylesheet" href="~/css/Relatorio.css">
 
 </head>
+
 <body>
-    <h1> Dados Básicos</h1>
+    <h2> Dados Básicos</h2>
 
     <div id="calcmedia">
-         <h2>Qual seu peso ideal?</h2>
+         <p>Qual seu peso ideal?</p>
+         
             <input id="pesid" type"number"/>
-
-            <h2>Qual seu peso atual?</h2>
+    
+            <p>Qual seu peso atual?</p>
             <input id="pesoat" type"number" />
 
               <button onclick="media()">media</button>
     </div>
 
     <div id="calculadora">
-   <h1> Calculadora de Imc </h1>
+   <h2> Calculadora de Imc </h2>
 
-   <h2> Altura (cm) </h2>
+   <p> Altura (cm) </p>
     <input id="altura" type="number" />
    
 
-    <h2> Peso (kg) </h2>
+    <p> Peso (kg) </p>
     <input id="peso" type="number" />
    
 
     <button onclick="calculate()">Calcular</button>
 
-    <textarea name="" id="text_area"  rows="8"> </textarea>
+        
     </div>
-
+   
+    <textarea name="" id="text_area" rows="2"> </textarea>
+    
     <script src="~/js/Relatorio.js"> </script>
 </body>
