@@ -93,3 +93,16 @@
 
 2- Caso de insucesso:
 ![telaDieta] (img/funcionalidade.incuir.jpg)/*colocar imagem atualizada*/
+
+## Relatório
+
+## Caso de teste 01- O sistema calcula os dados corretamente.
+
+1- Caso de sucesso:
+![telaRelatorio] (img/caso de sucesso-01media.png)
+
+1.1- Caso de sucesso
+![telaRelatorio] ()
+
+1- Caso de insucesso
+![telaRelatorio] (img/)
