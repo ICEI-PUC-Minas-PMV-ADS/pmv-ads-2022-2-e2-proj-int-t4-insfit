@@ -80,10 +80,10 @@
 ## MAPA 
 
 1- Caso de sucesso:
-![telaMapa] (img/funcionalidade.incuir.jpg)/*colocar imagem atualizada*/
+![telaMapa](img/MapaOK.png)
 
 2- Caso de insucesso:
-![telaMapa] (img/funcionalidade.incuir.jpg)/*colocar imagem atualizada*/
+![telaMapa](img/MapaError.png)
 
 
 ## DIETA 
