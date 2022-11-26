@@ -1,4 +1,39 @@
-﻿textarea{
-    width:25%;
-    margin:1em;
+﻿.input_area{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    
+}
+.container {
+   
+    flex-direction: column;
+    align-items: center;
+  
+    display:inline-flex;
+    padding:1.5em;
+}
+h1, h2, p {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button {
+    height: 2em;
+    margin: 1em;
+    background-color: #7da62c;
+    color: white;
+}
+h2 {
+    color: #7da62c;
+}
+input{
+   height:1.5em;
+}
+button:haver{
+    cursor:pointer;
+}
+h1{
+    margin-block-start:0.67em;
+}
+.footer[b-u2v5i3f6cv] {
+    position:relative;
 }

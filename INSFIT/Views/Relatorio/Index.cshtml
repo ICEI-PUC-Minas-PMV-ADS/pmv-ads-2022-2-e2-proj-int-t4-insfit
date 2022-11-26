@@ -33,36 +33,45 @@
 </head>
 
 <body>
-    <h2> Dados Básicos</h2>
+    
 
-    <div id="calcmedia">
+    <div id="container">
+
+        <h2> Dados Básicos</h2>
+
+        <div class="iput_area">
+
          <p>Qual seu peso ideal?</p>
          
             <input id="pesid" type"number"/>
-    
+    </div>
+
+    <div class="iput_area">
             <p>Qual seu peso atual?</p>
             <input id="pesoat" type"number" />
+            </div>
 
               <button onclick="media()">media</button>
     </div>
+    </div>
 
-    <div id="calculadora">
-   <h2> Calculadora de Imc </h2>
+   <div class="container">
+        <h2> Calculadora de Imc </h2>
 
+      
    <p> Altura (cm) </p>
     <input id="altura" type="number" />
-   
 
+  
     <p> Peso (kg) </p>
     <input id="peso" type="number" />
-   
+  
 
-    <button onclick="calculate()">Calcular</button>
+    <button onclick="calculate()">Calcular</button
 
-        
     </div>
-   
-    <textarea name="" id="text_area" rows="2"> </textarea>
+    <textarea name="" id="text_area" rows="3"> </textarea>
+ 
     
     <script src="~/js/Relatorio.js"> </script>
 </body>
