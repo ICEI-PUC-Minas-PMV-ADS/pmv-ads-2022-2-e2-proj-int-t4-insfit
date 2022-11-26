@@ -57,35 +57,24 @@
 
 ## Caso de teste 01 - Criação de publicações no feed
 
-1- Caso de sucesso: Dados aparecem na tela.
+1- Caso de sucesso: Preenchendo todos os campos publicação vai para o feed normalmente.
 
-![telaFeed1](img/caso_de_sucesso_telaDeDespesas.png) /*colocar imagem atualizada*/
+![telaFeed1](img/DadosPreenchidosFeed.png)
 
 2- Caso de Insucesso: Mensagem de erro com o campo vazio.
 
-![telaFeed2](img/caso_de_insucesso_tela_de_despesas.png) /*colocar imagem atualizada*/
+![telaFeed2](img/DadosNaoPreenchidosFeed.png)
 
 
-## Caso de teste 02 - Possibilidade da visualização de noticias e postagens atuais
+## Caso de teste 02 - Possibilidade da visualização de postagens atuais.
 
-1- Caso de sucesso: Somatorio das dividas Aparecendo corretamente.
+1- Caso de sucesso: Postagens atuais aparecendo corretamente.
 
-![telaFeed3](img/caso%20sucesso%20teste03.png) /*colocar imagem atualizada*/
+![telaFeed3](img/PublicacoesFeed.png)
 
-2- Caso de insucesso: Valor das Dividas aparecendo zerado.
+2- Caso de insucesso: Publicações com imagem ainda não carrega no feed.
 
-![telaFeed4](img/caso%20insucesso%20teste%2003.png) /*colocar imagem atualizada*/
-
-
-## Caso de teste 03 - Inclusão de todas informações
-
-1- Caso de sucesso: Após a inclusão de todas as informações o usuário poderá vizualizar seus dados quando quiser e de onde quiser.
-
-![Tela Completa] (img/funcionalidade.incuir.jpg)/*colocar imagem atualizada*/
-
-2- Caso de insucesso: Caso o usuário não ensira todas as informações os dados não poderam ser vizualizados.
-
-![Tela Completa](img/tela.extratos.jpg) /*colocar imagem atualizada*/
+![telaFeed4](img/PublicacoesFeed.png)
 
 
 ## MAPA 
