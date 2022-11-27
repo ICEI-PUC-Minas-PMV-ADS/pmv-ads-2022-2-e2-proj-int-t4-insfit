@@ -52,6 +52,17 @@
 
 ![telaLogin6](img/EmailLoginError.png)
 
+## PERFIL
+
+## Cao de teste 01 - Criando um perfil para o usaurio
+
+1- Caso de sucesso: Perfil Cadastrado 
+
+![casoSucesso](img/caso%20de%20sucesso%20perfil.png)
+
+2- Caso de insucesso: Perfil não cadastrado por falta de informação
+
+![telaperfil](img/caso%20de%20insucesso%20perfil.png)
 
 ## FEED 
 
