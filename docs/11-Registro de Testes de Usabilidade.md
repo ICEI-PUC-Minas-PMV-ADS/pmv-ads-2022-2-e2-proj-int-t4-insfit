@@ -40,11 +40,11 @@ Para está etapa do projeto, os testes serão realizados nas principais funciona
 
 | Tarefa 1 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-| Cadastro de novos usuários| Concluir o cadastro com sucesso|-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-escala de insastifação;<br>-Observações, problemas ou sugestões.|
+| Cadastro de novos usuários| Concluir o cadastro de usuário com sucesso.|-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-escala de insastifação;<br>-Observações, problemas ou sugestões.|
 
 | Tarefa 1 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-| Login no sistema |  Conseguir logar no sistema e ser encaminhado para a página |-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
+| Login no sistema | Ter exeto ao logar no sistema e ser encaminhado para a página. |-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
 
 | Tarefa 2 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
@@ -56,7 +56,7 @@ Para está etapa do projeto, os testes serão realizados nas principais funciona
 
 | Tarefa 4 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-| Vizualização das informações no feed| Concluir a postagem e vizualização |-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
+| Vizualização das informações no feed| Concluir a postagem e vizualização.|-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
 
 | Tarefa 5 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
@@ -72,7 +72,7 @@ Para está etapa do projeto, os testes serão realizados nas principais funciona
 
 | Tarefa 8 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-| Vizualização das informações na dieta| Concluir a vizualização|-Dispositivo usado<br>-Tempo de conclusão da tarefa<br>-Escala aprimorada de dificuldade<br>-Navegação da aplicação<br>-Escala de insastifação<br>-Observações, problemas ou sugestões|
+| Vizualização das informações na dieta| Concluir a vizualização.|-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
 
 
 
@@ -93,7 +93,7 @@ Para realizar os testes e verificar a responsividade das páginas, serão utiliz
 
 - Computadores
 - Notebooks (Computadores portáteis)
-- Smartphones Android e iOS
+- Smartphones (Android e iOS)
 
 
 ## Avaliação das heurísticas 
