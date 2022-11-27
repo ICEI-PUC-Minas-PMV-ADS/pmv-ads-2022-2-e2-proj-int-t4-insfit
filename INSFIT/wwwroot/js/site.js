@@ -13,13 +13,13 @@ $('#tabela-usuarios').DataTable({
         "sInfoFiltered": "(Filtrar de _MAX_ total registros)",
         "sInfoPostFix": "",
         "sInfoThousands": ".",
-        "sLengthMenu": "Mostrar _MENU_ registros por pagina",
+        //"sLengthMenu": "Mostrar _MENU_ registros por pagina",
         "sLoadingRecords": "Carregando...",
         "sProcessing": "Processando...",
         "sZeroRecords": "Nenhum registro encontrado",
         "sSearch": "Pesquisar",
         "oPaginate": {
-            "sNext": "Proximo",
+           "sNext": "Proximo",
             "sPrevious": "Anterior",
             "sFirst": "Primeiro",
             "sLast": "Ultimo"
