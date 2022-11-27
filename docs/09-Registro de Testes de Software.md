@@ -110,12 +110,13 @@
 
 
 ## DIETA 
+## Caso de teste 01 - Criação de vizualização das dietas
 
 1- Caso de sucesso:
-![telaDieta] (img/funcionalidade.incuir.jpg)
+![telaDieta](img/caso%20de%20sucesso-1.1%20Dieta.jpg)
 
 2- Caso de insucesso:
-![telaDieta] (img/funcionalidade.incuir.jpg)
+![telaDieta](img/caso%20de%20insucesso%201.1%20Dieta.jpg)
 
 ## Relatório
 
