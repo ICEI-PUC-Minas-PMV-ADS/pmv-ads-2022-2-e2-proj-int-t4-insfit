@@ -1,33 +1,9 @@
-﻿body {
-    #divBusca
-
-{
-    background-color: #E0EEEE;
-    border: solid 2px #5F9EA0;
-    border-radius: 10px;
-    width: 300px;
-    height: 32px;
+﻿#dieta {
+    color: #7da62c;
 }
 
-#txtBusca {
-    float: left;
-    background-color: transparent;
-    padding-left: 5px;
+body {
+    h5.color:  #7da62c;
+    font-family: 
     font-size: 18px;
-    border: none;
-    height: 32px;
-    width: 191px;
-}
-
-#btnBusca {
-    border: none;
-    float: left;
-    height: 32px;
-    border-radius: 0 7px 7px 0;
-    width: 70px;
-    font-weight: bold;
-    background: #5F9EA0;
-}
-
-
 }
