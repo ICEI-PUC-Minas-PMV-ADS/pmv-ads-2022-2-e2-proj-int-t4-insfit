@@ -30,7 +30,7 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 
 ### Relatório Mensal
 
-A tela se encontra em desenvolvimento pela equipe Insfit.
+![relatório](img/home.Relat%C3%B3rio.jpg)
 
 ### Dieta
 

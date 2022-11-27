@@ -112,22 +112,20 @@
 ## DIETA 
 
 1- Caso de sucesso:
-![telaDieta] (img/funcionalidade.incuir.jpg)/*colocar imagem atualizada*/
+![telaDieta] (img/funcionalidade.incuir.jpg)
 
 2- Caso de insucesso:
-![telaDieta] (img/funcionalidade.incuir.jpg)/*colocar imagem atualizada*/
+![telaDieta] (img/funcionalidade.incuir.jpg)
 
 ## Relatório
 
 ## Caso de teste 01- O sistema calcula os dados corretamente.
 
 1- Caso de sucesso:
-![telaRelatorio] (img/caso de sucesso-01media.png)
+![telaRelatorio](img/caso%20de%20sucesso-1.1%20imc%20(1).png)
 
-1.1- Caso de sucesso
-![telaRelatorio] ()
+1.1- Caso de sucesso:
+![telaRelatorio](img/caso%20de%20sucesso-1.1%20imc%20(2).png)
 
-1- Caso de insucesso
-![telaRelatorio] (img/)
-
-1-1 Caso de insucesso
+2- Caso de insucesso:
+![telaRelatorio](img/caso%20de%20insucesso%201.1%20imc.png)

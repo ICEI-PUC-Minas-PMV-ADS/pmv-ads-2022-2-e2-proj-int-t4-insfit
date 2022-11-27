@@ -11,17 +11,16 @@
 ## Passo a passo 
 | Passo a Passo  |
 |----------------| 
-| 1) Serão selecionadas 5 pessoas para análise da aplicação.|
-| 2) Será enviado para cada pessoa o link da nossa aplicação juntamente com o formulário onde encontram os pontos a serem analisados como descrito abaixo.|
-| 3) 1º desafio: Cadastrar e fazer o login na aplicação. |
-| 4) 2º desafio: Alterar e incerir dados do perfil.|
-| 5) 3º desafio: Vizualizar metas e verificar se está atualizando na medida que forem compridas.|
-| 7) 4º desafio: Deverá abrir feed, navegar, interagir, postar e vizualizar.|
-| 8) 5º desafio: Editar e incerir  as informações no relatório.| 
-| 9) 6º desafio: visualizar localização das academias mais proximas.| 
-| 10) 7º desafio: Buscar notícias e informações de outros usuários através de um filtro no feed.|
-| 11) 8º desafio: Recuperar senha cadastrada.|
-| 12) 9º desafio: Deverá abrir dieta, navegar, editar e vizualizar.|
+| 01) Serão selecionadas 5 pessoas para análise da aplicação.|
+| 02) Será enviado para cada pessoa o link da nossa aplicação juntamente com o formulário onde encontram os pontos a serem analisados como descrito abaixo.|
+| 03) 1º desafio: Cadastrar e fazer o login na aplicação. |
+| 04) 2º desafio: Recuperar senha cadastrada.|
+| 05) 3º desafio: Alterar e incerir dados do perfil.|
+| 06) 4º desafio: Deverá abrir feed, navegar, interagir, postar e vizualizar.|
+| 07) 5º desafio: Buscar notícias e informações de outros usuários através de um filtro no feed.|
+| 08) 6º desafio: Editar e incerir  as informações no relatório.| 
+| 09) 7º desafio: visualizar localização das academias mais proximas.| 
+| 10) 8º desafio: Deverá abrir dieta, navegar, editar e vizualizar.|
 <br>
 
 
@@ -45,37 +44,33 @@ Para está etapa do projeto, os testes serão realizados nas principais funciona
 
 | Tarefa 1 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-| Fazer o login no sistema |  Conseguir logar no sistema e ser encaminhado para a página |-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
+| Login no sistema |  Conseguir logar no sistema e ser encaminhado para a página |-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
 
 | Tarefa 2 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-| Alterar e inserir dados do perfil| Alterar campo do perfil. |-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
+|Cadastrar nova senha| Gerar nova senha. |-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
 
 | Tarefa 3 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-| Vizualizar metas |  verificar se está atualizando na medida que forem compridas. |-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
+| Alterar e inserir dados do perfil| Alterar campo do perfil. |-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
 
-| Tarefa 4    | Critério de êxito | O que será avaliado |
+| Tarefa 4 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
 | Vizualização das informações no feed| Concluir a postagem e vizualização |-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
 
-| Tarefa 5| Critério de êxito | O que será avaliado |
-|----------|-------------------|---------------------|
-| Visualizar e incerir dados do relatório| Editar e modificar as informações inceridas no relatório.|-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
-
-| Tarefa 6 | Critério de êxito | O que será avaliado |
-|----------|-------------------|---------------------|
-| Visualizar academias próximas| Clicar sobre o item e pesquisar academias. |-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
-
-| Tarefa 7 | Critério de êxito | O que será avaliado |
+| Tarefa 5 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
 |Buscar dados através de um filtro no feed| Visualização dos dados do feed a partir das informações filtradas. |-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
 
-| Tarefa 8 | Critério de êxito | O que será avaliado |
+| Tarefa 6 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-|Cadastrar nova senha| Gerar nova senha. |-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
+| Visualizar e incerir dados do relatório| Editar e modificar as informações inceridas no relatório.|-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
 
-| Tarefa 9 | Critério de êxito | O que será avaliado |
+| Tarefa 7 | Critério de êxito | O que será avaliado |
+|----------|-------------------|---------------------|
+| Visualizar academias próximas| Clicar sobre o item e pesquisar academias. |-Dispositivo usado;<br>-Tempo de conclusão da tarefa;<br>-Escala aprimorada de dificuldade;<br>-Navegação da aplicação;<br>-Escala de insastifação;<br>-Observações, problemas ou sugestões.|
+
+| Tarefa 8 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
 | Vizualização das informações na dieta| Concluir a vizualização|-Dispositivo usado<br>-Tempo de conclusão da tarefa<br>-Escala aprimorada de dificuldade<br>-Navegação da aplicação<br>-Escala de insastifação<br>-Observações, problemas ou sugestões|
 
@@ -116,7 +111,7 @@ Tarefa 1
 | Usuário 4 | 40 | Notebook | 00:03:05 | Dificil | 3.0 | 3.0 | Dificuldade no cadastro. / Sugestão: Melhor responsividade. |
 | Usuário 5 | 50 | Smartphone | 00:05:00| Dificil | 2.0 | 3.0 | Dificil vizualização. / Sugestão: Aumentar o tamanho da letra. |
 
-Tarefa 8
+Tarefa 2
 
 | Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | Escala de avaliação | Problemas observados |
 |------------|--------|---------------|---------|---------------------------|------------------------------|----------------------------|-----------------------------|
@@ -127,7 +122,7 @@ Tarefa 8
 | Usuário 5 | 50 | smartphone | 00:05:43 | dificl | 2.0 | 2.0 | Dificuldade de vizualização. / Sugestão: Aumentar tamanho da fonte. |
 
 ### Tela de perfil
-Tarefa 2
+Tarefa 3
 
 | Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | Escala de avaliação | Problemas observados |
 |------------|--------|---------------|---------|---------------------------|------------------------------|----------------------------|-----------------------------|
@@ -138,7 +133,7 @@ Tarefa 2
 | Usuário 5 | 50 | Smartphone | 00:02:43 | Difícil | 2.0 | 2.0 |Dificuldade em visualizar a página. / sugestão: melhorar responsividade. |
 
 ### Tela de feed
-Tarefa 3
+Tarefa 4
 
 | Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | Escala de avaliação | Problemas observados |
 |------------|--------|---------------|---------|---------------------------|------------------------------|----------------------------|-----------------------------|
@@ -148,7 +143,7 @@ Tarefa 3
 | Usuário 4 | 40 | Notebook | 00:01:05 | Médio | 3.0 | 4.0 | Conseguiu visualizar as metas mas não conseguiu alterar. |
 | Usuário 5 | 50 | Smartphone | 00:05:22 | Difícil | 1.0 | 1.0 | Não conseguiu visualizar nem incluir metas. / Sugestão: Incluir de uma forma mais didática e simples. |
 
-Tarefa 4
+Tarefa 5
 
 | Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | Escala de avaliação | Problemas observados |
 |------------|--------|---------------|---------|---------------------------|------------------------------|----------------------------|-----------------------------|
@@ -158,18 +153,9 @@ Tarefa 4
 | Usuário 4 | 40 | Notebook | 00:02:46 | Difícil | 2.0 | 2.0 | Obteve muitos travamentos. / Sugestão: Melhor performace no carregamento de informações. |
 | Usuário 5 | 50 | Smartphone | 00:05:31 | Difícil | 2.0 | 2.0 | Não conseguiu visualizar as informações. / Sugestão: Aumentar fonte e responsividade para mobile. |
 
-Tarefa 7
-
-| Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | Escala de avaliação | Problemas observados |
-|------------|--------|---------------|---------|---------------------------|------------------------------|----------------------------|-----------------------------|
-| Usuário 1 | 20 | Computador | 00:00:44 | Fácil | 5.0 |  5.0 | Conseguiu filtrar sem problemas. |
-| Usuário 2 | 25 | Smartphone | 00:00:59 | Fácil | 4.0 | 5.0 | Conseguiu filtrar sem problemas. |
-| Usuário 3 | 30 | Notebook | 00:01:21 | Fácil | 4.0 | 5.0 | Houve alguns engasgos e travamentos, mas filtrou as informações. |
-| Usuário 4 | 40 | Notebook | 00:01:05 | Médio | 3.0 | 3.0 | Filtrou, mas não apareceu o desejado. |
-| Usuário 5 | 50 | Smartphone | 00:00:43 | Difícil | 2.0 | 2.0 | Não conseguiu acessar o filtro do feed. / Sugestão: Melhor explicação. |
 
 ### Tela de relatório
-Tarefa 5
+Tarefa 6
 
 | Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | Escala de avaliação | Problemas observados |
 |------------|--------|---------------|---------|---------------------------|------------------------------|----------------------------|-----------------------------|
@@ -180,7 +166,7 @@ Tarefa 5
 | Usuário 5 | 50 | Smartphone | 00:00:51 | Difícil | 2.0 | 2.0 | Não conseguiu acessar relatório. |
 
 ### Tela de localização
-Tarefa 6
+Tarefa 7
 
 | Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | Escala de avaliação | Problemas observados |
 |------------|--------|---------------|---------|---------------------------|------------------------------|----------------------------|-----------------------------|
@@ -191,12 +177,12 @@ Tarefa 6
 | Usuário 5 | 50 | Smartphone | 00:01:09 | Difícil | 2.0 | 2.0 | Teve dificuldade ao acessar o relatório. |
 
 ### Tela de Dieta  
-Tarefa 9
+Tarefa 8
 
 | Usuários  | Idade | Dispositivo | Tempo | Escala de dificuldade | Navegação na aplicação | Escala de avaliação | Problemas observados |
 |------------|--------|---------------|---------|---------------------------|------------------------------|----------------------------|-----------------------------|
-| Usuário 1 | 20 | Computador | 00:01:05 | Fácil | 4.0 |  4.0 | Poderia ter mais opçoes de receitas. |
-| Usuário 2 | 25 | Smartphone | 00:00:22 | Fácil | 4.0 | 5.0 | Não houve problemas observados. |
-| Usuário 3 | 30 | Notebook | 00:00:45 | Fácil | 4.0 | 5.0 | Não houve problemas observados. |
-| Usuário 4 | 40 | Notebook | 00:0:59 | Fácil | 3.0 | 3.0 | Não houve problemas observados. |
-| Usuário 5 | 50 | Smartphone | 00:01:02 | Fácil | 2.0 | 2.0 | Não houve problemas observados. |
+| Usuário 1 | 20 | Computador | 00:01:05 | Fácil | 4.0 |  4.0 | Poderia ter mais opções de receitas. |
+| Usuário 2 | 25 | Smartphone | 00:00:22 | Fácil | 5.0 | 5.0 | Não houve problemas observados. |
+| Usuário 3 | 30 | Notebook | 00:00:45 | Fácil | 5.0 | 5.0 | Não houve problemas observados. |
+| Usuário 4 | 40 | Notebook | 00:0:59 | Fácil | 3.0 | 3.0 | Sistema demorar para mosntrar as dietas do dia. |
+| Usuário 5 | 50 | Smartphone | 00:01:02 | Médio | 4.0 | 4.0 | Falta alguns ajustes na responsividade. |
