@@ -70,6 +70,12 @@
 
 ![telaperfillogado](img/infor.png)
 
+## ECONTRAR PESSOAS
+
+1- Caso de Sucesso: Conseguir pesquisar pelo nome ou pelo tipo de usuario
+
+![telaEncotrar](img/encontrarAmigos.png)
+
 ## FEED 
 
 ## Caso de teste 01 - Criação de publicações no feed
