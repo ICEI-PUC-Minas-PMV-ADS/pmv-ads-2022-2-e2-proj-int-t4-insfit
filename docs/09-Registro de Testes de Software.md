@@ -64,6 +64,12 @@
 
 ![telaperfil](img/caso%20de%20insucesso%20perfil.png)
 
+## Caso de teste 02 - Mostrando dados do usuario logado
+
+1- Caso de sucesso: Mostrando o dado correto do usuario
+
+![telaperfillogado](img/infor.png)
+
 ## FEED 
 
 ## Caso de teste 01 - Criação de publicações no feed
