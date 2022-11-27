@@ -2,8 +2,21 @@
     color: #7da62c;
 }
 
-body {
-    h5.color:  #7da62c;
-    font-family: 
-    font-size: 18px;
+button {
+    color: #fff;
+    background-color: #7da62c;
+    border-color: #7da62c;
+    cursor: pointer;
+    transition: all .3s ease;
+    top: 10px;
 }
+.form-control {
+    color: #FFF;
+    background-color: transparent;
+    border: 1px solid #7da62c;
+    border-top: 0px;
+    border-left: 0;
+}
+
+
+
