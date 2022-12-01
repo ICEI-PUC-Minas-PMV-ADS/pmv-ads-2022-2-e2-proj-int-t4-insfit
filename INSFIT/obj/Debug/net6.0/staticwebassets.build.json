@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "18njvvUisUBuuldfM9j6Lh8lex6/aN6W+gKz9CmZlto=",
+  "Hash": "7qBlcvb8n/zBYYuIR+TfrzbimyX/APmzMJqiTYRGrgA=",
   "Source": "INSFIT",
   "BasePath": "_content/INSFIT",
   "Mode": "Default",
@@ -1341,23 +1341,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\logout.png"
-    },
-    {
-      "Identity": "D:\\GIT\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\img\\lupa.Dieta.svg",
-      "SourceId": "INSFIT",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\GIT\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\",
-      "BasePath": "_content/INSFIT",
-      "RelativePath": "img/lupa.Dieta.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\lupa.Dieta.svg"
     },
     {
       "Identity": "D:\\GIT\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\js\\Dieta.js",

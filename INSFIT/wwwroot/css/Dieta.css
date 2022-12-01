@@ -8,7 +8,6 @@ button {
     border-color: #7da62c;
     cursor: pointer;
     transition: all .3s ease;
-    top: 10px;
 }
 .form-control {
     color: #FFF;
@@ -16,7 +15,12 @@ button {
     border: 1px solid #7da62c;
     border-top: 0px;
     border-left: 0;
+    left: 300vw;
+    top: -110em;
 }
-
-
-
+.teste {
+    display: flex;
+    position: relative;
+    left: 300vw;
+    top: -110em;
+}   
