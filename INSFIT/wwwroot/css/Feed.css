@@ -42,69 +42,121 @@
  }
 
  /*Botao Like*/
-.curtir {
-    border-bottom: 1px solid;
-    border-color: #173809;
+:root {
+    --purple: #9920ea;
+    --purple-black: #5e1580;
+    --white: #fff;
+    --gray: #ccc;
 }
-button{
-    height: 40px;
-    display: flex;
-    align-items: center;
+
+.btn {
+    width: 20px;
     margin-left: 118px;
-    border-radius: 10px;
-    border-color: #173808;
-    padding: 8px;
-    font-size: 10px;
-    color: #fff;
-    background-color: transparent;
+    height: 30px;
+    outline: 0;
+    border: 2px solid var(--gray);
     cursor: pointer;
-
-}
-
-.label {
+    overflow: hidden;
+    position: relative;
     display: flex;
-    align-items: center;
-    margin-right: 8px;
+    justify-content: space-between;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.05);
 }
 
-    .label svg {
-        margin-right: 4px;
+    .btn:hover {
+        box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.2);
     }
 
-    .label path {
-        fill: #8a8d9b;
-        transition: all .25s ease-in-out;
+.btn-curtir {
+    padding: 0.7rem 1.9rem 1.5rem 6.5rem;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+    background: var(--white);
+}
+
+    .btn-curtir.curtido {
+        background: var(--purple);
+        border-color: var(--purple-black);
     }
 
-.number {
-    color: #8a8d9b;
+/* Icone do botão */
+.btn-icone {
+    display: inline-block;
+    width: 30px;
+    height: 36px;
+    position: absolute;
+    left: 1.5rem;
+    transform: rotate(0deg);
 }
 
-button:hover path {
-    fill: #9c0808;
+/* Cor do icone e pulsar */
+.curtido .btn--icone-curtir {
+    transform: scale(2);
 }
 
-button.like .number {
-    color: #fff;
+.btn:not(.curtido).btn--icone-curtido {
+    transform: scale(-2);
 }
 
-button.like svg {
-    animation: transitionLike 1s ease-in;
+.curtido .btn--icone-curtir,
+.btn--icone-curtido {
+    opacity: 0;
+    position: absolute;
 }
 
-button.like path {
-    fill: #9c0808;
+.btn--icone-curtir,
+.curtido .btn--icone-curtido {
+    opacity: 1;
+    left: 1.5rem;
 }
-@keyframes transitionLike {
-    0% {
-        transform: scale(1);
+
+/*-- Conteudo do botão -- */
+.btn-conteudo {
+    display: center;
+}
+
+/* Rotação */
+.btn:not(.curtido) .btn-conteudo--curtido {
+    transform: translate(140px);
+}
+
+.btn:not(.curtido) .btn-conteudo--curtir {
+    transform: translate(-90px);
+}
+
+.curtido .btn-conteudo--curtir {
+    transform: translate(40px);
+}
+
+.btn-conteudo--curtido {
+    transform: translate(-40px);
+}
+
+/* Classes que utilizam propriedades iguais */
+.btn,
+.btn-curtir,
+.btn-icone,
+.curtido,
+.btn-conteudo,
+.btn-conteudo--curtir,
+.btn-conteudo--curtir {
+    transition: 1.5s;
+}
+
+    .btn,
+    .btn:hover.curtido .btn-conteudo,
+    .btn.curtido:hover .btn-icone {
+        color: var(--purple-black);
     }
 
-    50% {
-        transform: scale(1.3);
-    }
+        .btn:hover,
+        .btn:hover .btn-icone {
+            color: var(--purple);
+        }
 
-    100% {
-        transform: scale(1);
+    .curtido .btn--icone-curtir,
+    .btn--icone-curtido,
+    .curtido .btn-conteudo {
+        color: var(--white);
     }
-}
