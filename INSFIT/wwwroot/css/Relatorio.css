@@ -16,12 +16,7 @@ h1, h2, p {
     
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-button {
-    height: 2em;
-    margin: 1em;
-    background-color: #7da62c;
-    color: white;
-}
+
 h2 {
     color: #7da62c;
 }
@@ -36,4 +31,13 @@ h1{
 }
 .footer[b-u2v5i3f6cv] {
     position:relative;
+}
+button {
+    color: #fff;
+    background-color: #7da62c;
+    border-color: #7da62c;
+    cursor: pointer;
+    transition: all .3s ease;
+    top: 10px;
+    margin: 1.5em;
 }

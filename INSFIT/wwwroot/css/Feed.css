@@ -85,7 +85,7 @@ button:hover path {
 }
 
 button.like .number {
-    color: #173809;
+    color: #fff;
 }
 
 button.like svg {
