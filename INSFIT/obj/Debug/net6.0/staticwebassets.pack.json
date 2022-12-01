@@ -1,0 +1,337 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\INSFIT.bundle.scp.css",
+      "PackagePath": "staticwebassets\\INSFIT.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\css\\Cadastro.css",
+      "PackagePath": "staticwebassets\\css\\Cadastro.css"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\css\\Dieta.css",
+      "PackagePath": "staticwebassets\\css\\Dieta.css"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\css\\Feed.css",
+      "PackagePath": "staticwebassets\\css\\Feed.css"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\css\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login.css"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\css\\Mapa.css",
+      "PackagePath": "staticwebassets\\css\\Mapa.css"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\css\\Maps.css",
+      "PackagePath": "staticwebassets\\css\\Maps.css"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\css\\Perfil.css",
+      "PackagePath": "staticwebassets\\css\\Perfil.css"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\css\\Relatorio.css",
+      "PackagePath": "staticwebassets\\css\\Relatorio.css"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\img\\Academia.png",
+      "PackagePath": "staticwebassets\\img\\Academia.png"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\img\\Logo Original.png",
+      "PackagePath": "staticwebassets\\img\\Logo Original.png"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\img\\contact-form.png",
+      "PackagePath": "staticwebassets\\img\\contact-form.png"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\img\\detalhes.png",
+      "PackagePath": "staticwebassets\\img\\detalhes.png"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\img\\logo insfit.png",
+      "PackagePath": "staticwebassets\\img\\logo insfit.png"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\img\\logout.png",
+      "PackagePath": "staticwebassets\\img\\logout.png"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\js\\Dieta.js",
+      "PackagePath": "staticwebassets\\js\\Dieta.js"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\js\\Feed.js",
+      "PackagePath": "staticwebassets\\js\\Feed.js"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\js\\Mapa.js",
+      "PackagePath": "staticwebassets\\js\\Mapa.js"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\js\\Relatorio.js",
+      "PackagePath": "staticwebassets\\js\\Relatorio.js"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.INSFIT.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.INSFIT.props",
+      "PackagePath": "build\\INSFIT.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.INSFIT.props",
+      "PackagePath": "buildMultiTargeting\\INSFIT.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.INSFIT.props",
+      "PackagePath": "buildTransitive\\INSFIT.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
