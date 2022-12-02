@@ -13,7 +13,25 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 118px;
 }
-.CampoTexto{
+.btn-create {
+    font-size: 20px;
+    top: 10px;
+    position: relative;
+    margin-left: 330px;
+    padding: 7px;
+    color: #7da62c;
+    background-color: transparent;
+    border-color: #7da62c;
+}
+
+.btn-create:hover {
+    color: #fff;
+    Background-color: #7da62c;
+}
+.publicar {
+    color: #7da62c;
+}
+.CampoTexto {
     width: 200px;
 }
 
