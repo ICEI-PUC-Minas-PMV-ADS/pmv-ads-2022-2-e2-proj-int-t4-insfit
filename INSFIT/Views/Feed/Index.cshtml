@@ -4,11 +4,18 @@
     ViewData["Title"] = "Index";
 }
 <link rel="stylesheet" href="~/css/Feed.css">
-
+<link rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous" />
 
     <h1 id="descricao">Feed</h1>
     <p>
-        <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="publicar">Publicar</a>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7da62c" class="bi bi-pencil-square" viewBox="0 0 16 16">
+        <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+        <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z" />
+    </svg>
     </p>
 
 <!--<div class="table table-borderless">
@@ -60,25 +67,23 @@
     </p>
     </div>
     <p></p>
-           <button id="like">
-                    <div class="label">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M8.4 5.25C5.61914 5.25 3.25 7.3293 3.25 10.0298C3.25 11.8927 4.12235 13.4612 5.27849 14.7604C6.43066 16.0552 7.91714 17.142 9.26097 18.0516L11.5796 19.6211C11.8335 19.793 12.1665 19.793 12.4204 19.6211L14.739 18.0516C16.0829 17.142 17.5693 16.0552 18.7215 14.7604C19.8777 13.4612 20.75 11.8927 20.75 10.0298C20.75 7.3293 18.3809 5.25 15.6 5.25C14.1665 5.25 12.9052 5.92214 12 6.79183C11.0948 5.92214 9.83347 5.25 8.4 5.25Z" fill="black" />
-                        </svg>
-                        Curtir
-                    </div>
-                    <div class="number" id="number">0</div>
-          </button>
-            <script type="text/javascript">
-                const button = document.querySelector('#like');
-                const number = document.querySelector('#number');
+            <button class="btn btn-curtir">
+                <span class="btn-icone btn--icone-curtir">
+                    <span class="fa fa-heart"></span>
+                </span>
+                <span class="btn-icone btn--icone-curtido">
+                    <span class="fa fa-heart"></span>
+                </span>
+                <span class="btn-conteudo btn-conteudo--curtido">Curtido</span>
+                <span class="btn-conteudo btn-conteudo--curtir">Curtir</span>
+            </button>
 
-                button.addEventListener('click', () => {
-                    let likeValue = document.querySelector('#number').textContent;
-                    let newValue = Number(likeValue) + 1;
-                    button.classList.add('like');
-                    number.innerHTML = newValue;
-                });
+            <script type="text/javascript">
+                const button = document.querySelector(".btn");
+
+                button.addEventListener('click', function () {
+                    button.classList.toggle('curtido');
+                })
             </script>
     <p></p>
     <div class="comentarios">

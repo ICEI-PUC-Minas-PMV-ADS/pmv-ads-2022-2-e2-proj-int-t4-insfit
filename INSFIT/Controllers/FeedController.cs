@@ -157,5 +157,9 @@ namespace INSFIT.Controllers
         {
           return _context.Feed.Any(e => e.Id_Feed == id);
         }
+
+        public class HttpPostedFileBase
+        {
+        }
     }
 }
