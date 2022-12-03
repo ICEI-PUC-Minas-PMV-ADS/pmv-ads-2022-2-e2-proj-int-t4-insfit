@@ -8,19 +8,25 @@ button {
     border-color: #7da62c;
     cursor: pointer;
     transition: all .3s ease;
+
 }
+
 .form-control {
     color: #FFF;
     background-color: transparent;
-    border: 1px solid #7da62c;
-    border-top: 0px;
-    border-left: 0;
-    left: 300vw;
-    top: -110em;
+    border: 2px solid #7da62c;
+    width: 1180px;
+    height: 38px;
+
 }
-.teste {
+
+.botao-teste {
     display: flex;
     position: relative;
-    left: 300vw;
-    top: -110em;
-}   
+    left: 57vw;
+    top: -4.4em;
+    
+}
+.btn {
+    padding: 0.40rem 3.00rem;
+}
