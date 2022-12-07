@@ -160,12 +160,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagens\2a8006bb-c051-4f83-9097-a93d8781d3a4FB_IMG_1641151109396.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagens\1952ccfd-30ed-4e01-9924-b4b694f5b8ccFB_IMG_1641151109396.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>INSFIT</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/INSFIT</BasePath>
-      <RelativePath>imagens/2a8006bb-c051-4f83-9097-a93d8781d3a4FB_IMG_1641151109396.jpg</RelativePath>
+      <RelativePath>imagens/1952ccfd-30ed-4e01-9924-b4b694f5b8ccFB_IMG_1641151109396.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -174,7 +174,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagens\2a8006bb-c051-4f83-9097-a93d8781d3a4FB_IMG_1641151109396.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagens\1952ccfd-30ed-4e01-9924-b4b694f5b8ccFB_IMG_1641151109396.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\Academia.png))">
       <SourceType>Package</SourceType>

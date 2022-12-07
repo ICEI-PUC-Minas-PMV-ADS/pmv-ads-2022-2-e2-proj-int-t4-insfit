@@ -75,7 +75,7 @@ namespace INSFIT.Controllers
         {
             var nome = Guid.NewGuid().ToString() + fotos.FileName;
 
-            var filePath = _filePath + "\\imagens";
+            var filePath = _filePath + "\\imagens\\";
             if (Directory.Exists(filePath))
             {
                 Directory.CreateDirectory(filePath);

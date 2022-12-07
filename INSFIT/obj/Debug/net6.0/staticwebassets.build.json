@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mVj+tznSuUqElO+W4udwZcRr5wqn16LBCDI+QS7qVUs=",
+  "Hash": "R72uMhuJ1dwpA9hVlRvtBWXVmjTz90C7EPT8imisIeE=",
   "Source": "INSFIT",
   "BasePath": "_content/INSFIT",
   "Mode": "Default",
@@ -1241,12 +1241,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\imagens\\2a8006bb-c051-4f83-9097-a93d8781d3a4FB_IMG_1641151109396.jpg",
+      "Identity": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\imagens\\1952ccfd-30ed-4e01-9924-b4b694f5b8ccFB_IMG_1641151109396.jpg",
       "SourceId": "INSFIT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\",
       "BasePath": "_content/INSFIT",
-      "RelativePath": "imagens/2a8006bb-c051-4f83-9097-a93d8781d3a4FB_IMG_1641151109396.jpg",
+      "RelativePath": "imagens/1952ccfd-30ed-4e01-9924-b4b694f5b8ccFB_IMG_1641151109396.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1255,7 +1255,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\imagens\\2a8006bb-c051-4f83-9097-a93d8781d3a4FB_IMG_1641151109396.jpg"
+      "OriginalItemSpec": "wwwroot\\imagens\\1952ccfd-30ed-4e01-9924-b4b694f5b8ccFB_IMG_1641151109396.jpg"
     },
     {
       "Identity": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\img\\Academia.png",
