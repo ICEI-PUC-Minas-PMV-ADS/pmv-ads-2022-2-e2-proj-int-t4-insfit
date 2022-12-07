@@ -87,7 +87,6 @@ namespace INSFIT.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id_Feed"), 1L, 1);
 
                     b.Property<string>("CampoImgem")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CampoTexto")

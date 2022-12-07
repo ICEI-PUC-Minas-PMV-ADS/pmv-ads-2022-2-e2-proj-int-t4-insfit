@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Mi0CGrUS+7LG1gmGqYG1zninrPfeHt9IlT7/l58ZrtY=",
+  "Hash": "mVj+tznSuUqElO+W4udwZcRr5wqn16LBCDI+QS7qVUs=",
   "Source": "INSFIT",
   "BasePath": "_content/INSFIT",
   "Mode": "Default",
@@ -1239,6 +1239,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\imagens\\2a8006bb-c051-4f83-9097-a93d8781d3a4FB_IMG_1641151109396.jpg",
+      "SourceId": "INSFIT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\",
+      "BasePath": "_content/INSFIT",
+      "RelativePath": "imagens/2a8006bb-c051-4f83-9097-a93d8781d3a4FB_IMG_1641151109396.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagens\\2a8006bb-c051-4f83-9097-a93d8781d3a4FB_IMG_1641151109396.jpg"
     },
     {
       "Identity": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\img\\Academia.png",
