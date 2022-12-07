@@ -169,6 +169,10 @@ namespace INSFIT.Controllers
                 return Problem("Entity set 'INSFITContext.Feed'  is null.");
             }
             var feed = await _context.Feed.FindAsync(id);
+            string filePathName = _filePath + "\\imagens\\" + feed.CampoImgem;
+
+            if (System.IO.File.Exists(filePathName))
+                System.IO.File.Delete(filePathName);
 
             if (feed != null)
             {
