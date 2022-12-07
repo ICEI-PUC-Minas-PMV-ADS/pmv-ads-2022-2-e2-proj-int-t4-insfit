@@ -7,23 +7,26 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using INSFIT.Data;
 using INSFIT.Models;
-
+using Microsoft.AspNetCore.Http;
 
 namespace INSFIT.Controllers
 {
     public class FeedController : Controller
     {
         private readonly INSFITContext _context;
+        private string _filePath;
 
-        public FeedController(INSFITContext context)
+        public FeedController(INSFITContext context, IWebHostEnvironment env)
         {
+            _filePath = env.WebRootPath;
             _context = context;
         }
 
         // GET: Feed
         public async Task<IActionResult> Index()
         {
-              return View(await _context.Feed.ToListAsync());
+            ViewBag.Path = _filePath;
+            return View(await _context.Feed.ToListAsync());
         }
 
         // GET: Feed/Details/5
@@ -55,17 +58,37 @@ namespace INSFIT.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id_Feed,CampoTexto,CampoImgem,DataPublicacao,Comentario")] Feed feed)
+        public async Task<IActionResult> Create([Bind("Id_Feed,CampoTexto,CampoImgem,DataPublicacao,Comentario")] Feed feed, IFormFile fotos)
         {
             if (ModelState.IsValid)
-            {                            
+            {
+                var nome = SalvarArquivo(fotos);
+                feed.CampoImgem = nome;
+
                 _context.Add(feed);
                 await _context.SaveChangesAsync();
-
                 return RedirectToAction(nameof(Index));
             }
             return View(feed);
         }
+        public string SalvarArquivo(IFormFile fotos)
+        {
+            var nome = Guid.NewGuid().ToString() + fotos.FileName;
+
+            var filePath = _filePath + "\\imagens";
+            if (Directory.Exists(filePath))
+            {
+                Directory.CreateDirectory(filePath);
+            }
+            using (var stream = System.IO.File.Create(filePath + "\\" + nome))
+            {
+                fotos.CopyToAsync(stream);
+            }
+
+            return nome;
+        }
+
+
 
         // GET: Feed/Edit/5
         public async Task<IActionResult> Edit(int? id)
