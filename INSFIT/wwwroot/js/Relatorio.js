@@ -23,14 +23,15 @@
 
 }
 
-
+var text1=""
 function media() {
     var pesid = document.getElementById("pesid").value
     var pesoat = document.getElementById("pesoat").value
     var vlrmedia = (pesid - pesoat / pesoat) * 100 
     if (vlrmedia > pesid) {
-        window.alert("Você está perto da sua meta de peso, visite dietas")
+        text1="Você está perto da sua meta de peso, visite dietas"
     } else if (vlrmedia < pesid) {
-        window.alert("você esta longe da sua meta de peso, visite dietas")
+        text1="você esta longe da sua meta de peso, visite dietas"
     }
+    document.getElementById("text_area1").innerText=text1
 }

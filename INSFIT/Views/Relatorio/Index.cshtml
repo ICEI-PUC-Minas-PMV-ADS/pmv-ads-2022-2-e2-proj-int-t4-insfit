@@ -6,28 +6,7 @@
 
 <h1>Relatório</h1>
    
- <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.nome)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.peso)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.altura)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id_relatorio">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id_relatorio">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id_relatorio">Delete</a>
-                <a asp-action="Media" asp-route-id="@item.Id_relatorio">Media</a>
-            </td>
-        </tr>
-}
-    </tbody>
-   
+
 <head>
     <link rel="stylesheet" href="~/css/Relatorio.css">
 
@@ -36,7 +15,7 @@
 <body>
     
 
-    <div id="container">
+    <div class="container">
 
         <h2> Dados Básicos</h2>
 
@@ -53,9 +32,10 @@
             </div>
 
               <button onclick="media()">Média</button>
+        <textarea name="" class="input_area" id="text_area1" rows="3"> </textarea>
     </div>
-    
-
+     
+     
    <div class="container">
         <h2> Calculadora de IMC </h2>
 
@@ -68,35 +48,16 @@
     <input class="input_area" id="peso" type="number" />
   
 
-    <button onclick="calculate()">Calcular</button
+    <button onclick="calculate()">Calcular</button>
 
+        <textarea name="" class="input_area" id="text_area" rows="3"> </textarea>
     </div>
-    <textarea name="" id="text_area" rows="3"> </textarea>
+    
  
     
     <script src="~/js/Relatorio.js"> </script>
 </body>
 
 
-
-  <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.nome)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.peso)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.altura)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id_relatorio">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id_relatorio">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id_relatorio">Delete</a>
-                <a asp-action="Media" asp-route-id="@item.Id_relatorio">Media</a>
-            </td>
-        </tr>
-}
-    </tbody>
+ 
+ 

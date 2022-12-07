@@ -19,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Relatorio\Media.cshtml" />
     <Content Remove="wwwroot\js\JavaScript.js" />
   </ItemGroup>
 

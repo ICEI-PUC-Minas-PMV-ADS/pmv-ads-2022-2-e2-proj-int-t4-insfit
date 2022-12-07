@@ -47,5 +47,11 @@ button {
     color: #FFF;
     background-color: transparent;
     border: 2px solid #7da62c;
-}
+    
 
+
+}
+.bomba {
+    position: relative;
+        align-items: center;
+}
