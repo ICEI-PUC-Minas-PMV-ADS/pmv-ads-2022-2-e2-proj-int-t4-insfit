@@ -4,7 +4,6 @@
     ViewData["Title"] = "Create";
 }
 <link rel="stylesheet" href="~/css/Feed.css">
-<script type="text/javascript" src="~/js/Feed.js"></script>
 
 <h1>Create</h1>
 
@@ -12,7 +11,7 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create" enctype="multipart/form-data">
+        <form asp-action="Create" >
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="CampoTexto" class="control-label"></label>
@@ -21,8 +20,8 @@
             </div>
             <div class="form-group">
                 <label asp-for="CampoImgem" class="control-label"></label>
-                <input type="file" name="fotos" />
-                <span asp-validation-for="CampoImgem" class="text-danger"></span>
+                <input asp-for="CampoImgem" type="file" name="fotos" />
+                <span asp-validation-for="CampoImgem" class="picture_image"></span>
             </div>
            <!--<div class="form-group">
                 <label asp-for="CampodePesquisa" class="control-label"></label>
