@@ -14,7 +14,7 @@
         <form asp-action="Create" enctype="multipart/form-data"> 
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="CampoTexto" class="control-label"></label>
+                <label asp-for="CampoTexto" class="control-label">Publicar</label>
                 <input asp-for="CampoTexto" class="form-control" placeholder="O que você está pensando?" />
                 <span asp-validation-for="CampoTexto" class="text-danger"></span>
             </div>
@@ -29,7 +29,7 @@
                 <span asp-validation-for="CampodePesquisa" class="text-danger"></span>
                </div>-->
             <div class="form-group">
-                <label asp-for="DataPublicacao" class="control-label"></label>
+                <label asp-for="DataPublicacao" class="control-label">Selecione a data da Publicação</label>
                 <input asp-for="DataPublicacao" class="form-control" />
                 <span asp-validation-for="DataPublicacao" class="text-danger"></span>
             </div>

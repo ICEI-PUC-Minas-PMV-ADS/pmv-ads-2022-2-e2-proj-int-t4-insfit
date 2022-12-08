@@ -62,6 +62,9 @@ namespace INSFIT.Controllers
         {
             if (ModelState.IsValid)
             {
+                if (!ValidaImagem(fotos))
+                    return View(feed);
+
                 var nome = SalvarArquivo(fotos);
                 feed.CampoImgem = nome;
 
@@ -71,6 +74,25 @@ namespace INSFIT.Controllers
             }
             return View(feed);
         }
+
+        public bool ValidaImagem(IFormFile fotos)
+        {
+            switch (fotos.ContentType)
+            {
+                case "image/jpeg":
+                    return true;
+                case "image/bmp":
+                    return true;
+                case "image/gif":
+                    return true;
+                case "image/png":
+                    return true;
+                default:
+                    return false;
+                    break;
+            }
+        }
+
         public string SalvarArquivo(IFormFile fotos)
         {
             var nome = Guid.NewGuid().ToString() + fotos.FileName;
