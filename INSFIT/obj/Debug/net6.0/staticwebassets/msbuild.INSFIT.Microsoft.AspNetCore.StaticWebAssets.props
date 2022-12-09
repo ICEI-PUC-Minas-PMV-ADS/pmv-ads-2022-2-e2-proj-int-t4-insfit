@@ -160,12 +160,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagens\4bc4467d-f474-452f-aff2-ab63958eee32FB_IMG_1641151109396.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagens\7e7521f0-844b-42b8-9b5f-8246a9e75ef0images.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>INSFIT</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/INSFIT</BasePath>
-      <RelativePath>imagens/4bc4467d-f474-452f-aff2-ab63958eee32FB_IMG_1641151109396.jpg</RelativePath>
+      <RelativePath>imagens/7e7521f0-844b-42b8-9b5f-8246a9e75ef0images.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -174,14 +174,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagens\4bc4467d-f474-452f-aff2-ab63958eee32FB_IMG_1641151109396.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagens\7e7521f0-844b-42b8-9b5f-8246a9e75ef0images.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagens\b0df736a-84e6-4d5c-8d2f-778f1aeb7fe115132ba5a1c41859ea67ee3d8c89700e.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagens\9f27f01d-2308-4ff2-b0cd-b259eb21b382download.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>INSFIT</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/INSFIT</BasePath>
-      <RelativePath>imagens/b0df736a-84e6-4d5c-8d2f-778f1aeb7fe115132ba5a1c41859ea67ee3d8c89700e.jpg</RelativePath>
+      <RelativePath>imagens/9f27f01d-2308-4ff2-b0cd-b259eb21b382download.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -190,7 +190,23 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagens\b0df736a-84e6-4d5c-8d2f-778f1aeb7fe115132ba5a1c41859ea67ee3d8c89700e.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagens\9f27f01d-2308-4ff2-b0cd-b259eb21b382download.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagens\ea124751-575e-4942-92e2-f7c11a4057f3images (1).jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>INSFIT</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/INSFIT</BasePath>
+      <RelativePath>imagens/ea124751-575e-4942-92e2-f7c11a4057f3images (1).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagens\ea124751-575e-4942-92e2-f7c11a4057f3images (1).jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\Academia.png))">
       <SourceType>Package</SourceType>
