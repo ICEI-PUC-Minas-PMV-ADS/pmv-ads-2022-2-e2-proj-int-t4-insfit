@@ -15,7 +15,7 @@ namespace INSFIT.Models
         public string? CampoImgem { get; set; }
       //  public string CampodePesquisa { get; set; }
         public DateTime DataPublicacao { get; set; }
-        public string? Comentario { get; set; }
+        public string Comentario { get; set; }
         //  public int? IdUser { get; set; }
         //  public Perfil perfil { get; set; }
     }
