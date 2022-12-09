@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OzlWJc3URzX1zXtWobygNlU4wDZMJ5TPVV1UVD+y/4E=",
+  "Hash": "TdD5B/vN1DqIJKEgsxROm4ARVQmn2x0QvLdp9rArxpI=",
   "Source": "INSFIT",
   "BasePath": "_content/INSFIT",
   "Mode": "Default",
@@ -1241,12 +1241,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\imagens\\7e7521f0-844b-42b8-9b5f-8246a9e75ef0images.jpg",
+      "Identity": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\imagens\\4fbdddc0-54c6-4535-88fd-90f6db4e6322images.jpg",
       "SourceId": "INSFIT",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\",
       "BasePath": "_content/INSFIT",
-      "RelativePath": "imagens/7e7521f0-844b-42b8-9b5f-8246a9e75ef0images.jpg",
+      "RelativePath": "imagens/4fbdddc0-54c6-4535-88fd-90f6db4e6322images.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1255,41 +1255,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\imagens\\7e7521f0-844b-42b8-9b5f-8246a9e75ef0images.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\imagens\\9f27f01d-2308-4ff2-b0cd-b259eb21b382download.jpg",
-      "SourceId": "INSFIT",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\",
-      "BasePath": "_content/INSFIT",
-      "RelativePath": "imagens/9f27f01d-2308-4ff2-b0cd-b259eb21b382download.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\imagens\\9f27f01d-2308-4ff2-b0cd-b259eb21b382download.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\imagens\\ea124751-575e-4942-92e2-f7c11a4057f3images (1).jpg",
-      "SourceId": "INSFIT",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\",
-      "BasePath": "_content/INSFIT",
-      "RelativePath": "imagens/ea124751-575e-4942-92e2-f7c11a4057f3images (1).jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\imagens\\ea124751-575e-4942-92e2-f7c11a4057f3images (1).jpg"
+      "OriginalItemSpec": "wwwroot\\imagens\\4fbdddc0-54c6-4535-88fd-90f6db4e6322images.jpg"
     },
     {
       "Identity": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-2-e2-proj-int-t4-insfit\\INSFIT\\wwwroot\\img\\Academia.png",
