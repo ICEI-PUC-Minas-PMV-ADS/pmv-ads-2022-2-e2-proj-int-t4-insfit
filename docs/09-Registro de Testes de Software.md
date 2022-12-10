@@ -93,7 +93,7 @@
 
 1- Caso de sucesso: Postagens atuais aparecendo corretamente.
 
-![telaFeed3](img/PublicacoesFeed.png)
+![telaFeed3](img/PostagensFeed.png)
 
 2- Caso de insucesso: Publicações com imagem ainda não carrega no feed.
 
