@@ -44,5 +44,5 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 ![aluno](img/PERFIL.jpg)
 
 ### Feed
-![feed](img/PublicacoesFeed.png)
+![feed](img/PostagensFeed.png)
 
