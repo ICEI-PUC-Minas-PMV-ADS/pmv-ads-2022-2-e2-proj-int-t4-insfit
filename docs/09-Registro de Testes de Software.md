@@ -112,7 +112,10 @@
 ## DIETA 
 ## Caso de teste 01 - Criação de vizualização das dietas
 
-1- Caso de sucesso:
+1.1- Caso de sucesso:
+![telaDieta](img/caso%20de%20sucesso-1.2%20Dieta.jpg)
+
+1.2- Caso de sucesso:
 ![telaDieta](img/caso%20de%20sucesso-1.1%20Dieta.jpg)
 
 2- Caso de insucesso:
