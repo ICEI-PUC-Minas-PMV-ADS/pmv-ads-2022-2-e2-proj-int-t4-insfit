@@ -34,7 +34,6 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 
 ### Dieta
 
-![dieta](img/DIETA.TELA.jpg)
 ![dieta](img/DIETA.TELA-1.1.jpg)
 
 ### Perfil do personal
