@@ -110,7 +110,7 @@
 
 
 ## DIETA 
-## Caso de teste 01 - Criação de vizualização das dietas
+## Caso de teste 01 - Criação e vizualização da dieta
 
 1- Caso de sucesso:
 ![telaDieta](img/caso%20de%20sucesso-1.1%20Dieta.jpg)
